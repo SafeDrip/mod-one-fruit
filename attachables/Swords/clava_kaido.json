@@ -1,0 +1,24 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:attachable": {
+    "description": {
+      "identifier": "of:clava_kaido",
+      "materials": {
+        "default": "entity_alphatest",
+        "enchanted": "entity_alphatest_glint"
+      },
+      "textures": {
+        "default": "textures/entity/clava_kaido",
+        "enchanted": "textures/misc/enchanted_item_glint",
+        "swordhaki": "textures/entity/clava_kaido_haki"},
+
+      "geometry": {
+        "default": "geometry.clava_kaido",
+        "haki": "geometry.clava_kaido_haki"},
+
+      "render_controllers": [
+      "controller.render.item_default",
+      "controller.render.swordhaki2" ]
+    }
+  }
+}

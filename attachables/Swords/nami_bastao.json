@@ -1,0 +1,27 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:attachable": {
+    "description": {
+      "identifier": "of:nami_bastao",
+      "materials": {
+        "default": "entity_alphatest",
+        "charged": "charged",
+        "enchanted": "entity_alphatest_glint"},
+
+      "textures": {
+        "default": "textures/entity/nami",
+        "enchanted": "textures/misc/enchanted_item_glint",
+        "swordhaki": "textures/entity/haki",
+        "swordryuo": "textures/entity/ryuo"},
+
+      "geometry": {
+        "default": "geometry.nami_bastao",
+        "haki": "geometry.nami_bastao_haki"},
+
+      "render_controllers": [
+      "controller.render.item_default",
+      "controller.render.swordhaki2",
+      "controller.render.swordryuo" ]
+    }
+  }
+}

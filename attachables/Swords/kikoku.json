@@ -1,0 +1,24 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:attachable": {
+    "description": {
+      "identifier": "of:kikoku",
+      "materials": {
+        "default": "entity_alphatest",
+        "enchanted": "entity_alphatest_glint"},
+
+      "textures": {
+        "enchanted": "textures/misc/enchanted_item_glint",
+        "swordhaki_1": "textures/entity/haki_kikoku_1",
+        "swordhaki_2": "textures/entity/haki_kikoku_2",
+        "swordhaki_3": "textures/entity/haki_kikoku_3",
+        "swordhaki_4": "textures/entity/haki_kikoku_4"},
+
+      "geometry": {
+        "haki": "geometry.haki_espada"},
+
+      "render_controllers": [
+      "controller.render.swordhaki"]
+    }
+  }
+}

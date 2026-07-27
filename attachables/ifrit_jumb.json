@@ -1,0 +1,29 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:attachable": {
+    "description": {
+      "identifier": "of:ifrit_jumb",
+      "materials": {
+        "default": "elytra",
+        "enchanted": "elytra_glint"
+      },
+      "textures": {
+        "default": "textures/entity/ifrit_jumb",
+        "enchanted": "textures/misc/enchanted_item_glint"
+      },
+      "geometry": {
+        "default": "geometry.diable_jumb_v2"
+      },
+      "animations": {
+        "move": "animation.diable_jumb"
+      },
+      "scripts": {
+        "parent_setup": "variable.chest_layer_visible = 0.0;",
+        "animate": [
+          "move"
+        ]
+      },
+      "render_controllers": [ "controller.render.armor" ]
+    }
+  }
+}

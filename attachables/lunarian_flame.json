@@ -1,0 +1,30 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:attachable": {
+    "description": {
+      "identifier": "of:lunarian_flame",
+      "item": {
+        "lunarian_flame": "query.owner_identifier == 'minecraft:player'"
+      },
+      "materials": {
+        "default": "armor",
+        "enchanted": "armor_enchanted"
+      },
+      "textures": {
+        "flame1": "textures/racas/lunarian_flame",
+        "flame2": "textures/racas/lunarian_flame2",
+        "flame3": "textures/racas/lunarian_flame3",
+        "enchanted": "textures/misc/enchanted_item_glint"
+      },
+      "geometry": {
+        "flamed": "geometry.lunarian_flame"
+      },
+      "scripts": {
+        "parent_setup": "variable.chest_layer_visible = 0.0;"
+      },
+      "render_controllers": [ 
+       {"controller.render.flame": "!c.is_first_person"}
+      ]
+    }
+  }
+}

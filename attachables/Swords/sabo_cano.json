@@ -1,0 +1,27 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:attachable": {
+    "description": {
+      "identifier": "of:sabo_cano",
+      "materials": {
+        "default": "entity_alphatest",
+        "charged": "charged",
+        "enchanted": "entity_alphatest_glint"},
+
+      "textures": {
+        "default": "textures/entity/sabo",
+        "enchanted": "textures/misc/enchanted_item_glint",
+        "swordhaki": "textures/entity/haki",
+        "swordryuo": "textures/entity/ryuo"},
+
+      "geometry": {
+        "default": "geometry.sabo_cano",
+        "haki": "geometry.sabo_cano_haki"},
+
+      "render_controllers": [
+      "controller.render.item_default",
+      "controller.render.swordhaki2",
+      "controller.render.swordryuo" ]
+    }
+  }
+}

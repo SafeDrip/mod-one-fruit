@@ -1,0 +1,27 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:attachable": {
+    "description": {
+      "identifier": "of:saber",
+      "materials": {
+        "default": "entity_alphatest",
+        "enchanted": "entity_alphatest_glint"},
+
+      "textures": {
+        "default": "textures/espadas/saber",
+        "enchanted": "textures/misc/enchanted_item_glint",
+        "swordhaki_1": "textures/entity/haki_saber_1",
+        "swordhaki_2": "textures/entity/haki_saber_2",
+        "swordhaki_3": "textures/entity/haki_saber_3",
+        "swordhaki_4": "textures/entity/haki_saber_4"},
+
+      "geometry": {
+        "default": "geometry.saber",
+        "haki": "geometry.haki_espada"},
+
+      "render_controllers": [
+      "controller.render.item_default",
+      "controller.render.swordhaki"]
+    }
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:attachable": {
+    "description": {
+      "identifier": "of:sulong",
+      "materials": {
+        "default": "elytra",
+        "enchanted": "elytra_glint"
+      },
+      "textures": {
+        "default": "textures/racas/sulong",
+        "haki": "textures/racas/sulong_haki",
+        "ryuo": "textures/racas/sulong_ryuo",
+        "enchanted": "textures/misc/enchanted_item_glint"
+      },
+      "geometry": {
+        "main": "geometry.sulong",
+        "main_haki": "geometry.sulong"
+      },
+      "scripts": {
+        "parent_setup": "variable.chest_layer_visible = 0.0;",
+        "animate": [
+          "default_controller"
+        ]
+      },
+      "render_controllers": [ "controller.render.main", "controller.render.main_haki", "controller.render.main_ryuo" ]
+    }
+  }
+}

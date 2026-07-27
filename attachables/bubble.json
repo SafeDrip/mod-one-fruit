@@ -1,0 +1,18 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:attachable": {
+    "description": {
+      "identifier": "of:bubble",
+      "materials": {
+        "default": "charged"
+      },
+      "textures": {
+        "default": "textures/entity/bubble"
+      },
+      "geometry": {
+        "default": "geometry.bubble"
+      },
+      "render_controllers": [ "controller.render.armor" ]
+    }
+  }
+}

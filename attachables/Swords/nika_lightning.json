@@ -1,0 +1,24 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:attachable": {
+    "description": {
+      "identifier": "of:nika_lightning",
+      "materials": {
+        "default": "entity_alphatest",
+        "enchanted": "entity_alphatest_glint"},
+
+      "textures": {
+        "enchanted": "textures/misc/enchanted_item_glint",
+        "swordrei_1": "textures/espadas/nika_lightning1",
+        "swordrei_2": "textures/espadas/nika_lightning2",
+        "swordrei_3": "textures/espadas/nika_lightning3",
+        "swordrei_4": "textures/espadas/nika_lightning4"},
+
+      "geometry": {
+        "hakirei": "geometry.nika_lightning"},
+
+      "render_controllers": [
+      "controller.render.swordrei"]
+    }
+  }
+}

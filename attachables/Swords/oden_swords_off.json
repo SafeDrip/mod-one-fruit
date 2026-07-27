@@ -1,0 +1,24 @@
+{
+  "format_version": "1.10",
+  "minecraft:attachable": {
+    "description": {
+      "identifier": "of:oden_swords_off",
+      "item": { "of:oden_swords_off": "query.owner_identifier == 'minecraft:player'" },
+      "materials": {
+        "default": "armor",
+        "enchanted": "armor_enchanted"
+      },
+      "textures": {
+        "default": "textures/espadas/oden_swords",
+        "enchanted": "textures/misc/enchanted_item_glint"
+      },
+      "geometry": {
+        "default": "geometry.oden_swords_off"
+      },
+      "scripts": {
+        "parent_setup": "variable.helmet_layer_visible = 0.0;"
+      },
+      "render_controllers": [ "controller.render.armor" ]
+    }
+  }
+}

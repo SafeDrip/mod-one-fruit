@@ -1,0 +1,31 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:attachable": {
+    "description": {
+      "identifier": "of:kikoku_kroom",
+      "materials": {
+        "default": "entity_alphatest",
+        "kroom": "charged",
+        "enchanted": "entity_alphatest_glint"},
+
+      "textures": {
+        "default": "textures/espadas/kikoku",
+        "kroom": "textures/atks/kroom",
+        "enchanted": "textures/misc/enchanted_item_glint",
+        "swordhaki_1": "textures/entity/haki_kikoku_1",
+        "swordhaki_2": "textures/entity/haki_kikoku_2",
+        "swordhaki_3": "textures/entity/haki_kikoku_3",
+        "swordhaki_4": "textures/entity/haki_kikoku_4"},
+
+      "geometry": {
+        "default": "geometry.kikoku",
+        "kroom": "geometry.kroom",
+        "haki": "geometry.haki_espada"},
+
+      "render_controllers": [
+      "controller.render.item_default",
+      "controller.render.kroom",
+      "controller.render.swordhaki"]
+    }
+  }
+}

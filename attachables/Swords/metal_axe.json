@@ -1,0 +1,27 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:attachable": {
+    "description": {
+      "identifier": "of:metal_axe",
+      "materials": {
+        "default": "entity_alphatest",
+        "charged": "charged",
+        "enchanted": "entity_alphatest_glint"},
+
+      "textures": {
+        "default": "textures/entity/morgan",
+        "enchanted": "textures/misc/enchanted_item_glint",
+        "swordhaki": "textures/entity/haki",
+        "swordryuo": "textures/entity/ryuo"},
+
+      "geometry": {
+        "default": "geometry.metal_axe",
+        "haki": "geometry.metal_axe_haki"},
+
+      "render_controllers": [
+      "controller.render.item_default",
+      "controller.render.swordhaki2",
+      "controller.render.swordryuo" ]
+    }
+  }
+}
