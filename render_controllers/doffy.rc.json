@@ -1,0 +1,15 @@
+{
+	"format_version": "1.8.0",
+	"render_controllers": {
+		"controller.render.teia": {
+			"textures": ["Texture.default"],
+			"geometry": "Geometry.teia",
+			"materials": [{"*": "Material.default" }]
+        },
+		"controller.render.firec": {
+			"textures": ["Texture.default"],
+			"geometry": "Geometry.firec",
+			"materials": [{"*": "Material.default" }]
+      }
+	}
+}

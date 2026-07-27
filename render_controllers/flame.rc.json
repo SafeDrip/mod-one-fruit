@@ -1,0 +1,19 @@
+{
+  "format_version": "1.8.0",
+  "render_controllers": {
+    "controller.render.flame": {
+      "arrays": {
+        "textures": {
+          "array.ani": [
+            "texture.flame1",
+            "texture.flame2",
+            "texture.flame3"
+          ]
+        }
+      },
+      "geometry": "Geometry.flamed",
+      "materials": [ { "*": "Material.default" } ],
+      "textures": [ "temp.life_time = query.life_time * 8.0; return array.ani[temp.life_time];" ]
+    }
+  }
+}

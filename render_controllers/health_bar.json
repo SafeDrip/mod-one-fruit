@@ -1,0 +1,70 @@
+{
+  "format_version": "1.8.0",
+  "render_controllers": {
+    "controller.render.hp": {
+      "geometry": "Geometry.hp",
+      "textures": [ "Array.textures[variable.health]" ],
+      "materials": [{  "*": "Material.default" }],
+      "is_hurt_color": { "r": "0.0", "g": "0.0", "b": "0.0", "a": "0.0" },
+      "on_fire_color": { "r": "0.0", "g": "0.0", "b": "0.0", "a": "0.0" },
+      "part_visibility": [{ "*": "!query.is_invisible && query.distance_from_camera <= 20 && query.is_alive" }],
+      "arrays": {
+        "textures": {
+          "array.textures": [
+            "Texture.hp0",
+            "Texture.hp1",
+            "Texture.hp2",
+            "Texture.hp3",
+            "Texture.hp4",
+            "Texture.hp5",
+            "Texture.hp6",
+            "Texture.hp7",
+            "Texture.hp8",
+            "Texture.hp9",
+            "Texture.hp10",
+            "Texture.hp11",
+            "Texture.hp12",
+            "Texture.hp13",
+            "Texture.hp14",
+            "Texture.hp15",
+            "Texture.hp16",
+            "Texture.hp17",
+            "Texture.hp18",
+            "Texture.hp19",
+            "Texture.hp20",
+            "Texture.hp21",
+            "Texture.hp22"
+          ]
+        }
+      }
+    },
+        "controller.render.health": {
+            "geometry": "Geometry.health",
+            "materials": [
+                {
+                    "*": "Material.default"
+                }
+            ],
+            "textures": [
+                "Texture.hp"
+            ],
+            "is_hurt_color": {
+                "r": "0.0",
+                "g": "0.0",
+                "b": "0.0",
+                "a": "0.0"
+            },
+            "on_fire_color": {
+                "r": "0.0",
+                "g": "0.0",
+                "b": "0.0",
+                "a": "0.0"
+            },
+            "part_visibility": [
+                {
+                    "*": "!query.is_invisible && query.distance_from_camera <= 20 && query.is_alive"
+                }
+            ]
+        }
+    }
+}

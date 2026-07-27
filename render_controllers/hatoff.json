@@ -1,0 +1,34 @@
+{
+  "format_version": "1.8.0",
+  "render_controllers": {
+    "controller.render.hatoff": {
+	  "arrays": {
+	    "textures": {
+		  "Array.skins": [
+		    "Texture.none",
+		    "Texture.hat1",
+		    "Texture.hat2",
+		    "Texture.hat3",
+		    "Texture.hat4"
+		  ]
+		},
+	    "geometries": {
+		  "Array.geos": [
+		    "Geometry.none",
+		    "Geometry.hat1",
+		    "Geometry.hat2",
+		    "Geometry.hat3",
+		    "Geometry.hat4"
+		  ]
+		}
+	  },
+      "geometry": "Array.geos[query.variant]",
+      "materials": [ { "*": "Material.default" } ],
+      "textures": [ "Array.skins[query.variant]" ],
+      "part_visibility": [
+        { "*": false },
+        { "hat": "query.variant >= 1" }
+      ]
+    }
+  }
+}

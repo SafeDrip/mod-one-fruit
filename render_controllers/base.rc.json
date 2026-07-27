@@ -1,0 +1,25 @@
+{
+  "format_version": "1.8.0",
+  "render_controllers": {
+    "controller.render.base": {
+      "geometry": "Geometry.default",
+      "materials": [ { "*": "Material.default" } ],
+      "textures": [ "Texture.default" ]
+    },
+    "controller.render.inf": {
+      "geometry": "Geometry.inf",
+      "materials": [ { "*": "Material.default" } ],
+      "textures": [ "Texture.inf" ]
+    },
+    "controller.render.barrier2": {
+      "geometry": "Geometry.barrier2",
+      "materials": [ { "*": "Material.default" } ],
+      "textures": [ "Texture.barrier" ]
+    },
+    "controller.render.barrier4": {
+      "geometry": "Geometry.barrier4",
+      "materials": [ { "*": "Material.default" } ],
+      "textures": [ "Texture.barrier" ]
+    }
+  }
+}

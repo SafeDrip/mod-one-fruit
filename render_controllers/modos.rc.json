@@ -1,0 +1,193 @@
+{
+  "format_version": "1.8.0",
+  "render_controllers": {
+    "controller.render.amaru_dragon": {
+      "geometry": "Geometry.amaru_dragon",
+      "materials": [ { "*": "Material.default" } ],
+      "textures": [ "Texture.amaru_dragon" ]
+    },
+
+    "controller.render.candy_armor": {
+      "geometry": "Geometry.custom",
+      "materials": [ { "*": "Material.default" } ],
+      "textures": [ "Texture.candy_armor" ],
+      "part_visibility": [
+        { "*": "!v.is_first_person" },
+        { "RightArm": true },
+        { "RightArmD": true },
+        { "LeftArm": true },
+        { "LeftArmD": true }
+      ]
+    },
+
+    "controller.render.cyberx": {
+      "geometry": "Geometry.cyberx",
+      "materials": [ { "*": "Material.default" } ],
+      "textures": [ "Texture.cyberx" ],
+      "part_visibility": [
+        { "*": true },
+        { "head": "!variable.is_first_person" },
+        { "RightArm": "(!variable.is_first_person && query.get_equipped_item_name(0, 1) != 'gear5_grab' && query.get_equipped_item_name(0, 1) != 'punk_vice_v2') || (variable.is_first_person && (query.equipped_item_any_tag('slot.weapon.mainhand','hand') || variable.sword_f1 || variable.sword_f2 || variable.sword_f3 || variable.sword_f4 || variable.sword_f5 || query.get_equipped_item_name(0, 1) == '' || query.get_equipped_item_name(0, 1) == 'map'))" },
+        { "RightArmD": "(!variable.is_first_person && query.get_equipped_item_name(0, 1) != 'gear5_grab' && query.get_equipped_item_name(0, 1) != 'punk_vice_v2') || (variable.is_first_person && (query.equipped_item_any_tag('slot.weapon.mainhand','hand') || variable.sword_f1 || variable.sword_f2 || variable.sword_f3 || variable.sword_f4 || variable.sword_f5 || query.get_equipped_item_name(0, 1) == '' || query.get_equipped_item_name(0, 1) == 'map'))" },
+        { "LeftArm": "(!variable.is_first_person && query.get_equipped_item_name(0, 1) != 'punk_vice_v2') || (variable.is_first_person && (query.equipped_item_any_tag('slot.weapon.mainhand','hand2') || variable.sword_f1 || variable.sword_f2 || variable.sword_f3 || variable.sword_f4 || variable.sword_f5 || query.get_equipped_item_name(0, 1) == ''))" },
+        { "LeftArmD": "(!variable.is_first_person && query.get_equipped_item_name(0, 1) != 'punk_vice_v2') || (variable.is_first_person && (query.equipped_item_any_tag('slot.weapon.mainhand','hand2') || variable.sword_f1 || variable.sword_f2 || variable.sword_f3 || variable.sword_f4 || variable.sword_f5 || query.get_equipped_item_name(0, 1) == ''))" }
+      ]
+    },
+
+    "controller.render.tree": {
+      "geometry": "Geometry.tree",
+      "materials": [ { "*": "Material.default" } ],
+      "textures": [ "Texture.tree" ]
+    },
+
+    "controller.render.death": {
+      "geometry": "Geometry.death",
+      "materials": [ { "*": "Material.default" } ],
+      "textures": [ "Texture.death" ],
+      "part_visibility": [
+        { "*": "query.variant != 600" }
+      ]
+    },
+
+    "controller.render.dragon": {
+      "geometry": "Geometry.dragon",
+      "materials": [ { "*": "Material.default" } ],
+      "textures": [ "Texture.dragon" ]
+    },
+
+    "controller.render.dragonh": {
+      "geometry": "Geometry.dragonh",
+      "materials": [ { "*": "Material.default" } ],
+      "textures": [ "Texture.dragonh" ]
+    },
+
+    "controller.render.mole": {
+      "geometry": "Geometry.mole",
+      "materials": [ { "*": "Material.default" } ],
+      "textures": [ "Texture.mole" ]
+    },
+
+    "controller.render.moleh": {
+      "geometry": "Geometry.moleh",
+      "materials": [ { "*": "Material.default" } ],
+      "textures": [ "Texture.mole" ]
+    },
+
+    "controller.render.leopard": {
+      "geometry": "Geometry.leopard",
+      "materials": [ { "*": "Material.default" } ],
+      "textures": [ "Texture.leopard" ]
+    },
+
+    "controller.render.leopardh": {
+      "geometry": "Geometry.leopardh",
+      "materials": [ { "*": "Material.default" } ],
+      "textures": [ "Texture.leopardh" ]
+    },
+
+    "controller.render.leopardh_dp": {
+      "geometry": "Geometry.leopardh_dp",
+      "materials": [ { "*": "Material.default" } ],
+      "textures": [ "Texture.leopardh" ]
+    },
+
+    "controller.render.dragon2": {
+      "geometry": "Geometry.dragon",
+      "materials": [ { "*": "Material.default" } ],
+      "textures": [ "Texture.dragon2" ]
+    },
+
+    "controller.render.pteranodon": {
+      "arrays": {
+        "textures": {
+          "array.ani": [
+            "texture.pteranodon_1",
+            "texture.pteranodon_2",
+            "texture.pteranodon_3",
+            "texture.pteranodon_4"
+          ]
+        }
+      },
+      "geometry": "Geometry.pteranodon",
+      "materials": [ { "*": "Material.default" } ],
+      "textures": [ "temp.life_time = query.life_time * 10.0; return array.ani[temp.life_time];" ]
+    },
+
+    "controller.render.pteranodonh": {
+      "arrays": {
+        "textures": {
+          "array.ani": [
+            "texture.pteranodon_1",
+            "texture.pteranodon_2",
+            "texture.pteranodon_3",
+            "texture.pteranodon_4"
+          ]
+        }
+      },
+      "geometry": "Geometry.pteranodonh",
+      "materials": [ { "*": "Material.default" } ],
+      "textures": [ "temp.life_time = query.life_time * 10.0; return array.ani[temp.life_time];" ]
+    },
+
+    "controller.render.fenix": {
+      "arrays": {
+        "textures": {
+          "array.ani": [
+            "texture.fenix_1",
+            "texture.fenix_2",
+            "texture.fenix_3",
+            "texture.fenix_4"
+          ]
+        }
+      },
+      "geometry": "Geometry.fenix",
+      "materials": [ { "*": "Material.default" } ],
+      "textures": [ "temp.life_time = query.life_time * 10.0; return array.ani[temp.life_time];" ],
+      "part_visibility": [
+        { "*": "query.variant == 600" }
+      ]
+    },
+
+    "controller.render.fenixdp": {
+      "geometry": "Geometry.fenixdp",
+      "materials": [ { "*": "Material.default" } ],
+      "textures": [ "Texture.fenixdp" ],
+      "part_visibility": [
+        { "*": "query.variant == 600" }
+      ]
+    },
+
+    "controller.render.fenixh2": {
+      "geometry": "Geometry.fenixh2",
+      "materials": [ { "*": "Material.default" } ],
+      "textures": [ "Texture.fenixh2" ],
+      "part_visibility": [
+        { "*": "query.variant == 60" }
+      ]
+    },
+
+		"controller.render.deus_raio1": {
+			"textures": [
+				"Texture.default"
+			],
+			"geometry": "Geometry.default",
+			"materials": [
+				{
+					"*": "Material.default"
+				}
+			]
+		},
+		"controller.render.deus_raio": {
+			"textures": [
+				"Texture.deus_raio"
+			],
+			"geometry": "Geometry.deus_raio",
+			"materials": [
+				{
+					"*": "Material.translucent"
+				}
+			]
+		}
+  }
+ }
+

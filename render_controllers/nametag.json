@@ -1,0 +1,31 @@
+{
+  "format_version": "1.8.0",
+  "render_controllers": {
+    "controller.render.nametag": {
+	  "arrays": {
+	    "textures": {
+		  "Array.skins": [
+		    "Texture.n1",
+		    "Texture.n2",
+		    "Texture.n3",
+		    "Texture.n4",
+		    "Texture.n5",
+		    "Texture.n6",
+		    "Texture.n7",
+		    "Texture.n8",
+		    "Texture.n9",
+		    "Texture.n10",
+		    "Texture.n11",
+		    "Texture.n12",
+		    "Texture.n13",
+		    "Texture.n14"
+		  ]
+		}
+	  },
+      "geometry": "Geometry.nametag",
+      "materials": [ { "*": "Material.default" } ],
+      "textures": [ "Array.skins[query.skin_id]" ],
+      "part_visibility": [{ "*": "!query.is_invisible && query.distance_from_camera <= 20 && query.is_alive" }]
+    }
+  }
+}

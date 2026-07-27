@@ -1,0 +1,10 @@
+{
+  "format_version": "1.8.0",
+  "render_controllers": {
+    "controller.render.bigode_roger": {
+      "geometry": "Geometry.bigode_roger",
+      "materials": [ { "*": "Material.default" } ],
+      "textures": [ "Texture.bigode_roger" ]
+    }
+  }
+}

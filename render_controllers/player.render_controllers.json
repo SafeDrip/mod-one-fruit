@@ -1,0 +1,276 @@
+/*KID_SKY*/
+{
+  "format_version": "1.8.0",
+  "render_controllers": {
+    "controller.render.custom": {
+      "geometry": "Geometry.custom",
+      "materials": [ { "*": "Material.default" } ],
+      "textures": [ "Texture.default" ]
+    },
+    "controller.render.leopardfirst": {
+      "geometry": "Geometry.leopardfirst",
+      "materials": [ { "*": "Material.default" } ],
+      "textures": [ "Texture.leopardh" ],
+      "part_visibility": [
+        { "*": true },
+        { "Ra": "(query.equipped_item_any_tag('slot.weapon.mainhand','hand') || variable.sword_f1 || variable.sword_f2 || variable.sword_f3 || variable.sword_f4 || variable.sword_f5 || query.get_equipped_item_name(0, 1) == '' || query.get_equipped_item_name(0, 1) == 'map')" },
+        { "Ra2": "(query.equipped_item_any_tag('slot.weapon.mainhand','hand2') || variable.sword_f1 || variable.sword_f2 || variable.sword_f3 || variable.sword_f4 || variable.sword_f5 || query.get_equipped_item_name(0, 1) == '')" },
+        { "RaD": "(query.equipped_item_any_tag('slot.weapon.mainhand','hand') || variable.sword_f1 || variable.sword_f2 || variable.sword_f3 || variable.sword_f4 || variable.sword_f5 || query.get_equipped_item_name(0, 1) == '' || query.get_equipped_item_name(0, 1) == 'map')" },
+        { "RaD2": "(query.equipped_item_any_tag('slot.weapon.mainhand','hand2') || variable.sword_f1 || variable.sword_f2 || variable.sword_f3 || variable.sword_f4 || variable.sword_f5 || query.get_equipped_item_name(0, 1) == '')" },
+        { "head" : false},
+        { "leftLeg" : false},
+        { "rightLeg" : false},
+        { "body" : false},
+        { "hat" : false}
+      ]
+    },
+    "controller.render.molefirst": {
+      "geometry": "Geometry.molefirst",
+      "materials": [ { "*": "Material.default" } ],
+      "textures": [ "Texture.mole" ],
+      "part_visibility": [
+        { "*": true },
+        { "RightArm": "(query.equipped_item_any_tag('slot.weapon.mainhand','hand') || variable.sword_f1 || variable.sword_f2 || variable.sword_f3 || variable.sword_f4 || variable.sword_f5 || query.get_equipped_item_name(0, 1) == '' || query.get_equipped_item_name(0, 1) == 'map')" },
+        { "LeftArm": "(query.equipped_item_any_tag('slot.weapon.mainhand','hand2') || variable.sword_f1 || variable.sword_f2 || variable.sword_f3 || variable.sword_f4 || variable.sword_f5 || query.get_equipped_item_name(0, 1) == '')" },
+        { "RightArmD": "(query.equipped_item_any_tag('slot.weapon.mainhand','hand') || variable.sword_f1 || variable.sword_f2 || variable.sword_f3 || variable.sword_f4 || variable.sword_f5 || query.get_equipped_item_name(0, 1) == '' || query.get_equipped_item_name(0, 1) == 'map')" },
+        { "LeftArmD": "(query.equipped_item_any_tag('slot.weapon.mainhand','hand2') || variable.sword_f1 || variable.sword_f2 || variable.sword_f3 || variable.sword_f4 || variable.sword_f5 || query.get_equipped_item_name(0, 1) == '')" },
+        { "head" : false},
+        { "ttk" : false},
+        { "leftLeg" : false},
+        { "rightLeg" : false},
+        { "body" : false},
+        { "hat" : false}
+      ]
+    },
+    "controller.render.gear5_first": {
+      "geometry": "Geometry.custom",
+      "materials": [ { "*": "Material.default" } ],
+      "textures": [ "Texture.gear5_base" ],
+      "part_visibility": [
+        { "*": true },
+        { "RightArm": "(query.equipped_item_any_tag('slot.weapon.mainhand','hand') || variable.sword_f1 || variable.sword_f2 || variable.sword_f3 || variable.sword_f4 || variable.sword_f5 || query.get_equipped_item_name(0, 1) == '' || query.get_equipped_item_name(0, 1) == 'map')" },
+        { "LeftArm": "(query.equipped_item_any_tag('slot.weapon.mainhand','hand2') || variable.sword_f1 || variable.sword_f2 || variable.sword_f3 || variable.sword_f4 || variable.sword_f5 || query.get_equipped_item_name(0, 1) == '')" },
+        { "RightArmD": "(query.equipped_item_any_tag('slot.weapon.mainhand','hand') || variable.sword_f1 || variable.sword_f2 || variable.sword_f3 || variable.sword_f4 || variable.sword_f5 || query.get_equipped_item_name(0, 1) == '' || query.get_equipped_item_name(0, 1) == 'map')" },
+        { "LeftArmD": "(query.equipped_item_any_tag('slot.weapon.mainhand','hand2') || variable.sword_f1 || variable.sword_f2 || variable.sword_f3 || variable.sword_f4 || variable.sword_f5 || query.get_equipped_item_name(0, 1) == '')" },
+        { "head" : false},
+        { "ttk" : false},
+        { "leftLeg" : false},
+        { "rightLeg" : false},
+        { "body" : false},
+        { "hat" : false}
+      ]
+    },
+    "controller.render.budafirst": {
+      "geometry": "Geometry.budafirst",
+      "materials": [ { "*": "Material.default" } ],
+      "textures": [ "Texture.budafirst" ],
+      "part_visibility": [
+        { "*": true },
+        { "RightArm": "(query.equipped_item_any_tag('slot.weapon.mainhand','hand') || variable.sword_f1 || variable.sword_f2 || variable.sword_f3 || variable.sword_f4 || variable.sword_f5 || query.get_equipped_item_name(0, 1) == '' || query.get_equipped_item_name(0, 1) == 'map')" },
+        { "LeftArm": "(query.equipped_item_any_tag('slot.weapon.mainhand','hand2') || variable.sword_f1 || variable.sword_f2 || variable.sword_f3 || variable.sword_f4 || variable.sword_f5 || query.get_equipped_item_name(0, 1) == '')" },
+        { "RightArmD": "(query.equipped_item_any_tag('slot.weapon.mainhand','hand') || variable.sword_f1 || variable.sword_f2 || variable.sword_f3 || variable.sword_f4 || variable.sword_f5 || query.get_equipped_item_name(0, 1) == '' || query.get_equipped_item_name(0, 1) == 'map')" },
+        { "LeftArmD": "(query.equipped_item_any_tag('slot.weapon.mainhand','hand2') || variable.sword_f1 || variable.sword_f2 || variable.sword_f3 || variable.sword_f4 || variable.sword_f5 || query.get_equipped_item_name(0, 1) == '')" },
+        { "head" : false},
+        { "ttk" : false},
+        { "leftLeg" : false},
+        { "rightLeg" : false},
+        { "body" : false},
+        { "hat" : false}
+      ]
+    },
+    "controller.render.amalfirst": {
+      "geometry": "Geometry.budafirst",
+      "materials": [ { "*": "Material.default" } ],
+      "textures": [ "Texture.deus_raio" ],
+      "part_visibility": [
+        { "*": true },
+        { "RightArm": "(query.equipped_item_any_tag('slot.weapon.mainhand','hand') || variable.sword_f1 || variable.sword_f2 || variable.sword_f3 || variable.sword_f4 || variable.sword_f5 || query.get_equipped_item_name(0, 1) == '' || query.get_equipped_item_name(0, 1) == 'map')" },
+        { "LeftArm": "(query.equipped_item_any_tag('slot.weapon.mainhand','hand2') || variable.sword_f1 || variable.sword_f2 || variable.sword_f3 || variable.sword_f4 || variable.sword_f5 || query.get_equipped_item_name(0, 1) == '')" },
+        { "RightArmD": "(query.equipped_item_any_tag('slot.weapon.mainhand','hand') || variable.sword_f1 || variable.sword_f2 || variable.sword_f3 || variable.sword_f4 || variable.sword_f5 || query.get_equipped_item_name(0, 1) == '' || query.get_equipped_item_name(0, 1) == 'map')" },
+        { "LeftArmD": "(query.equipped_item_any_tag('slot.weapon.mainhand','hand2') || variable.sword_f1 || variable.sword_f2 || variable.sword_f3 || variable.sword_f4 || variable.sword_f5 || query.get_equipped_item_name(0, 1) == '')" },
+        { "head" : false},
+        { "ttk" : false},
+        { "leftLeg" : false},
+        { "rightLeg" : false},
+        { "body" : false},
+        { "hat" : false}
+      ]
+    },
+    "controller.render.dragonfirst": {
+      "geometry": "Geometry.dragonfirst",
+      "materials": [ { "*": "Material.default" } ],
+      "textures": [ "Texture.dragonfirst" ],
+      "part_visibility": [
+        { "*": true },
+        { "RightArm": "(query.equipped_item_any_tag('slot.weapon.mainhand','hand') || variable.sword_f1 || variable.sword_f2 || variable.sword_f3 || variable.sword_f4 || variable.sword_f5 || query.get_equipped_item_name(0, 1) == '' || query.get_equipped_item_name(0, 1) == 'map')" },
+        { "LeftArm": "(query.equipped_item_any_tag('slot.weapon.mainhand','hand2') || variable.sword_f1 || variable.sword_f2 || variable.sword_f3 || variable.sword_f4 || variable.sword_f5 || query.get_equipped_item_name(0, 1) == '')" },
+        { "RightArmD": "(query.equipped_item_any_tag('slot.weapon.mainhand','hand') || variable.sword_f1 || variable.sword_f2 || variable.sword_f3 || variable.sword_f4 || variable.sword_f5 || query.get_equipped_item_name(0, 1) == '' || query.get_equipped_item_name(0, 1) == 'map')" },
+        { "LeftArmD": "(query.equipped_item_any_tag('slot.weapon.mainhand','hand2') || variable.sword_f1 || variable.sword_f2 || variable.sword_f3 || variable.sword_f4 || variable.sword_f5 || query.get_equipped_item_name(0, 1) == '')" },
+        { "head" : false},
+        { "ttk" : false},
+        { "leftLeg" : false},
+        { "rightLeg" : false},
+        { "body" : false},
+        { "hat" : false}
+      ]
+    },
+    "controller.render.fenixfirst": {
+      "geometry": "Geometry.fenixfirst",
+      "materials": [ { "*": "Material.default" } ],
+      "textures": [ "Texture.fenixh2" ],
+      "part_visibility": [
+        { "*": true },
+        { "RightArm": "(query.equipped_item_any_tag('slot.weapon.mainhand','hand') || variable.sword_f1 || variable.sword_f2 || variable.sword_f3 || variable.sword_f4 || variable.sword_f5 || query.get_equipped_item_name(0, 1) == '' || query.get_equipped_item_name(0, 1) == 'map')" },
+        { "LeftArm": "(query.equipped_item_any_tag('slot.weapon.mainhand','hand2') || variable.sword_f1 || variable.sword_f2 || variable.sword_f3 || variable.sword_f4 || variable.sword_f5 || query.get_equipped_item_name(0, 1) == '')" },
+        { "RightArmD": "(query.equipped_item_any_tag('slot.weapon.mainhand','hand') || variable.sword_f1 || variable.sword_f2 || variable.sword_f3 || variable.sword_f4 || variable.sword_f5 || query.get_equipped_item_name(0, 1) == '' || query.get_equipped_item_name(0, 1) == 'map')" },
+        { "LeftArmD": "(query.equipped_item_any_tag('slot.weapon.mainhand','hand2') || variable.sword_f1 || variable.sword_f2 || variable.sword_f3 || variable.sword_f4 || variable.sword_f5 || query.get_equipped_item_name(0, 1) == '')" },
+        { "head" : false},
+        { "ttk" : false},
+        { "leftLeg" : false},
+        { "rightLeg" : false},
+        { "body" : false},
+        { "hat" : false}
+      ]
+    },
+    "controller.render.pteranodonfirst": {
+      "geometry": "geometry.pteranodonfirst",
+      "materials": [ { "*": "Material.default" } ],
+      "textures": [ "Texture.pteranodon_1" ],
+      "part_visibility": [
+        { "*": true },
+        { "RightArm": "(query.equipped_item_any_tag('slot.weapon.mainhand','hand') || variable.sword_f1 || variable.sword_f2 || variable.sword_f3 || variable.sword_f4 || variable.sword_f5 || query.get_equipped_item_name(0, 1) == '' || query.get_equipped_item_name(0, 1) == 'map')" },
+        { "LeftArm": "(query.equipped_item_any_tag('slot.weapon.mainhand','hand2') || variable.sword_f1 || variable.sword_f2 || variable.sword_f3 || variable.sword_f4 || variable.sword_f5 || query.get_equipped_item_name(0, 1) == '')" },
+        { "RightArmD": "(query.equipped_item_any_tag('slot.weapon.mainhand','hand') || variable.sword_f1 || variable.sword_f2 || variable.sword_f3 || variable.sword_f4 || variable.sword_f5 || query.get_equipped_item_name(0, 1) == '' || query.get_equipped_item_name(0, 1) == 'map')" },
+        { "LeftArmD": "(query.equipped_item_any_tag('slot.weapon.mainhand','hand2') || variable.sword_f1 || variable.sword_f2 || variable.sword_f3 || variable.sword_f4 || variable.sword_f5 || query.get_equipped_item_name(0, 1) == '')" },
+        { "head" : false},
+        { "ttk" : false},
+        { "leftLeg" : false},
+        { "rightLeg" : false},
+        { "body" : false},
+        { "hat" : false}
+      ]
+    },
+    "controller.render.budafirst2": {
+      "geometry": "Geometry.budafirst",
+      "materials": [ { "*": "Material.default" } ],
+      "textures": [ "Texture.budafirst2" ],
+      "part_visibility": [
+        { "*": true },
+        { "RightArm": "(query.equipped_item_any_tag('slot.weapon.mainhand','hand') || variable.sword_f1 || variable.sword_f2 || variable.sword_f3 || variable.sword_f4 || variable.sword_f5 || query.get_equipped_item_name(0, 1) == '' || query.get_equipped_item_name(0, 1) == 'map')" },
+        { "LeftArm": "(query.equipped_item_any_tag('slot.weapon.mainhand','hand2') || variable.sword_f1 || variable.sword_f2 || variable.sword_f3 || variable.sword_f4 || variable.sword_f5 || query.get_equipped_item_name(0, 1) == '')" },
+        { "RightArmD": "(query.equipped_item_any_tag('slot.weapon.mainhand','hand') || variable.sword_f1 || variable.sword_f2 || variable.sword_f3 || variable.sword_f4 || variable.sword_f5 || query.get_equipped_item_name(0, 1) == '' || query.get_equipped_item_name(0, 1) == 'map')" },
+        { "LeftArmD": "(query.equipped_item_any_tag('slot.weapon.mainhand','hand2') || variable.sword_f1 || variable.sword_f2 || variable.sword_f3 || variable.sword_f4 || variable.sword_f5 || query.get_equipped_item_name(0, 1) == '')" },
+        { "head" : false},
+        { "leftLeg" : false},
+        { "rightLeg" : false},
+        { "body" : false},
+        { "hat" : false}
+      ]
+    },
+    "controller.render.budafirst3": {
+      "geometry": "Geometry.budafirst",
+      "materials": [ { "*": "Material.default" } ],
+      "textures": [ "Texture.budafirst3" ],
+      "part_visibility": [
+        { "*": true },
+        { "RightArm": "(query.equipped_item_any_tag('slot.weapon.mainhand','hand') || variable.sword_f1 || variable.sword_f2 || variable.sword_f3 || variable.sword_f4 || variable.sword_f5 || query.get_equipped_item_name(0, 1) == '' || query.get_equipped_item_name(0, 1) == 'map')" },
+        { "LeftArm": "(query.equipped_item_any_tag('slot.weapon.mainhand','hand2') || variable.sword_f1 || variable.sword_f2 || variable.sword_f3 || variable.sword_f4 || variable.sword_f5 || query.get_equipped_item_name(0, 1) == '')" },
+        { "RightArmD": "(query.equipped_item_any_tag('slot.weapon.mainhand','hand') || variable.sword_f1 || variable.sword_f2 || variable.sword_f3 || variable.sword_f4 || variable.sword_f5 || query.get_equipped_item_name(0, 1) == '' || query.get_equipped_item_name(0, 1) == 'map')" },
+        { "LeftArmD": "(query.equipped_item_any_tag('slot.weapon.mainhand','hand2') || variable.sword_f1 || variable.sword_f2 || variable.sword_f3 || variable.sword_f4 || variable.sword_f5 || query.get_equipped_item_name(0, 1) == '')" },
+        { "head" : false},
+        { "leftLeg" : false},
+        { "rightLeg" : false},
+        { "body" : false},
+        { "hat" : false}
+      ]
+    },
+    "controller.render.player.first_person": {
+      "geometry": "Geometry.custom",
+      "materials": [ { "*": "Material.default" } ],
+      "textures": [ "Texture.default" ],
+      "part_visibility": [
+        { "*": true },
+        { "head" : false},
+        { "RightArm": "(query.equipped_item_any_tag('slot.weapon.mainhand','hand') || variable.sword_f1 || variable.sword_f2 || variable.sword_f3 || variable.sword_f4 || variable.sword_f5 || query.get_equipped_item_name(0, 1) == '' || query.get_equipped_item_name(0, 1) == 'map') && query.variant != 97 && query.mark_variant != 666 && query.variant != 15 && query.mark_variant != 25 && query.mark_variant != 26 && query.mark_variant != 27 && query.mark_variant != 35 && query.mark_variant != 36 && query.mark_variant != 37 && query.mark_variant != 105 && query.mark_variant != 106 && query.mark_variant != 107 && query.variant != 1 && query.variant != 11 && query.variant != 12 && query.variant != 60 && query.variant != 600 && query.variant != 70 && query.variant != 71 && query.variant != 80 && query.variant != 50 && query.variant != 81 && query.variant != 85 && query.variant != 86 && query.variant != 75 && query.variant != 74 && query.variant != 76 && query.variant != 1200 && query.variant != 12000" },
+        { "RightArmD": "(query.equipped_item_any_tag('slot.weapon.mainhand','hand') || variable.sword_f1 || variable.sword_f2 || variable.sword_f3 || variable.sword_f4 || variable.sword_f5 || query.get_equipped_item_name(0, 1) == '' || query.get_equipped_item_name(0, 1) == 'map') && query.variant != 97 && query.mark_variant != 666 && query.variant != 15 && query.mark_variant != 25 && query.mark_variant != 26 && query.mark_variant != 27 && query.mark_variant != 35 && query.mark_variant != 36 && query.mark_variant != 37 && query.mark_variant != 105 && query.mark_variant != 106 && query.mark_variant != 107 && query.variant != 1 && query.variant != 11 && query.variant != 12 && query.variant != 60 && query.variant != 600 && query.variant != 70 && query.variant != 71 && query.variant != 80 && query.variant != 50 && query.variant != 81 && query.variant != 85 && query.variant != 86 && query.variant != 75 && query.variant != 74 && query.variant != 76 && query.variant != 1200 && query.variant != 12000" },
+        { "LeftArm": "(query.equipped_item_any_tag('slot.weapon.mainhand','hand2') || variable.sword_f1 || variable.sword_f2 || variable.sword_f3 || variable.sword_f4 || variable.sword_f5 || query.get_equipped_item_name(0, 1) == '') && query.variant != 97 && query.mark_variant != 666 && query.variant != 15 && query.mark_variant != 25 && query.mark_variant != 26 && query.mark_variant != 27 && query.mark_variant != 35 && query.mark_variant != 36 && query.mark_variant != 37 && query.mark_variant != 105 && query.mark_variant != 106 && query.mark_variant != 107 && query.variant != 1 && query.variant != 11 && query.variant != 12 && query.variant != 60 && query.variant != 600 && query.variant != 70 && query.variant != 71 && query.variant != 80 && query.variant != 50 && query.variant != 81 && query.variant != 85 && query.variant != 86 && query.variant != 75 && query.variant != 74 && query.variant != 76 && query.variant != 1200 && query.variant != 12000" },
+        { "LeftArmD": "(query.equipped_item_any_tag('slot.weapon.mainhand','hand2') || variable.sword_f1 || variable.sword_f2 || variable.sword_f3 || variable.sword_f4 || variable.sword_f5 || query.get_equipped_item_name(0, 1) == '') && query.variant != 97 && query.mark_variant != 666 && query.variant != 15 && query.mark_variant != 25 && query.mark_variant != 26 && query.mark_variant != 27 && query.mark_variant != 35 && query.mark_variant != 36 && query.mark_variant != 37 && query.mark_variant != 105 && query.mark_variant != 106 && query.mark_variant != 107 && query.variant != 1 && query.variant != 11 && query.variant != 12 && query.variant != 60 && query.variant != 600 && query.variant != 70 && query.variant != 71 && query.variant != 80 && query.variant != 50 && query.variant != 81 && query.variant != 85 && query.variant != 86 && query.variant != 75 && query.variant != 74 && query.variant != 76 && query.variant != 1200 && query.variant != 12000" },
+        { "LeftLeg" : false},
+        { "LeftLegD" : false},
+        { "RightLeg" : false},
+        { "RightLegD" : false},
+        { "body" : false},
+        { "jacket" : false},
+        { "hat" : false}
+      ]
+    },
+    "controller.render.player.for_person": {
+      "geometry": "Geometry.default",
+      "materials": [ { "*": "Material.default" } ],
+      "textures": [ "Texture.default" ],
+      "part_visibility": [
+        { "*": false },
+        { "rightarm": false },
+        { "helmet": "variable.helmet_layer_visible" },
+        { "leftLegging": "variable.leg_layer_visible" },
+        { "rightLegging": "variable.leg_layer_visible" },
+        { "leftBoot": "variable.boot_layer_visible" },
+        { "rightBoot": "variable.boot_layer_visible" },
+        { "leftSock": "variable.boot_layer_visible && variable.leg_layer_visible" },
+        { "rightSock": "variable.boot_layer_visible && variable.leg_layer_visible" },
+        { "bodyArmor": "variable.chest_layer_visible && !query.has_cape" },
+        { "leftArmArmor": "variable.chest_layer_visible && !query.has_cape" },
+        { "rightArmArmor": "variable.chest_layer_visible && !query.has_cape" },
+        { "belt": "variable.chest_layer_visible && variable.leg_layer_visible" }
+      ]
+    },
+    "controller.render.player.third_person": {
+      "geometry": "Geometry.custom",
+      "materials": [ { "*": "Material.default" } ],
+      "textures": [ "Texture.default" ],
+      "part_visibility": [
+        { "*": true },
+        { "head": "query.variant != 97 && query.variant != 76 && query.variant != 75 && query.variant != 74 && query.variant != 86 && query.mark_variant != 666 && query.variant != 600 && query.variant != 500 && query.variant != 888 && query.variant != 1200" },
+        { "hat": "query.mark_variant != 666 && query.variant != 600 && query.variant != 500 && query.variant != 888 && query.variant != 1200" },
+        { "body": "query.variant != 97 && query.variant != 76 && query.variant != 75 && query.variant != 74 && query.variant != 86 && query.mark_variant != 666 && query.variant != 70 && query.variant != 71 && query.variant != 80 && query.variant != 81 && query.variant != 600 && query.variant != 500 && query.variant != 888 && query.variant != 1200" },
+        { "RightArm": "query.variant != 97 && query.variant != 76 && query.variant != 75 && query.variant != 74 && query.mark_variant != 666 && query.variant != 70 && query.variant != 71 && query.variant != 80 && query.variant != 81 && query.variant != 85 && query.variant != 86 && query.get_equipped_item_name(0, 1) != 'gear5_grab' && query.get_equipped_item_name(0, 1) != 'punk_vice_v2' && query.variant != 60 && query.variant != 12000 && query.variant != 600 && query.variant != 500 && query.variant != 888 && query.variant != 1200" },
+        { "RightArmD": "query.variant != 97 && query.variant != 76 && query.variant != 75 && query.variant != 74 && query.mark_variant != 666 && query.variant != 70 && query.variant != 71 && query.variant != 80 && query.variant != 81 && query.variant != 85 && query.variant != 86 && query.get_equipped_item_name(0, 1) != 'gear5_grab' && query.get_equipped_item_name(0, 1) != 'punk_vice_v2' && query.variant != 60 && query.variant != 12000 && query.variant != 600 && query.variant != 500 && query.variant != 888 && query.variant != 1200" },
+        { "LeftArm": "query.get_equipped_item_name(0, 1) != 'punk_vice_v2' && query.variant != 97 && query.variant != 76 && query.variant != 75 && query.variant != 74 && query.mark_variant != 666 && query.variant != 70 && query.variant != 71 && query.variant != 80 && query.variant != 81 && query.variant != 85 && query.variant != 86 && query.variant != 60 && query.variant != 12000 && query.variant != 600 && query.variant != 500 && query.variant != 888 && query.variant != 1200" },
+        { "LeftArmD": "query.get_equipped_item_name(0, 1) != 'punk_vice_v2' && query.variant != 97 && query.variant != 76 && query.variant != 75 && query.variant != 74 && query.mark_variant != 666 && query.variant != 70 && query.variant != 71 && query.variant != 80 && query.variant != 81 && query.variant != 85 && query.variant != 86 && query.variant != 60 && query.variant != 12000 && query.variant != 600 && query.variant != 500 && query.variant != 888 && query.variant != 1200" },
+        { "RightLeg": "query.variant != 97 && query.variant != 76 && query.variant != 75 && query.variant != 74 && query.mark_variant != 666 && query.variant != 70 && query.variant != 71 && query.variant != 80 && query.variant != 81 && query.variant != 85 && query.variant != 86 && query.variant != 60 && query.variant != 600 && query.variant != 500 && query.variant != 888 && query.variant != 1200" },
+        { "LeftLeg": "query.variant != 97 && query.variant != 76 && query.variant != 75 && query.variant != 74 && query.mark_variant != 666 && query.variant != 70 && query.variant != 71 && query.variant != 80 && query.variant != 81 && query.variant != 85 && query.variant != 86 && query.variant != 60 && query.variant != 600 && query.variant != 500 && query.variant != 888 && query.variant != 1200" },
+        { "RightLegD": "query.variant != 97 && query.variant != 76 && query.variant != 75 && query.variant != 74 && query.mark_variant != 666 && query.variant != 70 && query.variant != 71 && query.variant != 80 && query.variant != 81 && query.variant != 85 && query.variant != 86 && query.variant != 60 && query.variant != 12000 && query.variant != 600 && query.variant != 500 && query.variant != 888 && query.variant != 1200" },
+        { "LeftLegD": "query.variant != 97 && query.variant != 76 && query.variant != 75 && query.variant != 74 && query.mark_variant != 666 && query.variant != 70 && query.variant != 71 && query.variant != 80 && query.variant != 81 && query.variant != 85 && query.variant != 86 && query.variant != 60 && query.variant != 12000 && query.variant != 600 && query.variant != 500 && query.variant != 888 && query.variant != 1200" }
+      ]
+    },
+    "controller.render.player.third_sulong": {
+      "geometry": "Geometry.custom",
+      "materials": [ { "*": "Material.default" } ],
+      "textures": [ "Texture.n" ],
+      "part_visibility": [
+        { "*": true },
+        { "body": "query.variant != 60" },
+        { "jacket": "query.variant != 60" },
+        { "rightArm": "query.variant != 60" },
+        { "leftArm": "query.variant != 60" },
+        { "rightSleeve": "query.variant != 60" },
+        { "leftSleeve": "query.variant != 60" },
+        { "rightLeg": "query.variant != 60" },
+        { "leftLeg": "query.variant != 60" },
+        { "rightPants": "query.variant != 60" },
+        { "leftPants": "query.variant != 60" }
+      ]
+    },
+    "controller.render.player.map": {
+      "geometry": "Geometry.default",
+      "materials": [ { "*": "Material.default" } ],
+      "textures": [ "Texture.default" ],
+      "part_visibility": [
+        { "*": false },
+        { "head": true },
+        { "hat": true },
+        { "helmet": true }
+      ]
+    }
+  }
+}

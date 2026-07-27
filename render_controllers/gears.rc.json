@@ -1,0 +1,98 @@
+{
+  "format_version": "1.8.0",
+  "render_controllers": {
+    "controller.render.gear5": {
+      "geometry": "Geometry.gear5",
+      "materials": [ { "*": "Material.default" } ],
+      "textures": [ "Texture.gear5" ],
+      "part_visibility": [
+        { "*": "query.variant == 500" },
+        { "RightLeg2": "query.is_sprinting" },
+        { "RightLegD2": "query.is_sprinting" },
+        { "LeftLeg2": "query.is_sprinting" },
+        { "LeftLegD2": "query.is_sprinting" }
+      ]
+    },
+
+    "controller.render.gear5_base": {
+      "geometry": "Geometry.custom",
+      "materials": [ { "*": "Material.default" } ],
+      "textures": [ "Texture.gear5_base" ],
+      "part_visibility": [
+        { "*": "query.variant == 500" }
+      ]
+    },
+
+    "controller.render.gear5_cbl": {
+      "arrays": {
+        "textures": {
+          "array.ani": [
+            "texture.gear5_cbl1",
+            "texture.gear5_cbl2",
+            "texture.gear5_cbl3",
+            "texture.gear5_cbl4"
+          ]
+        }
+      },
+      "geometry": "Geometry.gear5_cbl",
+      "materials": [ { "*": "Material.default" } ],
+      "textures": [ "temp.life_time = query.life_time * 8.0; return array.ani[temp.life_time];" ],
+      "part_visibility": [
+        { "*": "query.variant == 500" }
+      ]
+    },
+
+    "controller.render.gear4": {
+      "geometry": "Geometry.gear4",
+      "materials": [ { "*": "Material.default" } ],
+      "textures": [ "Texture.gear4" ],
+      "part_visibility": [
+        { "*": true },
+        { "Right_Arm": "query.get_equipped_item_name(0, 1) != 'kong_organgun'" },
+        { "Left_Arm": "query.get_equipped_item_name(0, 1) != 'kong_organgun'" }
+      ]
+    },
+
+    "controller.render.gear4_2": {
+      "geometry": "Geometry.gear4",
+      "materials": [ { "*": "Material.default" } ],
+      "textures": [ "Texture.gear4" ]
+    },
+
+    "controller.render.gear4first": {
+      "geometry": "Geometry.gear4first",
+      "materials": [ { "*": "Material.default" } ],
+      "textures": [ "Texture.gear4" ]
+    },
+
+    "controller.render.gear4first_2": {
+      "geometry": "Geometry.gear4first",
+      "materials": [ { "*": "Material.default" } ],
+      "textures": [ "Texture.gear4" ]
+    },
+
+   "controller.render.gear4sneak": {
+      "geometry": "Geometry.gear4sneak",
+      "materials": [ { "*": "Material.default" } ],
+      "textures": [ "Texture.gear4sneak" ]
+    },
+
+    "controller.render.gear4sneak_2": {
+      "geometry": "Geometry.gear4sneak",
+      "materials": [ { "*": "Material.default" } ],
+      "textures": [ "Texture.gear4sneak" ]
+    },
+
+    "controller.render.gear4sneakfirst": {
+      "geometry": "Geometry.gear4first",
+      "materials": [ { "*": "Material.default" } ],
+      "textures": [ "Texture.gear4sneak" ]
+    },
+
+    "controller.render.gear4sneakfirst_2": {
+      "geometry": "Geometry.gear4first",
+      "materials": [ { "*": "Material.default" } ],
+      "textures": [ "Texture.gear4sneak" ]
+    }
+  }
+}

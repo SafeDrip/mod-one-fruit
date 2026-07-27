@@ -1,0 +1,14 @@
+{
+	"format_version": "1.8.0",
+	"render_controllers": {
+		"controller.render.rage": {
+			"textures": ["Texture.rage"],
+			"geometry": "Geometry.rage",
+			"materials": [{"*": "Material.default" }],
+      "part_visibility": [
+        { "*": true },
+        { "hat": "query.skin_id != 1" }
+      ]
+    }
+	}
+}

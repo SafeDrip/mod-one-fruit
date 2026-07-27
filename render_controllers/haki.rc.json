@@ -1,0 +1,405 @@
+{
+  "format_version": "1.8.0",
+  "render_controllers": {
+    "controller.render.skillhaki": {
+      "geometry": "Geometry.default",
+      "materials": [ { "*": "Material.default" } ],
+      "textures": [ "Texture.haki" ]
+    },
+
+    "controller.render.haki_bisento": {
+      "arrays": {
+        "textures": {
+          "array.ani": [
+            "texture.bisento1",
+            "texture.bisento2",
+            "texture.bisento3",
+            "texture.bisento4"
+          ]
+        }
+      },
+      "geometry": "geometry.haki_bisento",
+      "materials": [ { "*": "material.default" } ],
+      "textures": [ "temp.life_time = query.life_time * 9.0; return array.ani[temp.life_time];" ],
+      "part_visibility": [
+        { "*": "(query.variant == 2 || query.variant == 3 || query.variant == 11 || query.variant == 12 || query.variant == 26 || query.variant == 27 || query.variant == 36 || query.variant == 37 || query.variant == 70 || query.variant == 71 || query.variant == 80 || query.variant == 81)" }
+      ]
+    },
+    "controller.render.haki_kikoku": {
+      "arrays": {
+        "textures": {
+          "array.ani": [
+            "texture.kikoku1",
+            "texture.kikoku2",
+            "texture.kikoku3",
+            "texture.kikoku4"
+          ]
+        }
+      },
+      "geometry": "geometry.haki_kikoku",
+      "materials": [ { "*": "material.default" } ],
+      "textures": [ "temp.life_time = query.life_time * 9.0; return array.ani[temp.life_time];" ],
+      "part_visibility": [
+        { "*": "(query.variant == 2 || query.variant == 3 || query.variant == 11 || query.variant == 12 || query.variant == 26 || query.variant == 27 || query.variant == 36 || query.variant == 37 || query.variant == 70 || query.variant == 71 || query.variant == 80 || query.variant == 81)" }
+      ]
+    },
+    "controller.render.haki_foice": {
+      "arrays": {
+        "textures": {
+          "array.ani": [
+            "texture.foice1",
+            "texture.foice2",
+            "texture.foice3",
+            "texture.foice4"
+          ]
+        }
+      },
+      "geometry": "geometry.haki_foice",
+      "materials": [ { "*": "material.default" } ],
+      "textures": [ "temp.life_time = query.life_time * 9.0; return array.ani[temp.life_time];" ],
+      "part_visibility": [
+        { "*": "(query.variant == 2 || query.variant == 3 || query.variant == 11 || query.variant == 12 || query.variant == 26 || query.variant == 27 || query.variant == 36 || query.variant == 37 || query.variant == 70 || query.variant == 71 || query.variant == 80 || query.variant == 81)" }
+      ]
+    },
+    "controller.render.haki_rainbow": {
+      "arrays": {
+        "textures": {
+          "array.ani": [
+            "texture.rainbow_1",
+            "texture.rainbow_2",
+            "texture.rainbow_3",
+            "texture.rainbow_4",
+            "texture.rainbow_5"
+          ]
+        }
+      },
+      "geometry": "Geometry.haki_rainbow",
+      "materials": [ { "*": "Material.default" } ],
+      "textures": [ "temp.life_time = query.life_time * 9.0; return array.ani[temp.life_time];" ],
+      "part_visibility": [
+        { "*": true },
+        { "Rainbow1": "(query.get_equipped_item_name(0, 1) != 'punk_vice_v2')" },
+        { "Rainbow2": "(query.get_equipped_item_name(0, 1) != 'punk_vice_v2')" }
+      ]
+    },
+
+    "controller.render.haki_rainbow_first": {
+      "arrays": {
+        "textures": {
+          "array.ani": [
+            "texture.rainbow_1",
+            "texture.rainbow_2",
+            "texture.rainbow_3",
+            "texture.rainbow_4",
+            "texture.rainbow_5"
+          ]
+        }
+      },
+      "geometry": "Geometry.haki_rainbow",
+      "materials": [ { "*": "Material.default" } ],
+      "textures": [ "temp.life_time = query.life_time * 9.0; return array.ani[temp.life_time];" ],
+      "part_visibility": [
+        { "*": true },
+        { "Rainbow1": "(query.equipped_item_any_tag('slot.weapon.mainhand','hand') || variable.sword_f1 || variable.sword_f2 || variable.sword_f3 || variable.sword_f4 || variable.sword_f5 || query.get_equipped_item_name(0, 1) == '' || query.get_equipped_item_name(0, 1) == 'map')" },
+        { "Rainbow2": "(query.equipped_item_any_tag('slot.weapon.mainhand','hand2') || variable.sword_f1 || variable.sword_f2 || variable.sword_f3 || variable.sword_f4 || variable.sword_f5 || query.get_equipped_item_name(0, 1) == '')" }
+      ]
+    },
+
+    "controller.render.haki_armamento": {
+      "arrays": {
+        "textures": {
+          "array.ani": [
+            "texture.haki_1",
+            "texture.haki_2",
+            "texture.haki_3",
+            "texture.haki_4",
+            "texture.haki_5"
+          ]
+        }
+      },
+      "geometry": "Geometry.haki_armamento",
+      "materials": [ { "*": "Material.default" } ],
+      "textures": [ "temp.life_time = query.life_time * 5.0; return array.ani[temp.life_time];" ],
+      "part_visibility": [
+        { "*": true },
+        { "RightArmD": "(query.mark_variant != 26 && query.variant == 2 && query.get_equipped_item_name(0, 1) != 'punk_vice_v2')" },
+        { "LeftArmD": "(query.mark_variant != 26 && query.variant == 2 && query.get_equipped_item_name(0, 1) != 'punk_vice_v2')" }
+      ]
+    },
+
+    "controller.render.haki_armamento_first": {
+      "arrays": {
+        "textures": {
+          "array.ani": [
+            "texture.haki_1",
+            "texture.haki_2",
+            "texture.haki_3",
+            "texture.haki_4",
+            "texture.haki_5"
+          ]
+        }
+      },
+      "geometry": "Geometry.haki_armamento",
+      "materials": [ { "*": "Material.default" } ],
+      "textures": [ "temp.life_time = query.life_time * 5.0; return array.ani[temp.life_time];" ],
+      "part_visibility": [
+        { "*": true },
+        { "RightArmD": "query.variant == 2 && (query.equipped_item_any_tag('slot.weapon.mainhand','hand') || variable.sword_f1 || variable.sword_f2 || variable.sword_f3 || variable.sword_f4 || variable.sword_f5 || query.get_equipped_item_name(0, 1) == '' || query.get_equipped_item_name(0, 1) == 'map')" },
+        { "LeftArmD": "query.variant == 2 && (query.equipped_item_any_tag('slot.weapon.mainhand','hand2') || variable.sword_f1 || variable.sword_f2 || variable.sword_f3 || variable.sword_f4 || variable.sword_f5 || query.get_equipped_item_name(0, 1) == '')" }
+      ]
+    },
+
+    "controller.render.haki_pink": {
+      "geometry": "Geometry.haki_pink",
+      "materials": [ { "*": "Material.default" } ],
+      "textures": [ "Texture.haki_pink" ],
+      "part_visibility": [
+        { "*": true },
+        { "Pink1": "(query.get_equipped_item_name(0, 1) != 'punk_vice_v2')" },
+        { "Pink2": "(query.get_equipped_item_name(0, 1) != 'punk_vice_v2')" }
+      ]
+    },
+
+    "controller.render.haki_pink_first": {
+      "geometry": "Geometry.haki_pink",
+      "materials": [ { "*": "Material.default" } ],
+      "textures": [ "Texture.haki_pink" ],
+      "part_visibility": [
+        { "*": true },
+        { "Pink1": "(query.equipped_item_any_tag('slot.weapon.mainhand','hand') || variable.sword_f1 || variable.sword_f2 || variable.sword_f3 || variable.sword_f4 || variable.sword_f5 || query.get_equipped_item_name(0, 1) == '' || query.get_equipped_item_name(0, 1) == 'map')" },
+        { "Pink2": "(query.equipped_item_any_tag('slot.weapon.mainhand','hand2') || variable.sword_f1 || variable.sword_f2 || variable.sword_f3 || variable.sword_f4 || variable.sword_f5 || query.get_equipped_item_name(0, 1) == '')" }
+      ]
+    },
+
+    "controller.render.haki_white": {
+      "geometry": "Geometry.haki_white",
+      "materials": [ { "*": "Material.default" } ],
+      "textures": [ "Texture.haki_white" ],
+      "part_visibility": [
+        { "*": true },
+        { "White1": "(query.get_equipped_item_name(0, 1) != 'punk_vice_v2')" },
+        { "White2": "(query.get_equipped_item_name(0, 1) != 'punk_vice_v2')" }
+      ]
+    },
+
+    "controller.render.haki_white_first": {
+      "geometry": "Geometry.haki_white",
+      "materials": [ { "*": "Material.default" } ],
+      "textures": [ "Texture.haki_white" ],
+      "part_visibility": [
+        { "*": true },
+        { "White1": "(query.equipped_item_any_tag('slot.weapon.mainhand','hand') || variable.sword_f1 || variable.sword_f2 || variable.sword_f3 || variable.sword_f4 || variable.sword_f5 || query.get_equipped_item_name(0, 1) == '' || query.get_equipped_item_name(0, 1) == 'map')" },
+        { "White2": "(query.equipped_item_any_tag('slot.weapon.mainhand','hand2') || variable.sword_f1 || variable.sword_f2 || variable.sword_f3 || variable.sword_f4 || variable.sword_f5 || query.get_equipped_item_name(0, 1) == '')" }
+      ]
+    },
+
+    "controller.render.haki_green": {
+      "geometry": "Geometry.haki_green",
+      "materials": [ { "*": "Material.default" } ],
+      "textures": [ "Texture.haki_green" ],
+      "part_visibility": [
+        { "*": true },
+        { "Green1": "(query.get_equipped_item_name(0, 1) != 'punk_vice_v2')" },
+        { "Green2": "(query.get_equipped_item_name(0, 1) != 'punk_vice_v2')" }
+      ]
+    },
+
+    "controller.render.haki_green_first": {
+      "geometry": "Geometry.haki_green",
+      "materials": [ { "*": "Material.default" } ],
+      "textures": [ "Texture.haki_green" ],
+      "part_visibility": [
+        { "*": true },
+        { "Green1": "(query.equipped_item_any_tag('slot.weapon.mainhand','hand') || variable.sword_f1 || variable.sword_f2 || variable.sword_f3 || variable.sword_f4 || variable.sword_f5 || query.get_equipped_item_name(0, 1) == '' || query.get_equipped_item_name(0, 1) == 'map')" },
+        { "Green2": "(query.equipped_item_any_tag('slot.weapon.mainhand','hand2') || variable.sword_f1 || variable.sword_f2 || variable.sword_f3 || variable.sword_f4 || variable.sword_f5 || query.get_equipped_item_name(0, 1) == '')" }
+      ]
+    },
+
+    "controller.render.haki_blue": {
+      "geometry": "Geometry.haki_blue",
+      "materials": [ { "*": "Material.default" } ],
+      "textures": [ "Texture.haki_blue" ],
+      "part_visibility": [
+        { "*": true },
+        { "Blue1": "(query.get_equipped_item_name(0, 1) != 'punk_vice_v2')" },
+        { "Blue2": "(query.get_equipped_item_name(0, 1) != 'punk_vice_v2')" }
+      ]
+    },
+
+    "controller.render.haki_blue_first": {
+      "geometry": "Geometry.haki_blue",
+      "materials": [ { "*": "Material.default" } ],
+      "textures": [ "Texture.haki_blue" ],
+      "part_visibility": [
+        { "*": true },
+        { "Blue1": "(query.equipped_item_any_tag('slot.weapon.mainhand','hand') || variable.sword_f1 || variable.sword_f2 || variable.sword_f3 || variable.sword_f4 || variable.sword_f5 || query.get_equipped_item_name(0, 1) == '' || query.get_equipped_item_name(0, 1) == 'map')" },
+        { "Blue2": "(query.equipped_item_any_tag('slot.weapon.mainhand','hand2') || variable.sword_f1 || variable.sword_f2 || variable.sword_f3 || variable.sword_f4 || variable.sword_f5 || query.get_equipped_item_name(0, 1) == '')" }
+      ]
+    },
+
+    "controller.render.haki_yellow": {
+      "geometry": "Geometry.haki_yellow",
+      "materials": [ { "*": "Material.default" } ],
+      "textures": [ "Texture.haki_yellow" ],
+      "part_visibility": [
+        { "*": true },
+        { "Yellow1": "(query.get_equipped_item_name(0, 1) != 'punk_vice_v2')" },
+        { "Yellow2": "(query.get_equipped_item_name(0, 1) != 'punk_vice_v2')" }
+      ]
+    },
+
+    "controller.render.haki_yellow_first": {
+      "geometry": "Geometry.haki_yellow",
+      "materials": [ { "*": "Material.default" } ],
+      "textures": [ "Texture.haki_yellow" ],
+      "part_visibility": [
+        { "*": true },
+        { "Yellow1": "(query.equipped_item_any_tag('slot.weapon.mainhand','hand') || variable.sword_f1 || variable.sword_f2 || variable.sword_f3 || variable.sword_f4 || variable.sword_f5 || query.get_equipped_item_name(0, 1) == '' || query.get_equipped_item_name(0, 1) == 'map')" },
+        { "Yellow2": "(query.equipped_item_any_tag('slot.weapon.mainhand','hand2') || variable.sword_f1 || variable.sword_f2 || variable.sword_f3 || variable.sword_f4 || variable.sword_f5 || query.get_equipped_item_name(0, 1) == '')" }
+      ]
+    },
+
+    "controller.render.haki_king": {
+      "geometry": "Geometry.haki_king",
+      "materials": [ { "*": "Material.default" } ],
+      "textures": [ "Texture.haki_king" ],
+      "part_visibility": [
+        { "*": true },
+        { "King1": "(query.get_equipped_item_name(0, 1) != 'punk_vice_v2')" },
+        { "King2": "(query.get_equipped_item_name(0, 1) != 'punk_vice_v2')" }
+      ]
+    },
+
+    "controller.render.haki_king_first": {
+      "geometry": "Geometry.haki_king",
+      "materials": [ { "*": "Material.default" } ],
+      "textures": [ "Texture.haki_king" ],
+      "part_visibility": [
+        { "*": true },
+        { "King1": "(query.equipped_item_any_tag('slot.weapon.mainhand','hand') || variable.sword_f1 || variable.sword_f2 || variable.sword_f3 || variable.sword_f4 || variable.sword_f5 || query.get_equipped_item_name(0, 1) == '' || query.get_equipped_item_name(0, 1) == 'map')" },
+        { "King2": "(query.equipped_item_any_tag('slot.weapon.mainhand','hand2') || variable.sword_f1 || variable.sword_f2 || variable.sword_f3 || variable.sword_f4 || variable.sword_f5 || query.get_equipped_item_name(0, 1) == '')" }
+      ]
+    },
+
+    "controller.render.ryuo": {
+      "arrays": {
+        "textures": {
+          "array.ani": [
+            "texture.ryuo_1",
+            "texture.ryuo_2",
+            "texture.ryuo_3",
+            "texture.ryuo_4",
+            "texture.ryuo_5"
+          ]
+        }
+      },
+      "geometry": "Geometry.haki_armamento",
+      "materials": [ { "*": "Material.default" } ],
+      "textures": [ "temp.life_time = query.life_time * 5.0; return array.ani[temp.life_time];" ],
+      "part_visibility": [
+        { "*": true },
+        { "RightArmD": "(query.mark_variant != 27 && query.variant == 3 && query.get_equipped_item_name(0, 1) != 'punk_vice_v2')" },
+        { "LeftArmD": "(query.mark_variant != 27 && query.variant == 3 && query.get_equipped_item_name(0, 1) != 'punk_vice_v2')" }
+      ]
+    },
+
+    "controller.render.ryuo_first": {
+      "arrays": {
+        "textures": {
+          "array.ani": [
+            "texture.ryuo_1",
+            "texture.ryuo_2",
+            "texture.ryuo_3",
+            "texture.ryuo_4",
+            "texture.ryuo_5"
+          ]
+        }
+      },
+      "geometry": "Geometry.haki_armamento",
+      "materials": [ { "*": "Material.default" } ],
+      "textures": [ "temp.life_time = query.life_time * 5.0; return array.ani[temp.life_time];" ],
+      "part_visibility": [
+        { "*": true },
+        { "RightArmD": "query.variant == 3 && (query.equipped_item_any_tag('slot.weapon.mainhand','hand') || variable.sword_f1 || variable.sword_f2 || variable.sword_f3 || variable.sword_f4 || variable.sword_f5 || query.get_equipped_item_name(0, 1) == '' || query.get_equipped_item_name(0, 1) == 'map')" },
+        { "LeftArmD": "query.variant == 3 && (query.equipped_item_any_tag('slot.weapon.mainhand','hand2') || variable.sword_f1 || variable.sword_f2 || variable.sword_f3 || variable.sword_f4 || variable.sword_f5 || query.get_equipped_item_name(0, 1) == '')" }
+      ]
+    },
+
+    "controller.render.haki_rei": {
+      "geometry": "Geometry.haki_rei",
+      "materials": [ { "*": "Material.default" } ],
+      "textures": [ "Texture.haki_rei" ]
+    },
+
+    "controller.render.haki_rei2": {
+      "geometry": "Geometry.haki_rei2",
+      "materials": [ { "*": "Material.default" } ],
+      "textures": [ "Texture.haki_rei" ]
+    },
+
+    "controller.render.haki_rei3": {
+      "geometry": "Geometry.haki_rei3",
+      "materials": [ { "*": "Material.default" } ],
+      "textures": [ "Texture.haki_rei" ]
+    },
+
+    "controller.render.haki": {
+      "geometry": "Geometry.haki",
+      "materials": [ { "*": "Material.default" } ],
+      "textures": [ "Texture.swordhaki" ]
+    },
+
+    "controller.render.swordhaki2": {
+      "geometry": "Geometry.haki",
+      "materials": [ { "*": "Material.charged" } ],
+      "textures": [ "Texture.swordhaki" ],
+      "part_visibility": [
+        { "*": "query.variant == 2 || query.variant == 3 || query.variant == 11 || query.variant == 12 || query.variant == 26 || query.variant == 27 || query.variant == 36 || query.variant == 37 || query.variant == 70 || query.variant == 71 || query.variant == 80 || query.variant == 81" }
+      ]
+    },
+
+    "controller.render.swordryuo": {
+      "geometry": "Geometry.haki",
+      "materials": [ { "*": "Material.charged" } ],
+      "textures": [ "Texture.swordryuo" ],
+      "part_visibility": [
+        { "*": "query.variant == 3 || query.variant == 12 || query.variant == 27 || query.variant == 37 || query.variant == 71 || query.variant == 81" }
+      ]
+    },
+
+    "controller.render.swordhaki": {
+      "arrays": {
+        "textures": {
+          "array.ani": [
+            "texture.swordhaki_1",
+            "texture.swordhaki_2",
+            "texture.swordhaki_3",
+            "texture.swordhaki_4"
+          ]
+        }
+      },
+      "geometry": "geometry.haki",
+      "materials": [ { "*": "material.default" } ],
+      "textures": [ "temp.life_time = query.life_time * 9.0; return array.ani[temp.life_time];" ],
+      "part_visibility": [
+        { "*": "(query.variant == 2 || query.variant == 3 || query.variant == 11 || query.variant == 12 || query.variant == 26 || query.variant == 27 || query.variant == 36 || query.variant == 37 || query.variant == 70 || query.variant == 71 || query.variant == 80 || query.variant == 81)" }
+      ]
+    },
+    "controller.render.swordrei": {
+      "arrays": {
+        "textures": {
+          "array.ani": [
+            "texture.swordrei_1",
+            "texture.swordrei_2",
+            "texture.swordrei_3",
+            "texture.swordrei_4"
+          ]
+        }
+      },
+      "geometry": "geometry.hakirei",
+      "materials": [ { "*": "material.default" } ],
+      "textures": [ "temp.life_time = query.life_time * 9.0; return array.ani[temp.life_time];" ]
+    }
+
+  }
+}

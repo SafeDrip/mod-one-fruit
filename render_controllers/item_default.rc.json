@@ -1,0 +1,135 @@
+{
+  "format_version": "1.10",
+  "render_controllers": {
+    "controller.render.musical_armor": {
+      "geometry": "Geometry.musical_armor",
+      "materials": [ { "*": "Material.default" } ],
+      "textures": [ "Texture.musical_armor" ],
+      "part_visibility": [
+        { "*": true },
+        { "jetpack": "!v.is_first_person" },
+        { "cape": "!v.is_first_person" },
+        { "crown": "!v.is_first_person" },
+        { "head": "query.variant != 97 && query.variant != 76 && query.variant != 75 && query.variant != 74 && query.variant != 86 && query.mark_variant != 666 && query.variant != 600 && query.variant != 500 && query.variant != 888 && query.variant != 1200" },
+        { "hat": "query.mark_variant != 666 && query.variant != 600 && query.variant != 500 && query.variant != 888 && query.variant != 1200" },
+        { "body": "query.variant != 97 && query.variant != 76 && query.variant != 75 && query.variant != 74 && query.variant != 86 && query.mark_variant != 666 && query.variant != 70 && query.variant != 71 && query.variant != 80 && query.variant != 81 && query.variant != 600 && query.variant != 500 && query.variant != 888 && query.variant != 1200" },
+        { "RightArm": "query.variant != 97 && query.variant != 76 && query.variant != 75 && query.variant != 74 && query.mark_variant != 666 && query.variant != 70 && query.variant != 71 && query.variant != 80 && query.variant != 81 && query.variant != 85 && query.variant != 86 && query.get_equipped_item_name(0, 1) != 'gear5_grab' && query.get_equipped_item_name(0, 1) != 'punk_vice_v2' && query.variant != 60 && query.variant != 12000 && query.variant != 600 && query.variant != 500 && query.variant != 888 && query.variant != 1200" },
+        { "RightArmD": "query.variant != 97 && query.variant != 76 && query.variant != 75 && query.variant != 74 && query.mark_variant != 666 && query.variant != 70 && query.variant != 71 && query.variant != 80 && query.variant != 81 && query.variant != 85 && query.variant != 86 && query.get_equipped_item_name(0, 1) != 'gear5_grab' && query.get_equipped_item_name(0, 1) != 'punk_vice_v2' && query.variant != 60 && query.variant != 12000 && query.variant != 600 && query.variant != 500 && query.variant != 888 && query.variant != 1200" },
+        { "LeftArm": "query.get_equipped_item_name(0, 1) != 'punk_vice_v2' && query.variant != 97 && query.variant != 76 && query.variant != 75 && query.variant != 74 && query.mark_variant != 666 && query.variant != 70 && query.variant != 71 && query.variant != 80 && query.variant != 81 && query.variant != 85 && query.variant != 86 && query.variant != 60 && query.variant != 12000 && query.variant != 600 && query.variant != 500 && query.variant != 888 && query.variant != 1200" },
+        { "LeftArmD": "query.get_equipped_item_name(0, 1) != 'punk_vice_v2' && query.variant != 97 && query.variant != 76 && query.variant != 75 && query.variant != 74 && query.mark_variant != 666 && query.variant != 70 && query.variant != 71 && query.variant != 80 && query.variant != 81 && query.variant != 85 && query.variant != 86 && query.variant != 60 && query.variant != 12000 && query.variant != 600 && query.variant != 500 && query.variant != 888 && query.variant != 1200" },
+        { "RightLeg": "query.variant != 97 && query.variant != 76 && query.variant != 75 && query.variant != 74 && query.mark_variant != 666 && query.variant != 70 && query.variant != 71 && query.variant != 80 && query.variant != 81 && query.variant != 85 && query.variant != 86 && query.variant != 60 && query.variant != 600 && query.variant != 500 && query.variant != 888 && query.variant != 1200" },
+        { "LeftLeg": "query.variant != 97 && query.variant != 76 && query.variant != 75 && query.variant != 74 && query.mark_variant != 666 && query.variant != 70 && query.variant != 71 && query.variant != 80 && query.variant != 81 && query.variant != 85 && query.variant != 86 && query.variant != 60 && query.variant != 600 && query.variant != 500 && query.variant != 888 && query.variant != 1200" },
+        { "RightLegD": "query.variant != 97 && query.variant != 76 && query.variant != 75 && query.variant != 74 && query.mark_variant != 666 && query.variant != 70 && query.variant != 71 && query.variant != 80 && query.variant != 81 && query.variant != 85 && query.variant != 86 && query.variant != 60 && query.variant != 12000 && query.variant != 600 && query.variant != 500 && query.variant != 888 && query.variant != 1200" },
+        { "LeftLegD": "query.variant != 97 && query.variant != 76 && query.variant != 75 && query.variant != 74 && query.mark_variant != 666 && query.variant != 70 && query.variant != 71 && query.variant != 80 && query.variant != 81 && query.variant != 85 && query.variant != 86 && query.variant != 60 && query.variant != 12000 && query.variant != 600 && query.variant != 500 && query.variant != 888 && query.variant != 1200" }
+      ]
+    },
+    "controller.render.fly_plant": {
+      "geometry": "Geometry.fly_plant",
+      "materials": [ { "*": "Material.default" } ],
+      "textures": [ "Texture.fly_plant" ]
+    },
+    "controller.render.moriashears": {
+      "arrays": {
+        "textures": {
+          "array.ani": [
+            "texture.moriashears_1",
+            "texture.moriashears_2",
+            "texture.moriashears_3",
+            "texture.moriashears_4"
+          ]
+        }
+      },
+      "geometry": "Geometry.moriashears",
+      "materials": [ { "*": "Material.default" } ],
+      "textures": [ "temp.life_time = query.life_time * 8.0; return array.ani[temp.life_time];" ],
+      "part_visibility": [
+        { "*": "query.get_equipped_item_name == 'moriashears'" }
+      ]
+    },
+    "controller.render.kong": {
+      "geometry": "Geometry.kong",
+      "materials": [ { "*": "Material.default" } ],
+      "textures": [ "Texture.gear4" ],
+      "part_visibility": [
+        { "*": "query.get_equipped_item_name == 'kong_organgun'" }
+      ]
+    },
+    "controller.render.candy_bow": {
+      "geometry": "Geometry.candy_bow",
+      "materials": [ { "*": "Material.default" } ],
+      "textures": [ "Texture.candy_armor" ],
+      "part_visibility": [
+        { "*": "query.get_equipped_item_name == 'candy_shower'" }
+      ]
+    },
+    "controller.render.redhawk": {
+      "geometry": "Geometry.redhawk",
+      "materials": [ { "*": "Material.default" } ],
+      "textures": [ "Texture.redhawk" ],
+      "part_visibility": [
+        { "*": "query.get_equipped_item_name == 'redhawk'" }
+      ]
+    },
+    "controller.render.garras_p": {
+      "geometry": "Geometry.garras_p",
+      "materials": [ { "*": "Material.default" } ],
+      "textures": [ "Texture.garras_p" ],
+      "part_visibility": [
+        { "*": "query.get_equipped_item_name == 'garras_p'" }
+      ]
+    },
+    "controller.render.donuts": {
+      "geometry": "Geometry.donuts",
+      "materials": [ { "*": "Material.default" } ],
+      "textures": [ "Texture.donuts" ],
+      "part_visibility": [
+        { "*": "query.get_equipped_item_name == 'donuts'" }
+      ]
+    },
+    "controller.render.mogura": {
+      "geometry": "Geometry.mogura",
+      "materials": [ { "*": "Material.default" } ],
+      "textures": [ "Texture.mogura" ],
+      "part_visibility": [
+        { "*": "query.get_equipped_item_name == 'mogura'" }
+      ]
+    },
+    "controller.render.machine_gun": {
+      "geometry": "Geometry.machine_gun",
+      "materials": [ { "*": "Material.default" } ],
+      "textures": [ "Texture.machine_gun" ],
+      "part_visibility": [
+        { "*": "query.get_equipped_item_name == 'mochi_machine_gun'" }
+      ]
+    },
+    "controller.render.bisento": {
+      "geometry": "Geometry.bisento",
+      "materials": [ { "*": "Material.default" } ],
+      "textures": [ "Texture.bisento" ],
+      "part_visibility": [
+        { "*": "query.get_equipped_item_name == 'bisento'" }
+      ]
+    },
+    "controller.render.kikoku": {
+      "geometry": "Geometry.kikoku",
+      "materials": [ { "*": "Material.default" } ],
+      "textures": [ "Texture.kikoku" ],
+      "part_visibility": [
+        { "*": "query.get_equipped_item_name == 'kikoku'" }
+      ]
+    },
+    "controller.render.foice": {
+      "geometry": "Geometry.foice",
+      "materials": [ { "*": "Material.default" } ],
+      "textures": [ "Texture.foice" ],
+      "part_visibility": [
+        { "*": "query.get_equipped_item_name == 'foice'" }
+      ]
+    },
+    "controller.render.item_default": {
+      "geometry": "geometry.default",
+      "materials": [ { "*": "variable.is_enchanted ? material.enchanted : material.default" } ],
+      "textures": [ "texture.default", "texture.enchanted" ]
+    }
+  }
+}

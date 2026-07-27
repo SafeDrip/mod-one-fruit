@@ -1,0 +1,21 @@
+{
+  "format_version": "1.8.0",
+  "render_controllers": {
+    "controller.render.moby": {
+	  "arrays": {
+	    "textures": {
+		  "Array.skins": [
+		    "Texture.skin1",
+		    "Texture.skin2",
+		    "Texture.skin3",
+		    "Texture.skin4",
+		    "Texture.skin5"
+		  ]
+		}
+	  },
+      "geometry": "Geometry.default",
+      "materials": [ { "*": "Material.default" } ],
+      "textures": [ "Array.skins[query.variant]" ]
+    }
+  }
+}

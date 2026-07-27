@@ -1,0 +1,8 @@
+{
+ "format_version": "1.10.0",
+ "render_controllers": {
+  "controller.render.diable_jumb": {
+   "geometry": "Geometry.diable_jumb"
+  }
+ }
+}

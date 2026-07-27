@@ -1,0 +1,39 @@
+{
+  "format_version": "1.10",
+  "render_controllers": {
+    "controller.render.main": {
+      "geometry": "geometry.main",
+      "materials": [ { "*": "variable.is_enchanted ? material.enchanted : material.default" } ],
+      "textures": [ "texture.default", "texture.enchanted" ],
+      "part_visibility": [
+        { "*": "query.variant == 1 || query.variant == 25 || query.variant == 35" }
+      ]
+    },
+    "controller.render.main_haki": {
+      "geometry": "geometry.main_haki",
+      "materials": [ { "*": "material.default" } ],
+      "textures": [ "texture.haki", "texture.enchanted" ],
+      "part_visibility": [
+        { "*": "query.variant == 11 || query.variant == 26 || query.variant == 36" }
+      ]
+    },
+    "controller.render.main_ryuo": {
+      "geometry": "geometry.main_haki",
+      "materials": [ { "*": "material.default" } ],
+      "textures": [ "texture.ryuo", "texture.enchanted" ],
+      "part_visibility": [
+        { "*": "query.variant == 12 || query.variant == 27 || query.variant == 37" }
+      ]
+    },
+    "controller.render.weapon2": {
+      "geometry": "geometry.mainhand",
+      "materials": [ { "*": "variable.is_enchanted ? material.enchanted : material.default" } ],
+      "textures": [ "texture.default", "texture.enchanted" ]
+    },
+    "controller.render.weapon3": {
+      "geometry": "geometry.head",
+      "materials": [ { "*": "variable.is_enchanted ? material.enchanted : material.default" } ],
+      "textures": [ "texture.default", "texture.enchanted" ]
+    }
+  }
+}

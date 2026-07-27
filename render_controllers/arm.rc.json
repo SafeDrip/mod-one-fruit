@@ -1,0 +1,63 @@
+{
+  "format_version": "1.8.0",
+  "render_controllers": {
+    "controller.render.gear5_arm": {
+      "geometry": "Geometry.gear5_arm",
+      "materials": [ { "*": "Material.default" } ],
+      "textures": [ "Texture.gear5_base" ]
+    },
+
+    "controller.render.magu_arm": {
+      "geometry": "Geometry.magu_arm",
+      "materials": [ { "*": "Material.default" } ],
+      "textures": [ "Texture.arm1" ]
+    },
+
+    "controller.render.rogersword": {
+      "geometry": "Geometry.sword",
+      "materials": [ { "*": "Material.default" } ],
+      "part_visibility": [
+        { "*": "query.get_equipped_item_name == 'roger_sword'" }
+      ]
+    },
+
+    "controller.render.punk_vice_v1": {
+      "geometry": "Geometry.punk_vice_v1",
+      "materials": [ { "*": "Material.default" } ],
+      "textures": [ "Texture.punk_vice_v1" ]
+    },
+
+    "controller.render.punk_vice_v2": {
+      "geometry": "Geometry.punk_vice_v2",
+      "materials": [ { "*": "Material.default" } ],
+      "textures": [ "Texture.punk_vice_v2" ]
+    },
+
+    "controller.render.arm": {
+      "geometry": "Geometry.arm",
+      "materials": [ { "*": "Material.default" } ],
+      "textures": [ "Texture.arm" ],
+      "part_visibility": [
+        { "*": "query.get_equipped_item_name == 'magma_punho'" }
+      ]
+    },
+
+    "controller.render.arm1": {
+      "geometry": "Geometry.arm1",
+      "materials": [ { "*": "Material.default" } ],
+      "textures": [ "Texture.arm1" ]
+    },
+
+    "controller.render.arm2": {
+      "geometry": "Geometry.arm2",
+      "materials": [ { "*": "Material.default" } ],
+      "textures": [ "Texture.arm2" ]
+    },
+
+    "controller.render.arm3": {
+      "geometry": "Geometry.arm2",
+      "materials": [ { "*": "Material.default" } ],
+      "textures": [ "Texture.arm3" ]
+    }
+  }
+}

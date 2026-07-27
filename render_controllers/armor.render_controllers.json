@@ -1,0 +1,42 @@
+{
+  "format_version": "1.8.0",
+  "render_controllers": {
+    "controller.render.suit": {
+      "geometry": "Geometry.default",
+      "materials": [ { "*": "variable.is_enchanted ? Material.enchanted : Material.default" } ],
+      "textures": [ "Texture.default", "Texture.enchanted" ],
+      "part_visibility": [
+        { "*": "!v.is_first_person" },
+        { "head": false },
+        { "body": "query.variant != 600 && query.variant != 1200  && query.variant != 80 && query.variant != 81 && query.variant != 75 && query.variant != 74 && query.variant != 76 && query.variant != 86" },
+        { "jacket": "query.variant != 600 && query.variant != 1200  && query.variant != 80 && query.variant != 81 && query.variant != 75 && query.variant != 74 && query.variant != 76 && query.variant != 86" },
+        { "RightArm": "query.get_equipped_item_name(0, 1) != 'gear5_grab' && query.get_equipped_item_name(0, 1) != 'punk_vice_v2' && query.variant != 60 && query.variant != 12000 && query.variant != 600 && query.variant != 70 && query.variant != 71 && query.variant != 80 && query.variant != 81 && query.variant != 75 && query.variant != 74 && query.variant != 76 && query.variant != 85 && query.variant != 86 && query.variant != 1200" },
+        { "RightArmD": "query.get_equipped_item_name(0, 1) != 'gear5_grab' && query.get_equipped_item_name(0, 1) != 'punk_vice_v2' && query.variant != 60 && query.variant != 12000 && query.variant != 600 && query.variant != 70 && query.variant != 71 && query.variant != 80 && query.variant != 81 && query.variant != 75 && query.variant != 74 && query.variant != 76 && query.variant != 85 && query.variant != 86 && query.variant != 1200" },
+        { "LeftArm": "query.get_equipped_item_name(0, 1) != 'punk_vice_v2' && query.variant != 60 && query.variant != 12000 && query.variant != 600 && query.variant != 70 && query.variant != 71 && query.variant != 80 && query.variant != 81 && query.variant != 75 && query.variant != 74 && query.variant != 76 && query.variant != 85 && query.variant != 86 && query.variant != 1200" },
+        { "LeftArmD": "query.get_equipped_item_name(0, 1) != 'punk_vice_v2' && query.variant != 60 && query.variant != 12000 && query.variant != 600 && query.variant != 70 && query.variant != 71 && query.variant != 80 && query.variant != 81 && query.variant != 75 && query.variant != 74 && query.variant != 76 && query.variant != 85 && query.variant != 86 && query.variant != 1200" },
+        { "RightLeg": "query.variant != 60 && query.variant != 12000 && query.variant != 600 && query.variant != 70 && query.variant != 71 && query.variant != 80 && query.variant != 81 && query.variant != 75 && query.variant != 74 && query.variant != 76 && query.variant != 85 && query.variant != 86 && query.variant != 1200" },
+        { "LeftLeg": "query.variant != 60 && query.variant != 12000 && query.variant != 600 && query.variant != 70 && query.variant != 71 && query.variant != 80 && query.variant != 81 && query.variant != 75 && query.variant != 74 && query.variant != 76 && query.variant != 85 && query.variant != 86 && query.variant != 1200" },
+        { "RightLegD": "query.variant != 60 && query.variant != 12000 && query.variant != 600 && query.variant != 70 && query.variant != 71 && query.variant != 80 && query.variant != 81 && query.variant != 75 && query.variant != 74 && query.variant != 76 && query.variant != 85 && query.variant != 86 && query.variant != 1200" },
+        { "LeftLegD": "query.variant != 60 && query.variant != 12000 && query.variant != 600 && query.variant != 70 && query.variant != 71 && query.variant != 80 && query.variant != 81 && query.variant != 75 && query.variant != 74 && query.variant != 76 && query.variant != 85 && query.variant != 86 && query.variant != 1200" }
+      ]
+    },
+    "controller.render.armor": {
+      "geometry": "Geometry.default",
+      "materials": [ { "*": "variable.is_enchanted ? Material.enchanted : Material.default" } ],
+      "textures": [ "Texture.default", "Texture.enchanted" ],
+      "part_visibility": [
+        { "*": true },
+        { "head": "query.variant != 600 && query.variant != 1200" },
+        { "body": "query.variant != 600 && query.variant != 1200  && query.variant != 80 && query.variant != 81 && query.variant != 75 && query.variant != 74 && query.variant != 76 && query.variant != 86" },
+        { "RightArm": "query.get_equipped_item_name(0, 1) != 'gear5_grab' && query.get_equipped_item_name(0, 1) != 'punk_vice_v2' && query.variant != 60 && query.variant != 12000 && query.variant != 600 && query.variant != 70 && query.variant != 71 && query.variant != 80 && query.variant != 81 && query.variant != 75 && query.variant != 74 && query.variant != 76 && query.variant != 85 && query.variant != 86 && query.variant != 1200" },
+        { "RightArmD": "query.get_equipped_item_name(0, 1) != 'gear5_grab' && query.get_equipped_item_name(0, 1) != 'punk_vice_v2' && query.variant != 60 && query.variant != 12000 && query.variant != 600 && query.variant != 70 && query.variant != 71 && query.variant != 80 && query.variant != 81 && query.variant != 75 && query.variant != 74 && query.variant != 76 && query.variant != 85 && query.variant != 86 && query.variant != 1200" },
+        { "LeftArm": "query.get_equipped_item_name(0, 1) != 'punk_vice_v2' && query.variant != 60 && query.variant != 12000 && query.variant != 600 && query.variant != 70 && query.variant != 71 && query.variant != 80 && query.variant != 81 && query.variant != 75 && query.variant != 74 && query.variant != 76 && query.variant != 85 && query.variant != 86 && query.variant != 1200" },
+        { "LeftArmD": "query.get_equipped_item_name(0, 1) != 'punk_vice_v2' && query.variant != 60 && query.variant != 12000 && query.variant != 600 && query.variant != 70 && query.variant != 71 && query.variant != 80 && query.variant != 81 && query.variant != 75 && query.variant != 74 && query.variant != 76 && query.variant != 85 && query.variant != 86 && query.variant != 1200" },
+        { "RightLeg": "query.variant != 60 && query.variant != 12000 && query.variant != 600 && query.variant != 70 && query.variant != 71 && query.variant != 80 && query.variant != 81 && query.variant != 75 && query.variant != 74 && query.variant != 76 && query.variant != 85 && query.variant != 86 && query.variant != 1200" },
+        { "LeftLeg": "query.variant != 60 && query.variant != 12000 && query.variant != 600 && query.variant != 70 && query.variant != 71 && query.variant != 80 && query.variant != 81 && query.variant != 75 && query.variant != 74 && query.variant != 76 && query.variant != 85 && query.variant != 86 && query.variant != 1200" },
+        { "RightLegD": "query.variant != 60 && query.variant != 12000 && query.variant != 600 && query.variant != 70 && query.variant != 71 && query.variant != 80 && query.variant != 81 && query.variant != 75 && query.variant != 74 && query.variant != 76 && query.variant != 85 && query.variant != 86 && query.variant != 1200" },
+        { "LeftLegD": "query.variant != 60 && query.variant != 12000 && query.variant != 600 && query.variant != 70 && query.variant != 71 && query.variant != 80 && query.variant != 81 && query.variant != 75 && query.variant != 74 && query.variant != 76 && query.variant != 85 && query.variant != 86 && query.variant != 1200" }
+      ]
+    }
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "format_version": "1.8.0",
+  "render_controllers": {
+    "controller.render.espada1": {
+      "geometry": "Geometry.espada1",
+      "materials": [ { "*": "Material.default" } ],
+      "textures": [ "Texture.espada1" ]
+    },
+    "controller.render.espada2": {
+      "geometry": "Geometry.espada2",
+      "materials": [ { "*": "Material.default" } ],
+      "textures": [ "Texture.espada2" ]
+    },
+    "controller.render.espada3": {
+      "geometry": "Geometry.espada3",
+      "materials": [ { "*": "Material.default" } ],
+      "textures": [ "Texture.espada3" ]
+    }
+  }
+}

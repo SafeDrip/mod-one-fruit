@@ -1,0 +1,22 @@
+{
+  "format_version": "1.8.0",
+  "render_controllers": {
+    "controller.render.recompensa": {
+	  "arrays": {
+	    "textures": {
+		  "Array.skins": [
+		    "Texture.b1",
+		    "Texture.b2",
+		    "Texture.b3",
+		    "Texture.b4",
+		    "Texture.b5",
+		    "Texture.b6"
+		  ]
+		}
+	  },
+      "geometry": "Geometry.belly",
+      "materials": [ { "*": "Material.default" } ],
+      "textures": [ "Array.skins[query.variant]" ]
+    }
+  }
+}
