@@ -1,0 +1,606 @@
+{
+  "fruit": {
+    "max_distance": 60.0,
+    "sounds": [
+      {
+        "name": "sounds/onefruit_sounds/fruit",
+        "load_on_low_memory": true
+      }
+    ]
+  },
+  "stone": {
+    "max_distance": 60.0,
+    "sounds": [
+      {
+        "name": "sounds/onefruit_sounds/stone",
+        "load_on_low_memory": true
+      }
+    ]
+  },
+  "coins": {
+    "max_distance": 60.0,
+    "sounds": [
+      {
+        "name": "sounds/onefruit_sounds/coins",
+        "load_on_low_memory": true
+      }
+    ]
+  },
+  "cyberx": {
+    "max_distance": 60.0,
+    "sounds": [
+      {
+        "name": "sounds/onefruit_sounds/cyberx",
+        "load_on_low_memory": true
+      }
+    ]
+  },
+  "magma": {
+    "max_distance": 60.0,
+    "sounds": [
+      {
+        "name": "sounds/onefruit_sounds/magma",
+        "load_on_low_memory": true
+			}
+		]
+	},
+  "dodge": {
+    "max_distance": 60.0,
+    "sounds": [
+      {
+        "name": "sounds/onefruit_sounds/dodge",
+        "load_on_low_memory": true
+			}
+		]
+	},
+  "block": {
+    "max_distance": 60.0,
+    "sounds": [
+      {
+        "name": "sounds/onefruit_sounds/block",
+        "load_on_low_memory": true
+			}
+		]
+	},
+  "complete": {
+    "max_distance": 60.0,
+    "sounds": [
+      {
+        "name": "sounds/onefruit_sounds/complete",
+        "load_on_low_memory": true
+			}
+		]
+	},
+  "explosion": {
+    "max_distance": 60.0,
+    "sounds": [
+      {
+        "name": "sounds/onefruit_sounds/explosion",
+        "load_on_low_memory": true
+			}
+		]
+	},
+  "scythe_swing": {
+    "max_distance": 60.0,
+    "sounds": [
+      {
+        "name": "sounds/onefruit_sounds/scythe_swing",
+        "load_on_low_memory": true
+			}
+		]
+	},
+  "knife_swing": {
+    "max_distance": 60.0,
+    "sounds": [
+      {
+        "name": "sounds/onefruit_sounds/knife_swing",
+        "load_on_low_memory": true
+			}
+		]
+	},
+  "smash_normal": {
+    "max_distance": 60.0,
+    "sounds": [
+      {
+        "name": "sounds/onefruit_sounds/smash_normal",
+        "load_on_low_memory": true
+			}
+		]
+	},
+  "smash": {
+    "max_distance": 60.0,
+    "sounds": [
+      {
+        "name": "sounds/onefruit_sounds/smash",
+        "load_on_low_memory": true
+			}
+		]
+	},
+  "sword": {
+    "max_distance": 60.0,
+    "sounds": [
+      {
+        "name": "sounds/onefruit_sounds/sword",
+        "load_on_low_memory": true
+			}
+		]
+	},
+  "sword1": {
+    "max_distance": 60.0,
+    "sounds": [
+      {
+        "name": "sounds/onefruit_sounds/sword1",
+        "load_on_low_memory": true
+			}
+		]
+	},
+  "crit": {
+    "max_distance": 60.0,
+    "sounds": [
+      {
+        "name": "sounds/onefruit_sounds/crit",
+        "stream": true,
+        "volume": 0.5,
+        "load_on_low_memory": true
+       }
+    ]
+  },
+  "attack": {
+    "max_distance": 60.0,
+    "sounds": [
+      {
+        "name": "sounds/onefruit_sounds/attack",
+        "stream": true,
+        "volume": 0.5,
+        "load_on_low_memory": true
+       }
+    ]
+  },
+  "attack2": {
+    "max_distance": 60.0,
+    "sounds": [
+      {
+        "name": "sounds/onefruit_sounds/attack2",
+        "stream": true,
+        "volume": 0.5,
+        "load_on_low_memory": true
+       }
+    ]
+  },
+  "punch1": {
+    "max_distance": 60.0,
+    "sounds": [
+      {
+        "name": "sounds/onefruit_sounds/punch1",
+        "stream": true,
+        "volume": 0.5,
+        "load_on_low_memory": true
+       }
+    ]
+  },
+  "punch2": {
+    "max_distance": 60.0,
+    "sounds": [
+      {
+        "name": "sounds/onefruit_sounds/punch2",
+        "stream": true,
+        "volume": 0.5,
+        "load_on_low_memory": true
+       }
+    ]
+  },
+  "mero": {
+    "max_distance": 60.0,
+    "sounds": [
+      {
+        "name": "sounds/onefruit_sounds/mero",
+        "load_on_low_memory": true
+			}
+		]
+	},
+  "oden": {
+    "max_distance": 60.0,
+    "sounds": [
+      {
+        "name": "sounds/onefruit_sounds/oden",
+        "load_on_low_memory": true
+			}
+		]
+	},
+  "oden2": {
+    "max_distance": 60.0,
+    "sounds": [
+      {
+        "name": "sounds/onefruit_sounds/oden2",
+        "load_on_low_memory": true
+			}
+		]
+	},
+  "oden_voice": {
+    "max_distance": 60.0,
+    "sounds": [
+      {
+        "name": "sounds/onefruit_sounds/oden_voice",
+        "load_on_low_memory": true
+			}
+		]
+	},
+  "brook_voice": {
+    "max_distance": 60.0,
+    "sounds": [
+      {
+        "name": "sounds/onefruit_sounds/brook_voice",
+        "load_on_low_memory": true
+			}
+		]
+	},
+  "barba_branca_voice": {
+    "max_distance": 60.0,
+    "sounds": [
+      {
+        "name": "sounds/onefruit_sounds/barba_branca_voice",
+        "load_on_low_memory": true
+			}
+		]
+	},
+  "law_room": {
+    "max_distance": 60.0,
+    "sounds": [
+      {
+        "name": "sounds/onefruit_sounds/law_room",
+        "load_on_low_memory": true
+			}
+		]
+	},
+  "law_takt": {
+    "max_distance": 60.0,
+    "sounds": [
+      {
+        "name": "sounds/onefruit_sounds/law_takt",
+        "load_on_low_memory": true
+			}
+		]
+	},
+  "law_shambles": {
+    "max_distance": 60.0,
+    "sounds": [
+      {
+        "name": "sounds/onefruit_sounds/law_shambles",
+        "load_on_low_memory": true
+			}
+		]
+	},
+  "law_counter": {
+    "max_distance": 60.0,
+    "sounds": [
+      {
+        "name": "sounds/onefruit_sounds/law_counter",
+        "load_on_low_memory": true
+			}
+		]
+	},
+  "law_voice": {
+    "max_distance": 60.0,
+    "sounds": [
+      {
+        "name": "sounds/onefruit_sounds/law_voice",
+        "load_on_low_memory": true
+			}
+		]
+	},
+  "zoro": {
+    "max_distance": 60.0,
+    "sounds": [
+      {
+        "name": "sounds/onefruit_sounds/zoro",
+        "load_on_low_memory": true
+			}
+		]
+	},
+  "zoro_voice": {
+    "max_distance": 60.0,
+    "sounds": [
+      {
+        "name": "sounds/onefruit_sounds/zoro_voice",
+        "load_on_low_memory": true
+			}
+		]
+	},
+  "luffy": {
+    "max_distance": 60.0,
+    "sounds": [
+      {
+        "name": "sounds/onefruit_sounds/luffy",
+        "load_on_low_memory": true
+			}
+		]
+	},
+  "luffy_voice": {
+    "max_distance": 60.0,
+    "sounds": [
+      {
+        "name": "sounds/onefruit_sounds/luffy_voice",
+        "load_on_low_memory": true
+			}
+		]
+	},
+  "teach": {
+    "max_distance": 60.0,
+    "sounds": [
+      {
+        "name": "sounds/onefruit_sounds/teach",
+        "load_on_low_memory": true
+			}
+		]
+	},
+  "shanks": {
+    "max_distance": 60.0,
+    "sounds": [
+      {
+        "name": "sounds/onefruit_sounds/shanks",
+        "load_on_low_memory": true
+			}
+		]
+	},
+  "shanks_voice": {
+    "max_distance": 60.0,
+    "sounds": [
+      {
+        "name": "sounds/onefruit_sounds/shanks_voice",
+        "load_on_low_memory": true
+			}
+		]
+	},
+  "mihawk": {
+    "max_distance": 60.0,
+    "sounds": [
+      {
+        "name": "sounds/onefruit_sounds/mihawk",
+        "load_on_low_memory": true
+			}
+		]
+	},
+  "mihawk_voice": {
+    "max_distance": 60.0,
+    "sounds": [
+      {
+        "name": "sounds/onefruit_sounds/mihawk_voice",
+        "load_on_low_memory": true
+			}
+		]
+	},
+  "soru": {
+    "max_distance": 60.0,
+    "sounds": [
+      {
+        "name": "sounds/onefruit_sounds/soru",
+        "load_on_low_memory": true
+			}
+		]
+	},
+  "slingshot": {
+    "max_distance": 60.0,
+    "sounds": [
+      {
+        "name": "sounds/onefruit_sounds/slingshot",
+        "load_on_low_memory": true
+			}
+		]
+	},
+  "soul": {
+    "max_distance": 60.0,
+    "sounds": [
+      {
+        "name": "sounds/onefruit_sounds/soul",
+        "load_on_low_memory": true
+			}
+		]
+	},
+  "soul_guitar": {
+    "max_distance": 60.0,
+    "sounds": [
+      {
+        "name": "sounds/onefruit_sounds/soul_guitar",
+        "load_on_low_memory": true
+			}
+		]
+	},
+  "shoot": {
+    "max_distance": 60.0,
+    "sounds": [
+      {
+        "name": "sounds/onefruit_sounds/shoot",
+        "load_on_low_memory": true
+			}
+		]
+	},
+  "diable_jumb": {
+    "max_distance": 60.0,
+    "sounds": [
+      {
+        "name": "sounds/onefruit_sounds/diable_jumb",
+        "load_on_low_memory": true
+			}
+		]
+	},
+  "hakiexplosion": {
+    "max_distance": 60.0,
+    "sounds": [
+      {
+        "name": "sounds/onefruit_sounds/hakiexplosion",
+        "load_on_low_memory": true
+			}
+		]
+	},
+  "ice": {
+    "max_distance": 60.0,
+    "sounds": [
+      {
+        "name": "sounds/onefruit_sounds/ice",
+        "load_on_low_memory": true
+			}
+		]
+	},
+  "ice_step": {
+    "max_distance": 60.0,
+    "sounds": [
+      {
+        "name": "sounds/onefruit_sounds/ice_step",
+        "load_on_low_memory": true
+			}
+		]
+	},
+  "machine_gun": {
+    "max_distance": 60.0,
+    "sounds": [
+      {
+        "name": "sounds/onefruit_sounds/machine_gun",
+        "load_on_low_memory": true
+			}
+		]
+	},
+  "alert": {
+    "max_distance": 60.0,
+    "sounds": [
+      {
+        "name": "sounds/onefruit_sounds/alert",
+        "load_on_low_memory": true
+			}
+		]
+	},
+  "geppo": {
+    "max_distance": 60.0,
+    "sounds": [
+      {
+        "name": "sounds/onefruit_sounds/geppo",
+        "load_on_low_memory": true
+			}
+		]
+	},
+  "electro": {
+    "max_distance": 60.0,
+    "sounds": [
+      {
+        "name": "sounds/onefruit_sounds/electro",
+        "load_on_low_memory": true
+			}
+		]
+	},
+  "cage": {
+    "max_distance": 60.0,
+    "sounds": [
+      {
+        "name": "sounds/onefruit_sounds/cage",
+        "load_on_low_memory": true
+			}
+		]
+	},
+  "gear2": {
+    "max_distance": 60.0,
+    "sounds": [
+      {
+        "name": "sounds/onefruit_sounds/gear2",
+        "load_on_low_memory": true
+			}
+		]
+	},
+  "gear4": {
+    "max_distance": 60.0,
+    "sounds": [
+      {
+        "name": "sounds/onefruit_sounds/gear4",
+        "load_on_low_memory": true
+			}
+		]
+	},
+  "room": {
+    "max_distance": 60.0,
+    "sounds": [
+      {
+        "name": "sounds/onefruit_sounds/room",
+        "load_on_low_memory": true
+			}
+		]
+	},
+  "haki_a": {
+    "max_distance": 60.0,
+    "sounds": [
+      {
+        "name": "sounds/onefruit_sounds/haki_a",
+        "load_on_low_memory": true
+			}
+		]
+	},
+  "hakirei": {
+    "max_distance": 60.0,
+    "sounds": [
+      {
+        "name": "sounds/onefruit_sounds/hakirei",
+        "load_on_low_memory": true
+			}
+		]
+	},
+  "hakiobs": {
+    "max_distance": 60.0,
+    "sounds": [
+      {
+        "name": "sounds/onefruit_sounds/hakiobs",
+        "load_on_low_memory": true
+			}
+		]
+	},
+  "gamma_knife": {
+    "max_distance": 60.0,
+    "sounds": [
+      {
+        "name": "sounds/onefruit_sounds/gamma_knife",
+        "load_on_low_memory": true
+			}
+		]
+	},
+  "luz": {
+    "max_distance": 60.0,
+    "sounds": [
+      {
+        "name": "sounds/onefruit_sounds/luz",
+        "load_on_low_memory": true
+			}
+		]
+	},
+  "gura": {
+    "max_distance": 60.0,
+    "sounds": [
+      {
+        "name": "sounds/onefruit_sounds/gura",
+        "load_on_low_memory": true
+			}
+		]
+	},
+  "shadow": {
+    "max_distance": 60.0,
+    "sounds": [
+      {
+        "name": "sounds/onefruit_sounds/shadow",
+        "load_on_low_memory": true
+			}
+		]
+	},
+  "paw": {
+    "max_distance": 60.0,
+    "sounds": [
+      {
+        "name": "sounds/onefruit_sounds/paw",
+        "load_on_low_memory": true
+			}
+		]
+	},
+  "magma_pool": {
+    "max_distance": 60.0,
+    "sounds": [
+      {
+        "name": "sounds/onefruit_sounds/magma_pool",
+        "load_on_low_memory": true
+			}
+		]
+	}
+}
