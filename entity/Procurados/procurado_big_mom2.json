@@ -1,0 +1,25 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": { "identifier": "of:procurado_big_mom2",
+      "materials": {
+        "default": "armor"
+      },
+      "textures": {
+        "default": "textures/entity/procurado_big_mom"
+      },
+      "geometry": {
+        "default": "geometry.procurado"
+      },
+      "animations": {
+        "move": "animation.procurado"
+      },
+      "scripts": {
+        "animate": [
+          "move" 
+        ]
+      },
+      "render_controllers": [ "controller.render.base" ]
+    }
+  }
+}

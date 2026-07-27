@@ -1,0 +1,25 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": { "identifier": "of:procurado_barba_branca",
+      "materials": {
+        "default": "armor"
+      },
+      "textures": {
+        "default": "textures/entity/procurado_barba_branca"
+      },
+      "geometry": {
+        "default": "geometry.procurado"
+      },
+      "animations": {
+        "move": "animation.procurado"
+      },
+      "scripts": {
+        "animate": [
+          "move" 
+        ]
+      },
+      "render_controllers": [ "controller.render.base" ]
+    }
+  }
+}
