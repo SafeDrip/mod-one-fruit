@@ -1,0 +1,31 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:attachable": {
+    "description": {
+      "identifier": "of:dragon_2",
+      "materials": {
+        "default": "elytra",
+        "enchanted": "elytra_glint"
+      },
+      "textures": {
+        "default": "textures/entity/dragon_2",
+        "enchanted": "textures/misc/enchanted_item_glint"
+      },
+      "geometry": {
+        "default": "geometry.dragon"
+      },
+      "animations": {
+        "move": "animation.dragon"
+      },
+      "scripts": {
+        "parent_setup": "variable.chest_layer_visible = 0.0;",
+        "animate": [
+          "move"
+        ]
+      },
+      "render_controllers": [ 
+       {"controller.render.armor": "!c.is_first_person"}
+      ]
+    }
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:attachable": {
+    "description": {
+      "identifier": "of:buda",
+      "materials": {
+        "default": "entity_alphablend"
+      },
+      "textures": {
+        "default": "textures/entity/buda",
+        "haki": "textures/entity/buda_haki",
+        "ryuo": "textures/entity/buda_ryuo"
+      },
+      "geometry": {
+        "main": "geometry.buda",
+        "main_haki": "geometry.buda"
+      },
+      "scripts": {
+        "parent_setup": "variable.chest_layer_visible = 0.0;",
+        "animate": [
+          "default_controller"
+        ]
+      },
+      "render_controllers": [ 
+{"controller.render.main": "!c.is_first_person"},
+{"controller.render.main_haki": "!c.is_first_person"},
+{"controller.render.main_ryuo": "!c.is_first_person"}
+      ]
+    }
+  }
+}

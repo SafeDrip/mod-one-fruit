@@ -1,0 +1,25 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:attachable": {
+    "description": {
+      "identifier": "of:enel_pole",
+      "materials": {
+        "default": "entity_alphatest",
+        "charged": "charged",
+        "enchanted": "entity_alphatest_glint"},
+
+      "textures": {
+        "default": "textures/entity/enel",
+        "enchanted": "textures/misc/enchanted_item_glint",
+        "swordhaki": "textures/entity/haki" },
+
+      "geometry": {
+        "default": "geometry.enel_pole",
+        "haki": "geometry.enel_pole_haki"},
+
+      "render_controllers": [
+      "controller.render.item_default",
+      "controller.render.swordhaki2" ]
+    }
+  }
+}

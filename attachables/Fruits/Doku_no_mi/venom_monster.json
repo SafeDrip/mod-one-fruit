@@ -1,0 +1,34 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:attachable": {
+    "description": {
+      "identifier": "of:venom_monster",
+      "materials": {
+        "default": "elytra",
+        "enchanted": "elytra_glint"
+      },
+      "textures": {
+        "default": "textures/entity/venom_monster",
+        "enchanted": "textures/misc/enchanted_item_glint"
+      },
+      "geometry": {
+        "default": "geometry.venom_monster"
+      },
+      "animations": {
+        "default_controller": "controller.animation.one",
+    "default": "animation.venomp",
+    "agachar": "animation.venoma",
+    "andar": "animation.venomm"
+      },
+      "scripts": {
+        "parent_setup": "variable.chest_layer_visible = 0.0;",
+        "animate": [
+          "default_controller"
+        ]
+      },
+      "render_controllers": [ 
+       {"controller.render.armor": "!c.is_first_person"}
+      ]
+    }
+  }
+}
