@@ -1,0 +1,32 @@
+{
+	"format_version" : "1.10.0",
+	"animation_controllers" : {
+		"controller.animation.barrier" : {
+			"initial_state" : "default",
+			"states" : {
+				"default" : {
+					"transitions" : [
+						{"00" : "query.is_on_ground"}
+					]
+				},
+				"00" : {
+					"animations" : ["barrier"]
+				}
+			}
+		},
+		"controller.animation.pilar" : {
+			"initial_state" : "default",
+			"states" : {
+				"default" : {
+			    	"animations" : ["move0"],
+					"transitions" : [
+						{"00" : "query.any_animation_finished"}
+					]
+				},
+				"00" : {
+					"animations" : ["move"]
+				}
+			}
+		}
+	}
+}

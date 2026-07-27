@@ -1,0 +1,391 @@
+{
+	"format_version" : "1.10.0",
+	"animation_controllers" : {
+		"controller.animation.hold" : {
+			"initial_state" : "default",
+			"states" : {
+				"default" : {
+					"transitions" : [
+						{"gear5_hold" : "query.get_equipped_item_name == 'gear5_punch' && query.is_using_item"},
+						{"tree_punch" : "query.get_equipped_item_name == 'mori_punch' && query.is_using_item"},
+						{"candy_bow" : "query.get_equipped_item_name == 'candy_shower' && query.is_using_item"},
+						{"gryphon" : "(query.get_equipped_item_name == 'saber' || query.get_equipped_item_name == 'saber_rei') && query.is_using_item"},
+						{"nikyu_palm" : "query.get_equipped_item_name == 'nikyu_palm' && query.is_using_item"},
+						{"moriashears" : "query.get_equipped_item_name == 'moriashears' && !query.is_using_item"},
+						{"buda_punch" : "query.get_equipped_item_name == 'palma_buda' && query.is_using_item"},
+						{"garras_p" : "query.get_equipped_item_name == 'garras_p' && query.is_using_item"},
+						{"garras_b" : "query.get_equipped_item_name == 'garras_b' && query.is_using_item"},
+						{"g5_grab2" : "query.get_equipped_item_name == 'gear5_grab' && variable.attack_time && query.variant == 500"},
+						{"g5_giga_hold" : "query.get_equipped_item_name == 'gear5_giga' && query.is_using_item && query.variant == 500 && query.is_on_ground"},
+						{"foice_hold" : "query.get_equipped_item_name == 'foice' && query.is_using_item"},
+						{"magu_hold" : "query.get_equipped_item_name == 'magu_arm' && query.is_using_item"},
+						{"punk_vice_v1_hold" : "query.get_equipped_item_name == 'punk_vice_v1' && query.is_using_item && !query.is_sneaking"},
+						{"punk_vice2_v1_hold" : "query.get_equipped_item_name == 'punk_vice_v1' && query.is_using_item && query.is_sneaking"},
+						{"punk_vice_v2_hold" : "query.get_equipped_item_name == 'punk_vice_v2' && query.is_using_item && !query.is_sneaking"},
+						{"punk_vice2_v2_hold" : "query.get_equipped_item_name == 'punk_vice_v2' && query.is_using_item && query.is_sneaking"},
+						{"moku_grab" : "query.get_equipped_item_name == 'moku_grab' && query.is_using_item"},
+						{"fenix_chute" : "query.get_equipped_item_name == 'fenix_chute' && query.is_using_item"},
+						{"neko_pistol" : "query.get_equipped_item_name == 'neko_finger_pistol' && query.is_using_item"},
+						{"neko_punch" : "query.get_equipped_item_name == 'neko_punch' && query.is_using_item"},
+						{"jujika" : "query.get_equipped_item_name == 'jujika' && query.is_using_item"},
+						{"machine_gun" : "query.get_equipped_item_name == 'mochi_machine_gun' && query.is_using_item"},
+						{"dai_enkai1" : "query.get_equipped_item_name == 'dai_enkai' && query.is_using_item"},
+						{"roger_sword_hold" : "(query.get_equipped_item_name == 'roger_sword' || query.get_equipped_item_name == 'roger_sword_rei') && query.is_using_item"},
+						{"g5_hold" : "query.get_equipped_item_name == 'gear5_fire' && query.is_using_item && query.variant == 500"},
+						{"g5_grab" : "query.get_equipped_item_name == 'gear5_grab' && query.is_using_item && query.variant == 500"},
+						{"gomu_pistol0_r" : "query.get_equipped_item_name == 'redhawk' && query.is_using_item"},
+						{"gomu_pistol0" : "query.get_equipped_item_name == 'gomu_pistol' && query.is_using_item"},
+						{"gomu_bazooka0" : "query.get_equipped_item_name == 'gomu_bazooka' && query.is_using_item"},
+						{"bane1" : "query.get_equipped_item_name == 'bane_jump' && query.is_using_item"},
+						{"firearm1" : "query.get_equipped_item_name == 'firearm' && query.is_using_item"},
+						{"firearm2" : "query.get_equipped_item_name == 'firearm2' && query.is_using_item"},
+						{"firearm3" : "query.get_equipped_item_name == 'firearm3' && query.is_using_item"},
+						{"dragonrain" : "query.get_equipped_item_name == 'dragon_rain' && query.is_using_item && query.variant == 50"},
+						{"dragonfire" : "query.get_equipped_item_name == 'dragon_fire' && query.is_using_item && query.variant == 50"}
+					]
+				},
+				"gear5_hold" : {
+					"animations" : ["gear5_hold"],
+					"transitions" : [
+						{"gear5_punch" : "!q.is_using_item"}
+					]
+				},
+				"gear5_punch" : {
+					"animations" : ["gear5_punch"],
+					"transitions" : [
+						{"default" : "q.all_animations_finished || q.get_equipped_item_name != 'gear5_punch'"}
+					]
+				},
+				"gryphon" : {
+					"animations" : ["gryphon"],
+					"transitions" : [
+						{"default" : "!q.is_using_item"}
+					]
+				},
+				"candy_bow" : {
+					"animations" : ["candy_bow"],
+					"transitions" : [
+						{"default" : "!q.is_using_item"}
+					]
+				},
+				"neko_pistol" : {
+					"animations" : ["leopard_finger_pistol"],
+					"transitions" : [
+						{"default" : "!q.is_using_item"}
+					]
+				},
+				"neko_punch" : {
+					"animations" : ["leopard_floor1"],
+					"transitions" : [
+						{"neko_punch2" : "!q.is_using_item"}
+					]
+				},
+				"neko_punch2" : {
+					"animations" : ["leopard_floor2"],
+					"transitions" : [
+						{"default" : "q.all_animations_finished || q.get_equipped_item_name != 'neko_punch'"}
+					]
+				},
+				"fenix_chute" : {
+					"animations" : ["fenix_chute"],
+					"transitions" : [
+						{"fenix_chute2" : "!q.is_using_item"}
+					]
+				},
+				"fenix_chute2" : {
+					"animations" : ["fenix_chute2"],
+					"transitions" : [
+						{"default" : "q.all_animations_finished || q.get_equipped_item_name != 'fenix_chute'"}
+					]
+				},
+				"nikyu_palm" : {
+					"animations" : ["nikyu_paw"],
+					"transitions" : [
+						{"default" : "!q.is_using_item"}
+					]
+				},
+				"moriashears" : {
+					"animations" : ["moria_shears"],
+					"transitions" : [
+						{"default" : "q.get_equipped_item_name != 'moriashears'"}
+					]
+				},
+				"punk_vice2_v2_hold" : {
+					"animations" : ["punk_smash"],
+					"transitions" : [
+						{"default" : "q.all_animations_finished"}
+					]
+				},
+				"punk_vice_v2_hold" : {
+					"animations" : ["metal_ball0"],
+					"transitions" : [
+						{"punk_vice_v2" : "!q.is_using_item"}
+					]
+				},
+				"punk_vice_v2" : {
+					"animations" : ["metal_ball"],
+					"transitions" : [
+						{"default" : "q.all_animations_finished || q.get_equipped_item_name != 'punk_vice_v2'"}
+					]
+				},
+				"punk_vice2_v1_hold" : {
+					"animations" : ["metal_vortex"],
+					"transitions" : [
+						{"default" : "!q.is_using_item"}
+					]
+				},
+				"punk_vice_v1_hold" : {
+					"animations" : ["metal_repel0"],
+					"transitions" : [
+						{"punk_vice_v1" : "!q.is_using_item"}
+					]
+				},
+				"punk_vice_v1" : {
+					"animations" : ["metal_repel"],
+					"transitions" : [
+						{"default" : "q.all_animations_finished || q.get_equipped_item_name != 'punk_vice_v1'"}
+					]
+				},
+				"buda_punch" : {
+					"animations" : ["buda1"],
+					"transitions" : [
+						{"default" : "!q.is_using_item"}
+					]
+				},
+				"garras_p" : {
+					"animations" : ["mori1"],
+					"transitions" : [
+						{"default" : "!q.is_using_item"}
+					]
+				},
+				"garras_b" : {
+					"animations" : ["garras_b"],
+					"transitions" : [
+						{"default" : "!q.is_using_item"}
+					]
+				},
+				"tree_punch" : {
+					"animations" : ["floor"],
+					"transitions" : [
+						{"default" : "!q.is_using_item"}
+					]
+				},
+				"g5_grab2" : {
+					"animations" : ["gear5_grab2"],
+					"transitions" : [
+						{"default" : "q.all_animations_finished || q.get_equipped_item_name != 'gear5_grab'"}
+					]
+				},
+				"g5_giga_hold" : {
+					"animations" : ["gear5_giga_hold"],
+					"transitions" : [
+						{"g5_giga_attack" : "!q.is_using_item"},
+						{"k" : "query.variant != 500"}
+					]
+				},
+				"g5_giga_attack" : {
+					"animations" : ["gear5_giga_attack"],
+					"transitions" : [
+						{"default" : "q.all_animations_finished || q.get_equipped_item_name != 'gear5_giga'"}
+					]
+				},
+				"gomu_pistol0_r" : {
+					"animations" : ["pistol0_r"],
+					"transitions" : [
+						{"gomu_pistol_r" : "!q.is_using_item"}
+					]
+				},
+				"gomu_pistol_r" : {
+					"animations" : ["pistol_r", "target_pistol_r"],
+					"transitions" : [
+						{"default" : "q.all_animations_finished || q.get_equipped_item_name != 'redhawk'"}
+					]
+				},
+				"gomu_pistol0" : {
+					"animations" : ["pistol0"],
+					"transitions" : [
+						{"gomu_pistol" : "!q.is_using_item"}
+					]
+				},
+				"gomu_pistol" : {
+					"animations" : ["pistol", "target_pistol"],
+					"transitions" : [
+						{"default" : "q.all_animations_finished || q.get_equipped_item_name != 'gomu_pistol'"}
+					]
+				},
+				"gomu_bazooka0" : {
+					"animations" : ["bazooka0"],
+					"transitions" : [
+						{"gomu_bazooka" : "!q.is_using_item"}
+					]
+				},
+				"gomu_bazooka" : {
+					"animations" : ["bazooka"],
+					"transitions" : [
+						{"default" : "q.all_animations_finished || q.get_equipped_item_name != 'gomu_bazooka'"}
+					]
+				},
+				"jujika" : {
+					"animations" : ["jujika"],
+					"transitions" : [
+						{"default" : "!q.is_using_item"}
+					]
+				},
+				"moku_grab" : {
+					"animations" : ["moku_grab"],
+					"transitions" : [
+						{"default" : "!q.is_using_item"}
+					]
+				},
+				"machine_gun" : {
+					"animations" : ["machine_gun"],
+					"transitions" : [
+						{"default" : "!q.is_using_item"}
+					]
+				},
+				"foice_hold" : {
+					"animations" : ["foice_hold"],
+					"transitions" : [
+						{"foice_skill" : "!q.is_using_item"}
+					]
+				},
+				"magu_hold" : {
+					"animations" : ["magu_arm"],
+					"transitions" : [
+						{"magu_skill" : "!q.is_using_item"}
+					]
+				},
+				"magu_skill" : {
+					"animations" : ["magu_arm1"],
+					"transitions" : [
+						{"default" : "q.any_animation_finished"}
+					]
+				},
+				"dai_enkai1" : {
+					"animations" : ["mera1"],
+					"transitions" : [
+						{"dai_enkai0" : "!q.is_using_item"}
+					]
+				},
+				"dai_enkai0" : {
+					"animations" : ["mera0"],
+					"transitions" : [
+						{"default" : "q.any_animation_finished"}
+					]
+				},
+				"roger_sword_hold" : {
+					"animations" : ["roger_sword_hold"],
+					"transitions" : [
+						{"roger_sword_skill" : "!q.is_using_item"}
+					]
+				},
+				"roger_sword_skill" : {
+					"animations" : ["roger_sword_skill"],
+					"transitions" : [
+						{"default" : "q.any_animation_finished"}
+					]
+				},
+				"firearm1" : {
+					"animations" : ["to_aim"],
+					"transitions" : [
+						{"default" : "!q.is_using_item"}
+					]
+				},
+				"firearm2" : {
+					"animations" : ["to_aim"],
+					"transitions" : [
+						{"default" : "!q.is_using_item"}
+					]
+				},
+				"firearm3" : {
+					"animations" : ["to_aim"],
+					"transitions" : [
+						{"default" : "!q.is_using_item"}
+					]
+				},
+				"foice_skill" : {
+					"animations" : ["foice_skill"],
+					"transitions" : [
+						{"foice_skill0.1" : "q.any_animation_finished"}
+					]
+				},
+				"foice_skill0.1" : {
+					"animations" : ["foice_skill"],
+					"transitions" : [
+						{"foice_skill0.2" : "q.any_animation_finished"}
+					]
+				},
+				"foice_skill0.2" : {
+					"animations" : ["foice_skill"],
+					"transitions" : [
+						{"foice_skill0.3" : "q.any_animation_finished"}
+					]
+				},
+				"foice_skill0.3" : {
+					"animations" : ["foice_skill"],
+					"transitions" : [
+						{"foice_skill0.4" : "q.any_animation_finished"}
+					]
+				},
+				"foice_skill0.4" : {
+					"animations" : ["foice_skill"],
+					"transitions" : [
+						{"default" : "q.any_animation_finished"}
+					]
+				},
+				"g5_hold" : {
+					"animations" : ["g5_hold", "look_at_target_gomu"],
+					"transitions" : [
+						{"g5_attack" : "!q.is_using_item"},
+						{"k" : "query.variant != 500"}
+					]
+				},
+				"g5_attack" : {
+					"animations" : ["g5_attack"],
+					"transitions" : [
+						{"default" : "q.all_animations_finished || q.get_equipped_item_name != 'gear5_fire'"}
+					]
+				},
+				"bane1" : {
+					"animations" : ["bane1"],
+					"transitions" : [
+						{"bane2" : "!q.is_using_item"}
+					]
+				},
+				"bane2" : {
+					"animations" : ["bane2"],
+					"transitions" : [
+						{"default" : "q.all_animations_finished || q.get_equipped_item_name != 'bane_jump'"}
+					]
+				},
+				"g5_grab" : {
+					"animations" : ["gear5_grab", "look_at_target_grab"],
+					"transitions" : [
+						{"default" : "!query.is_using_item"},
+						{"k" : "query.variant != 500"}
+					]
+				},
+				"dragonrain" : {
+					"animations" : ["dragon4"],
+					"transitions" : [
+						{"default" : "!query.is_using_item"},
+						{"k" : "query.variant != 50"}
+					]
+				},
+				"dragonfire" : {
+					"animations" : ["dragon5"],
+					"transitions" : [
+						{"default" : "!query.is_using_item"},
+						{"k" : "query.variant != 50"}
+					]
+				},
+				"k" : {
+					"animations" : ["k"],
+					"transitions" : [
+						{"default" : "(1.0)"}
+					]
+				}
+			}
+		}
+	}
+}

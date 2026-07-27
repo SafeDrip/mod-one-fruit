@@ -1,0 +1,117 @@
+{
+    "format_version": "1.10.0",
+    "animation_controllers": {
+		"controller.animation.ray" : {
+			"initial_state" : "default",
+			"states" : {
+				"default" : {
+					"transitions" : [
+						{"0" : "query.variant == 10"},
+						{"00" : "query.variant == 20"}
+					]
+				},
+				"0" : {
+					"animations" : ["haki"],
+					"transitions" : [
+						{"default" : "query.variant != 10"}
+					]
+				},
+				"00" : {
+					"animations" : ["venda"],
+					"transitions" : [
+						{"default" : "query.variant != 20"}
+					]
+				}
+			}
+		},
+		"controller.animation.ryoku" : {
+			"initial_state" : "default",
+			"states" : {
+				"default" : {
+					"transitions" : [
+						{"00" : "query.variant == 2"}
+					]
+				},
+				"00" : {
+					"animations" : ["mori1"],
+					"transitions" : [
+						{"default" : "query.variant != 2"}
+					]
+				}
+			}
+		},
+		"controller.animation.mob": {
+            "initial_state": "walk",
+            "states": {
+                "walk": {
+                    "variables": {
+                        "move_speed": {
+                            "input": "query.modified_move_speed",
+                            "remap_curve": {
+                                "0.0": 0.0,
+                                "0.25": 1.0
+                            }
+                        },
+                        "is_idling": {
+                            "input": "query.modified_move_speed",
+                            "remap_curve": {
+                                "0.0": 1.0,
+                                "0.1": 0.0
+                            }
+                        }
+                    },
+					"blend_transition": 0.5,
+                    "animations": [{
+                            "walk": "variable.move_speed"
+                        }, {
+                            "general": "variable.is_idling"
+                        }
+                    ],
+					"blend_transition": 0.5,
+                    "transitions": [{
+                            "sprint": "query.ground_speed >= 1 && query.is_on_ground && query.has_target"
+                        }, {
+                            "jump": "!query.is_on_ground && !query.is_in_water && !query.is_wall_climbing"
+                        }, {
+                            "attack": "query.is_on_ground && variable.attack_time"
+                        }
+                    ],
+					"blend_transition": 0.1
+                },
+                "sprint": {
+                    "animations": [
+                        "sprint"
+                    ],
+                    "transitions": [{
+                            "walk": "query.ground_speed <= 1 && query.is_on_ground"
+                        },
+                        {
+                            "attack": "query.is_on_ground && variable.attack_time"
+                        }
+                    ],
+                    "blend_transition": 0.1
+                },
+				"jump": {
+                    "animations": [
+                        "jump"
+                    ],
+                    "transitions": [{
+                            "walk": "query.is_on_ground"
+                        }
+                    ],
+                    "blend_transition": 0.5
+                },
+				"attack": {
+                    "animations": [
+                        "attack"
+                    ],
+                    "transitions": [{
+                            "walk": "!query.any_animation_finished"
+                        }
+                    ],
+                    "blend_transition": 0.1
+                }
+            }
+		  }
+    }
+}

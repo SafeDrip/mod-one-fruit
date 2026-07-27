@@ -1,0 +1,30 @@
+{
+	"format_version" : "1.10.0",
+	"animation_controllers": {
+		"controller.animation.mobattack": {
+			"initial_state": "default",
+			"states": {
+				"default": {
+					"blend_transition": 0.1,
+					"transitions": [
+					    {"attack1":"variable.attack"}
+					]
+				},
+				"attack1": {
+					"animations": [ "atk1" ],
+					"blend_transition": 0.1,
+					"transitions": [
+					    { "attack2": "variable.attack && query.any_animation_finished" }
+					]
+				},
+				"attack2": {
+					"animations": [ "atk2" ],
+					"blend_transition": 0.1,
+					"transitions": [
+					    { "default": "!variable.attack && query.any_animation_finished" }
+					]
+				}
+			}
+		}
+	}
+}

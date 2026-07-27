@@ -1,0 +1,27 @@
+{
+	"format_version" : "1.10.0",
+	"animation_controllers" : {
+		"controller.animation.crouch" : {
+			"initial_state" : "default",
+			"states" : {
+				"default" : {
+					"transitions" : [
+						{"c0" : "query.variant == 2 && query.is_on_ground"}
+					]
+				},
+				"c0" : {
+					"animations" : ["law_sentado"],
+					"transitions" : [
+						{"k" : "query.variant != 2"}
+					]
+				},
+				"k" : {
+					"animations" : ["k"],
+					"transitions" : [
+						{"default" : "(1.0)"}
+					]
+				}
+			}
+		}
+	}
+}

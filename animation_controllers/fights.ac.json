@@ -1,0 +1,210 @@
+{
+	"format_version" : "1.10.0",
+	"animation_controllers" : {
+		"controller.animation.fights" : {
+			"initial_state" : "default",
+			"states" : {
+				"default" : {
+					"transitions" : [
+						{"black_leg01" : "query.get_equipped_item_name == 'black_leg_1' && query.is_using_item"},
+						{"black_leg01_v2" : "query.get_equipped_item_name == 'black_leg_1_v2' && query.is_using_item"},
+						{"black_leg02" : "(query.get_equipped_item_name == 'black_leg_2' || query.get_equipped_item_name == 'black_leg_2_v2') && query.is_using_item"},
+						{"black_leg03" : "query.get_equipped_item_name == 'black_leg_3' && query.is_using_item"},
+						{"black_leg03_v2" : "query.get_equipped_item_name == 'black_leg_3_v2' && query.is_using_item"},
+						{"electro01" : "(query.get_equipped_item_name == 'electro_1' || query.get_equipped_item_name == 'electro_2' || query.get_equipped_item_name == 'electro_3') && query.is_using_item"},
+						{"karate01" : "(query.get_equipped_item_name == 'karate_tritao_1' || query.get_equipped_item_name == 'karate_tritao_2' || query.get_equipped_item_name == 'karate_tritao_3' || query.get_equipped_item_name == 'karate_tritao_1_v2' || query.get_equipped_item_name == 'karate_tritao_2_v2' || query.get_equipped_item_name == 'karate_tritao_3_v2') && query.is_using_item"},
+						{"electro01_v2" : "query.get_equipped_item_name == 'electro_1_v2' && query.is_using_item"},
+						{"electro02_v2" : "query.get_equipped_item_name == 'electro_2_v2' && query.is_using_item"},
+						{"electro03_v2" : "query.get_equipped_item_name == 'electro_3_v2' && query.is_using_item"},
+						{"dragon_claw01" : "(query.get_equipped_item_name == 'dragon_claw_1' || query.get_equipped_item_name == 'dragon_claw_1_v2') && query.is_using_item"},
+						{"dragon_claw02" : "(query.get_equipped_item_name == 'dragon_claw_2' || query.get_equipped_item_name == 'dragon_claw_2_v2') && query.is_using_item"},
+						{"dragon_claw03" : "(query.get_equipped_item_name == 'dragon_claw_3' || query.get_equipped_item_name == 'dragon_claw_3_v2') && query.is_using_item"},
+						{"super_human01" : "query.get_equipped_item_name == 'super_human_1' && query.is_using_item"},
+						{"super_human02" : "query.get_equipped_item_name == 'super_human_2' && query.is_using_item"},
+						{"super_human03" : "query.get_equipped_item_name == 'super_human_3' && query.is_using_item"}
+					]
+				},
+				"karate01" : {
+					"animations" : ["karate01"],
+					"transitions" : [
+						{"default" : "!q.is_using_item"}
+					]
+				},
+				"black_leg03_v2" : {
+					"animations" : ["black_leg01"],
+					"transitions" : [
+						{"black_leg3_v2" : "!q.is_using_item"}
+					]
+				},
+				"black_leg3_v2" : {
+					"animations" : ["black_leg2_v2"],
+					"transitions" : [
+						{"default" : "q.any_animation_finished"}
+					]
+				},
+				"black_leg01_v2" : {
+					"animations" : ["black_leg1_v2"],
+					"transitions" : [
+						{"default" : "q.any_animation_finished"}
+					]
+				},
+				"electro03_v2" : {
+					"animations" : ["electro01"],
+					"transitions" : [
+						{"electro3" : "!q.is_using_item"}
+					]
+				},
+				"electro3" : {
+					"animations" : ["electro3"],
+					"transitions" : [
+						{"default" : "q.any_animation_finished"}
+					]
+				},
+				"electro02_v2" : {
+					"animations" : ["electro01"],
+					"transitions" : [
+						{"electro2" : "!q.is_using_item"}
+					]
+				},
+				"electro2" : {
+					"animations" : ["electro2"],
+					"transitions" : [
+						{"default" : "q.any_animation_finished"}
+					]
+				},
+				"electro01_v2" : {
+					"animations" : ["electro01"],
+					"transitions" : [
+						{"electro1" : "!q.is_using_item"}
+					]
+				},
+				"electro1" : {
+					"animations" : ["electro1"],
+					"transitions" : [
+						{"default" : "q.any_animation_finished"}
+					]
+				},
+				"electro01" : {
+					"animations" : ["electro01"],
+					"transitions" : [
+						{"electro" : "!q.is_using_item"}
+					]
+				},
+				"electro" : {
+					"animations" : ["electro"],
+					"transitions" : [
+						{"default" : "q.any_animation_finished"}
+					]
+				},
+				"dragon_claw01" : {
+					"animations" : ["dragon_claw01"],
+					"transitions" : [
+						{"dragon_claw1" : "!q.is_using_item"}
+					]
+				},
+				"dragon_claw1" : {
+					"animations" : ["dragon_claw1"],
+					"transitions" : [
+						{"default" : "q.any_animation_finished"}
+					]
+				},
+				"dragon_claw02" : {
+					"animations" : ["dragon_claw01"],
+					"transitions" : [
+						{"dragon_claw2" : "!q.is_using_item"}
+					]
+				},
+				"dragon_claw2" : {
+					"animations" : ["dragon_claw2"],
+					"transitions" : [
+						{"default" : "q.any_animation_finished"}
+					]
+				},
+				"dragon_claw03" : {
+					"animations" : ["dragon_claw01"],
+					"transitions" : [
+						{"dragon_claw3" : "!q.is_using_item"}
+					]
+				},
+				"dragon_claw3" : {
+					"animations" : ["dragon_claw1"],
+					"transitions" : [
+						{"default" : "q.any_animation_finished"}
+					]
+				},
+				"black_leg01" : {
+					"animations" : ["black_leg0"],
+					"transitions" : [
+						{"black_leg1" : "!q.is_using_item"}
+					]
+				},
+				"black_leg02" : {
+					"animations" : ["black_leg0"],
+					"transitions" : [
+						{"black_leg2" : "!q.is_using_item"}
+					]
+				},
+				"black_leg03" : {
+					"animations" : ["black_leg0"],
+					"transitions" : [
+						{"black_leg3" : "!q.is_using_item"}
+					]
+				},
+				"super_human01" : {
+					"animations" : ["super_human01"],
+					"transitions" : [
+						{"super_human1" : "!q.is_using_item"}
+					]
+				},
+				"super_human1" : {
+					"animations" : ["super_human1"],
+					"transitions" : [
+						{"default" : "q.any_animation_finished"}
+					]
+				},
+				"super_human02" : {
+					"animations" : ["super_human01"],
+					"transitions" : [
+						{"super_human2" : "!q.is_using_item"}
+					]
+				},
+				"super_human2" : {
+					"animations" : ["super_human2"],
+					"transitions" : [
+						{"default" : "q.any_animation_finished"}
+					]
+				},
+				"super_human03" : {
+					"animations" : ["super_human01"],
+					"transitions" : [
+						{"super_human3" : "!q.is_using_item"}
+					]
+				},
+				"super_human3" : {
+					"animations" : ["super_human3"],
+					"transitions" : [
+						{"default" : "q.any_animation_finished"}
+					]
+				},
+				"black_leg1" : {
+					"animations" : ["black_leg1"],
+					"transitions" : [
+						{"default" : "q.any_animation_finished"}
+					]
+				},
+				"black_leg2" : {
+					"animations" : ["black_leg2"],
+					"transitions" : [
+						{"default" : "q.any_animation_finished"}
+					]
+				},
+				"black_leg3" : {
+					"animations" : ["black_leg3"],
+					"transitions" : [
+						{"default" : "q.any_animation_finished"}
+					]
+				}
+			}
+		}
+	}
+}

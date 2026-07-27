@@ -1,0 +1,75 @@
+{
+	"format_version" : "1.10.0",
+	"animation_controllers": {
+		"controller.animation.attack3": {
+			"initial_state": "default",
+			"states": {
+				"default": {
+					"blend_transition": 0.1,
+					"transitions": [
+					    {"attack1":"!variable.fr && variable.attack_time && variable.sword_c"}
+					]
+				},
+				"attack1": {
+					"animations": [ "atk7" ],
+					"blend_transition": 0.1,
+					"transitions": [
+					    { "attack2": "variable.attack && variable.sword_c && query.any_animation_finished" },
+					    { "default": "!variable.attack && query.any_animation_finished" }
+					]
+				},
+				"attack2": {
+					"animations": [ "atk8" ],
+					"blend_transition": 0.1,
+					"transitions": [
+					    { "attack3": "variable.attack && variable.sword_c && query.any_animation_finished" },
+					    { "default": "!variable.attack && query.any_animation_finished" }
+					]
+				},
+				"attack3": {
+					"animations": [ "atk9" ],
+					"blend_transition": 0.1,
+					"transitions": [
+					    { "attack1": "variable.attack && variable.sword_c && query.any_animation_finished" },
+					    { "default": "!variable.attack && query.any_animation_finished" }
+					]
+				}
+			}
+		},
+		"controller.animation.attack3_first": {
+			"initial_state": "default",
+			"states": {
+				"default": {
+					"blend_transition": 0.1,
+					"transitions": [
+					    {"attack1":"variable.fr && variable.attack_time && variable.sword_c"}
+					]
+				},
+				"attack1": {
+					"animations": [ "atk7_first" ],
+					"blend_transition": 0.1,
+					"transitions": [
+					    { "attack2": "variable.attack && variable.sword_c && query.any_animation_finished" },
+					    { "default": "!variable.attack && query.any_animation_finished" }
+					]
+				},
+				"attack2": {
+					"animations": [ "atk8_first" ],
+					"blend_transition": 0.1,
+					"transitions": [
+					    { "attack3": "variable.attack && variable.sword_c && query.any_animation_finished" },
+					    { "default": "!variable.attack && query.any_animation_finished" }
+					]
+				},
+				"attack3": {
+					"animations": [ "atk9_first" ],
+					"blend_transition": 0.1,
+					"transitions": [
+					    { "attack1": "variable.attack && variable.sword_c && query.any_animation_finished" },
+					    { "default": "!variable.attack && query.any_animation_finished" }
+					]
+				}
+			}
+		}
+	}
+}

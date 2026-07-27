@@ -1,0 +1,51 @@
+{
+    "format_version": "1.10.0",
+    "animation_controllers": {
+		"controller.animation.capa": {
+            "initial_state": "moving",
+            "states": {
+                "default": {
+                    "transitions": [{
+                            "move": "query.ground_speed >= 0.5 && query.is_on_ground"
+                        }, {
+                            "jumping": "!query.is_on_ground && !query.is_in_water && !query.is_wall_climbing"
+                        }
+                    ],
+					"blend_transition": 0.1
+                },
+                "move": {
+                    "animations": [
+                        "walk"
+                    ],
+                    "transitions": [{
+                            "run": "query.is_sprinting"
+                        },{
+                            "default": "query.ground_speed < 0.5 && query.is_on_ground"
+                        }
+                    ],
+                    "blend_transition": 0.1
+                },
+                "run": {
+                    "animations": [
+                        "sprint"
+                    ],
+                    "transitions": [{
+                            "move": "!query.is_sprinting"
+                        }
+                    ],
+                    "blend_transition": 0.1
+                },
+				"jumping": {
+                    "animations": [
+                        "jump"
+                    ],
+                    "transitions": [{
+                            "move": "query.is_on_ground"
+                        }
+                    ],
+                    "blend_transition": 0.5
+                 }
+             }
+		   }
+    }
+}

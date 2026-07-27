@@ -1,0 +1,47 @@
+//bridge-file-version: #124
+{
+	"format_version": "1.10.0",
+	"animation_controllers": {
+		"controller.animation.hat.general": {
+			"initial_state": "default",
+			"states": {
+				"default": {
+					"transitions": [
+						{
+							"hatoff1": "query.variant == 1"
+						},
+						{
+							"hatoff2": "query.variant == 2"
+						},
+						{
+							"hatoff3": "query.variant == 3"
+						},
+						{
+							"hatoff4": "query.variant == 4"
+						}
+					]
+				},
+				"hatoff1": {
+					"animations": [
+						"hatoff1"
+					]
+				},
+				"hatoff2": {
+					"animations": [
+						"hatoff2"
+					]
+				},
+				"hatoff3": {
+					"animations": [
+						"hatoff3"
+					]
+				},
+				"hatoff4": {
+					"animations": [
+						"hatoff4"
+					]
+				}
+			}
+		}
+	}
+}

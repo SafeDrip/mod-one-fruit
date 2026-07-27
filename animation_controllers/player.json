@@ -1,0 +1,270 @@
+{
+	"format_version" : "1.20.80",
+	"animation_controllers" : {
+		"controller.animation.player.default": {
+			"states": {
+				"default": {
+					"animations": [
+						{
+							"default" : "!query.is_moving && !query.is_using_item && query.variant != 500"
+						},
+						{
+							"gear5_stop" : "!query.is_moving && !query.is_using_item && query.variant == 500"
+						}
+					],
+					"blend_transition": 0.3
+				}
+			}
+		},
+		"controller.animation.player.sleep": {
+			"states": {
+				"default": {
+					"animations": [
+						{
+							"sleeping" : "query.is_sleeping && query.is_alive"
+						}
+					],
+					"blend_transition": 0.3
+				}
+			}
+		},
+  	"controller.animation.player.ride": {
+			"states": {
+				"default": {
+					"animations": [
+						{
+							"riding" : "query.is_riding"
+						}
+					],
+					"blend_transition": 0.3
+				}
+			}
+		},
+		"controller.animation.player.walk": {
+			"states": {
+				"default": {
+					"blend_transition": 0.3,
+					"transitions": [
+						{
+							"1" : "variable.walk"
+						}
+					]
+				},
+				"1": {
+					"animations": [
+						{
+							"move" : "query.variant != 500"
+						},
+						{
+							"gear5_walk" : "query.variant == 500"
+						},
+						"capa"
+					],
+					"blend_transition": 0.2,
+					"transitions": [
+						{
+							"default": "!variable.walk"
+						}
+					]
+				}
+			}
+		},
+		"controller.animation.player.sprint": {
+			"states": {
+				"default": {
+					"blend_transition": 0.3,
+					"transitions": [
+						{
+							"1" : "variable.sprint"
+						}
+					]
+				},
+				"1": {
+					"animations": [
+						{
+							"run" : "query.variant != 500"
+						},
+						{
+							"gear5_run" : "query.variant == 500"
+						},
+						"capa"
+					],
+					"blend_transition": 0.2,
+					"transitions": [
+						{
+							"default": "!variable.sprint"
+						}
+					]
+				}
+			}
+		},
+		"controller.animation.player.jump.w": {
+			"states": {
+				"default": {
+					"blend_transition": 0.2,
+					"transitions": [
+						{
+							"1" : "variable.jump_w"
+						}
+					]
+				},
+				"1": {
+					"animations": [
+						"jump"
+					],
+					"blend_transition": 0.3,
+					"transitions": [
+						{
+							"default": "!variable.jump_w"
+						}
+					]
+				}
+			}
+		},
+		"controller.animation.player.jump.s": {
+			"states": {
+				"default": {
+					"blend_transition": 0.1,
+					"transitions": [
+						{
+							"1" : "variable.jump_s"
+						}
+					]
+				},
+				"1": {
+					"animations": [
+						"jump_run"
+					],
+					"blend_transition": 0.15,
+					"transitions": [
+						{
+							"2": "!variable.jump_s"
+						}
+					]
+				},
+				"2": {
+					"animations": [
+						"default"
+					],
+					"blend_transition": 0.1,
+					"transitions": [
+						{
+							"3": "variable.jump_s"
+						}
+					]
+				},
+				"3": {
+					"animations": [
+						"jump_run"
+					],
+					"blend_transition": 0.15,
+					"transitions": [
+						{
+							"default": "!variable.jump_s"
+						}
+					]
+				}
+			}
+		},
+		"controller.animation.player.sneak": {
+			"states": {
+				"default": {
+					"blend_transition": 0.2,
+					"transitions": [
+						{
+							"1" : "variable.sneak && !query.equipped_item_any_tag('slot.weapon.mainhand','hand')"
+						},
+						{
+							"2" : "variable.sneak && query.equipped_item_any_tag('slot.weapon.mainhand','hand')"
+						}
+					]
+				},
+				"1": {
+					"animations": [
+						"sneak"
+					],
+					"blend_transition": 0.3,
+					"transitions": [
+						{
+							"default": "!variable.sneak || query.equipped_item_any_tag('slot.weapon.mainhand','hand')"
+						}
+					]
+				},
+				"2": {
+					"animations": [
+						"sneak_sword"
+					],
+					"blend_transition": 0.3,
+					"transitions": [
+						{
+							"default": "!variable.sneak || !query.equipped_item_any_tag('slot.weapon.mainhand','hand')"
+						}
+					]
+				}
+			}
+		},
+		"controller.animation.player.sneak.move": {
+			"states": {
+				"default": {
+					"blend_transition": 0.2,
+					"transitions": [
+						{
+							"1" : "variable.sneak_move"
+						}
+					]
+				},
+				"1": {
+					"animations": [
+						"sneak.move"
+					],
+					"blend_transition": 0.3,
+					"transitions": [
+						{
+							"default": "!variable.sneak_move"
+						}
+					]
+				}
+			}
+		},
+		"controller.animation.attack.hand": {
+			"states": {
+				"default": {
+					"blend_transition": 0.1,
+					"transitions": [
+						{
+							"1" : "!variable.swords_r && !variable.sword_all && !variable.sword_all2 && !query.is_riding && !query.is_sleeping && variable.attack"
+						}
+					]
+				},
+				"1": {
+					"animations": [
+						"attack1"
+					],
+					"blend_transition": 0.1,
+					"transitions": [
+						{
+							"2": "variable.attack && query.any_animation_finished"
+						},
+						{
+							"default": "!variable.attack && query.any_animation_finished"
+						}
+					]
+				},
+				"2": {
+					"animations": [
+						"attack1"
+					],
+					"blend_transition": 0.1,
+					"transitions": [
+						{
+							"1": "variable.attack && query.any_animation_finished"
+						},
+						{
+							"default": "!variable.attack && query.any_animation_finished"
+						}
+					]
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,26 @@
+{
+	"format_version" : "1.10.0",
+	"animation_controllers" : {
+		"controller.animation.luffy.shoot" : {
+			"initial_state" : "default",
+			"states" : {
+				"default" : {
+					"animations" : [ "move" ],
+					"transitions" : [
+						{
+							"shoot" : "query.is_sheared && query.has_target"
+						}
+					]
+				},
+				"shoot" : {
+					"animations" : [ "luffy.shoot_target" ],
+					"transitions" : [
+						{
+							"default" : "!query.is_sheared"
+						}
+					]
+				}
+			}
+		}
+	}
+}

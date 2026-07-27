@@ -1,0 +1,96 @@
+{
+	"format_version" : "1.10.0",
+	"animation_controllers": {
+		"controller.animation.attack": {
+			"initial_state": "default",
+			"states": {
+				"default": {
+					"blend_transition": 0.1,
+					"transitions": [
+					    {"attack1":"!variable.fr && variable.attack && variable.sword_a"},
+					    {"attack0":"!variable.fr && variable.attack && query.get_equipped_item_name == 'moriashears'"}
+					]
+				},
+				"attack0": {
+					"animations": [ "shears_atk1" ],
+					"blend_transition": 0.1,
+					"transitions": [
+					    { "attack01": "query.any_animation_finished" }
+					]
+				},
+				"attack01": {
+					"blend_transition": 0.1,
+					"transitions": [
+					    { "attack02": "variable.attack && query.get_equipped_item_name == 'moriashears'" }
+					]
+				},
+				"attack02": {
+					"animations": [ "shears_atk2" ],
+					"blend_transition": 0.1,
+					"transitions": [
+					    { "default": "query.any_animation_finished" }
+					]
+				},
+				"attack1": {
+					"animations": [ "atk1" ],
+					"blend_transition": 0.1,
+					"transitions": [
+					    { "attack2": "variable.attack && variable.sword_a && query.any_animation_finished" },
+					    { "default": "!variable.attack && query.any_animation_finished" }
+					]
+				},
+				"attack2": {
+					"animations": [ "atk5" ],
+					"blend_transition": 0.1,
+					"transitions": [
+					    { "attack3": "variable.attack && variable.sword_a && query.any_animation_finished" },
+					    { "default": "!variable.attack && query.any_animation_finished" }
+					]
+				},
+				"attack3": {
+					"animations": [ "atk6" ],
+					"blend_transition": 0.1,
+					"transitions": [
+					    { "attack1": "variable.attack && variable.sword_a && query.any_animation_finished" },
+					    { "default": "!variable.attack && query.any_animation_finished" }
+					]
+				}
+			}
+		},
+		"controller.animation.attack_first": {
+			"initial_state": "default",
+			"states": {
+				"default": {
+					"blend_transition": 0.1,
+					"transitions": [
+					    {"attack1":"variable.fr && variable.attack && variable.sword_a"}
+					]
+				},
+				"attack1": {
+					"animations": [ "atk1_first" ],
+					"blend_transition": 0.1,
+					"transitions": [
+					    { "attack2": "variable.attack && variable.sword_a && query.any_animation_finished" },
+					    { "default": "!variable.attack && query.any_animation_finished" }
+					]
+				},
+				"attack2": {
+					"animations": [ "atk5_first" ],
+					"blend_transition": 0.1,
+					"transitions": [
+					    { "attack3": "variable.attack && variable.sword_a && query.any_animation_finished" },
+					    { "default": "!variable.attack && query.any_animation_finished" }
+					]
+				},
+				"attack3": {
+					"animations": [ "atk6_first" ],
+					"blend_transition": 0.1,
+					"transitions": [
+					    { "attack1": "variable.attack && variable.sword_a && query.any_animation_finished" },
+					    { "default": "!variable.attack && query.any_animation_finished" }
+					]
+				}
+			}
+		}
+	}
+}

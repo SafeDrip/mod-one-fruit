@@ -1,0 +1,60 @@
+{
+    "format_version": "1.10.0",
+    "animation_controllers": {
+		"controller.animation.gear4_sneak": {
+            "initial_state": "sneak_moving",
+            "states": {
+                "sneak_moving": {
+                    "variables": {
+                        "move_speed": {
+                            "input": "query.modified_move_speed",
+                            "remap_curve": {
+                                "0.0": 0.0,
+                                "0.25": 1.0
+                            }
+                        },
+                        "is_idling": {
+                            "input": "query.modified_move_speed",
+                            "remap_curve": {
+                                "0.0": 1.0,
+                                "0.1": 0.0
+                            }
+                        }
+                    },
+					"blend_transition": 0.5,
+                    "animations": [{
+                            "sneak_move": "variable.move_speed"
+                        }, {
+                            "sneak_idle": "variable.is_idling"
+                        }
+                    ],
+					"blend_transition": 0.5,
+                    "transitions": [
+                       {
+                            "sneak_jump": "!query.is_on_ground && !query.is_in_water && !query.is_wall_climbing"
+                        }, {
+                            "mamba" : "query.get_equipped_item_name == 'black_mamba' && query.is_using_item"
+                        }
+                    ],
+					"blend_transition": 0.1
+                },
+				"mamba" : {
+					"animations" : ["mamba"],
+					"transitions" : [
+						{"sneak_moving" : "!q.is_using_item"}
+					]
+				},
+				"sneak_jump": {
+                    "animations": [
+                        "sneak_jump"
+                    ],
+                    "transitions": [{
+                            "sneak_moving": "query.is_on_ground"
+                        }
+                    ],
+                    "blend_transition": 0.5
+                }
+            }
+		   }
+     }
+}

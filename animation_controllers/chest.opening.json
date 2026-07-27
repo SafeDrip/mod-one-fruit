@@ -1,0 +1,47 @@
+//bridge-file-version: #124
+{
+	"format_version": "1.10.0",
+	"animation_controllers": {
+		"controller.animation.chest.opening": {
+			"initial_state": "default",
+			"states": {
+				"default": {
+					"transitions": [
+						{
+							"chest1": "query.variant == 1"
+						},
+						{
+							"chest2": "query.variant == 2"
+						},
+						{
+							"chest3": "query.variant == 3"
+						},
+						{
+							"chest4": "query.variant == 4"
+						}
+					]
+				},
+				"chest1": {
+					"animations": [
+						"opening1"
+					]
+				},
+				"chest2": {
+					"animations": [
+						"opening2"
+					]
+				},
+				"chest3": {
+					"animations": [
+						"opening3"
+					]
+				},
+				"chest4": {
+					"animations": [
+						"opening4"
+					]
+				}
+			}
+		}
+	}
+}

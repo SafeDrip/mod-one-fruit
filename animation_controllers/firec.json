@@ -1,0 +1,26 @@
+{
+	"format_version" : "1.10.0",
+	"animation_controllers" : {
+		"controller.animation.firec" : {
+			"initial_state" : "default",
+			"states" : {
+				"default" : {
+					"animations" : [ "firec0" ],
+					"transitions" : [
+						{
+							"firec" : "query.get_equipped_item_name == 'ito_string'"
+						}
+					]
+				},
+				"firec" : {
+					"animations" : [ "firec" ],
+					"transitions" : [
+						{
+							"default" : "query.any_animation_finished"
+						}
+					]
+				}
+			}
+		}
+	}
+}

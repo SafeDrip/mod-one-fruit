@@ -1,0 +1,43 @@
+{
+	"format_version" : "1.10.0",
+	"animation_controllers": {
+		"controller.animation.attack4": {
+			"initial_state": "default",
+			"states": {
+				"default": {
+					"transitions": [
+					    {"attack1":"!variable.fr && variable.attack_time && query.get_equipped_item_name == 'soul_solid'"}
+					]
+				},
+				"attack1": {
+					"animations": [ "atk_brook" ],
+					"transitions": [
+					    { "attack2": "variable.attack_time && query.get_equipped_item_name == 'soul_solid' && query.any_animation_finished" },
+					    { "default": "!variable.attack_time && query.any_animation_finished" }
+					]
+				},
+				"attack2": {
+					"animations": [ "atk_brook" ],
+					"transitions": [
+					    { "attack3": "variable.attack_time && query.get_equipped_item_name == 'soul_solid' && query.any_animation_finished" },
+					    { "default": "!variable.attack_time && query.any_animation_finished" }
+					]
+				},
+				"attack3": {
+					"animations": [ "atk_brook" ],
+					"transitions": [
+					    { "attack4": "variable.attack_time && query.get_equipped_item_name == 'soul_solid' && query.any_animation_finished" },
+					    { "default": "!variable.attack_time && query.any_animation_finished" }
+					]
+				},
+				"attack4": {
+					"animations": [ "atk_brook" ],
+					"transitions": [
+					    { "attack1": "variable.attack_time && query.get_equipped_item_name == 'soul_solid' && query.any_animation_finished" },
+					    { "default": "!variable.attack_time && query.any_animation_finished" }
+					]
+				}
+			}
+		}
+	}
+}

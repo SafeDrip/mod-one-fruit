@@ -1,0 +1,21 @@
+{
+	"format_version" : "1.10.0",
+	"animation_controllers" : {
+		"controller.animation.capa2" : {
+			"initial_state" : "default",
+			"states" : {
+				"default" : {
+					"transitions" : [
+						{"00" : "query.variant == 75 || query.variant == 74"}
+					]
+				},
+				"00" : {
+					"animations" : ["capa_leo"],
+					"transitions" : [
+						{"default" : "query.variant != 75 && query.variant != 74"}
+					]
+				}
+			}
+		}
+	}
+}

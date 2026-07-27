@@ -1,0 +1,173 @@
+{
+    "format_version": "1.10.0",
+    "animation_controllers": {
+		"controller.animation.mob.general": {
+            "initial_state": "moving",
+            "states": {
+                "default": {
+                    "animations": [ "general" ],
+					"blend_transition": 0.5,
+                    "transitions": [{
+                            "move": "query.ground_speed >= 0.5 && query.is_on_ground"
+                        }, {
+                            "jumping": "!query.is_on_ground && !query.is_in_water && !query.is_wall_climbing"
+                        }
+                    ],
+					"blend_transition": 0.1
+                },
+                "move": {
+                    "animations": [
+                        "moving"
+                    ],
+                    "transitions": [{
+                            "run": "query.has_target"
+                        },{
+                            "default": "query.ground_speed < 0.5 && query.is_on_ground"
+                        }
+                    ],
+                    "blend_transition": 0.1
+                },
+                "run": {
+                    "animations": [
+                        "running"
+                    ],
+                    "transitions": [{
+                            "move": "!query.has_target"
+                        },{
+                            "default": "query.ground_speed < 0.5 && query.is_on_ground"
+                        }
+                    ],
+                    "blend_transition": 0.1
+                },
+				"jumping": {
+                    "animations": [
+                        "jumping"
+                    ],
+                    "transitions": [{
+                            "move": "query.is_on_ground"
+                        }
+                    ],
+                    "blend_transition": 0.5
+                 }
+             }
+		   },
+		"controller.animation.mob.general2": {
+            "initial_state": "moving",
+            "states": {
+                "default": {
+                    "animations": [ "general", "firec0" ],
+					"blend_transition": 0.5,
+                    "transitions": [{
+                            "move": "query.ground_speed >= 0.5 && query.is_on_ground"
+                        }, {
+                            "jumping": "!query.is_on_ground && !query.is_in_water && !query.is_wall_climbing"
+                        }, {
+							"firec" : "query.get_equipped_item_name == 'ito_string'"
+					      	 }
+                    ],
+					"blend_transition": 0.1
+                },
+                "move": {
+                    "animations": [
+                        "moving", "firec0"
+                    ],
+                    "transitions": [{
+                            "run": "query.has_target"
+                        },{
+                            "default": "query.ground_speed < 0.5 && query.is_on_ground"
+                        }, {
+							"firec" : "query.get_equipped_item_name == 'ito_string'"
+					      	 }
+                    ],
+                    "blend_transition": 0.1
+                },
+                "run": {
+                    "animations": [
+                        "running", "firec0"
+                    ],
+                    "transitions": [{
+                            "move": "!query.has_target"
+                        },{
+                            "default": "query.ground_speed < 0.5 && query.is_on_ground"
+                        }, {
+							"firec" : "query.get_equipped_item_name == 'ito_string'"
+					      	 }
+                    ],
+                    "blend_transition": 0.1
+                },
+				"jumping": {
+                    "animations": [
+                        "jumping", "firec0"
+                    ],
+                    "transitions": [{
+                            "move": "query.is_on_ground"
+                        }, {
+							"firec" : "query.get_equipped_item_name == 'ito_string'"
+					      	 }
+                    ],
+                    "blend_transition": 0.5
+                 },
+				"firec": {
+                    "animations": [
+                        "firec"
+                    ],
+                    "transitions": [{
+                        "default" : "query.any_animation_finished"
+                        }
+                    ],
+                    "blend_transition": 0.5
+                 }
+             }
+		   },
+		"controller.animation.mob.general3": {
+            "initial_state": "moving",
+            "states": {
+                "default": {
+                    "animations": [ "general" ],
+					"blend_transition": 0.5,
+                    "transitions": [{
+                            "move": "query.ground_speed >= 0.5 && query.is_on_ground"
+                        }, {
+                            "jumping": "!query.is_on_ground && !query.is_in_water && !query.is_wall_climbing"
+                        }
+                    ],
+					"blend_transition": 0.1
+                },
+                "move": {
+                    "animations": [
+                        "moving"
+                    ],
+                    "transitions": [{
+                            "run": "query.has_target"
+                        },{
+                            "default": "query.ground_speed < 0.5 && query.is_on_ground"
+                        }
+                    ],
+                    "blend_transition": 0.1
+                },
+                "run": {
+                    "animations": [
+                        "running"
+                    ],
+                    "transitions": [{
+                            "move": "!query.has_target"
+                        },{
+                            "default": "query.ground_speed < 0.5 && query.is_on_ground"
+                        }
+                    ],
+                    "blend_transition": 0.1
+                },
+				"jumping": {
+                    "animations": [
+                        "jumping"
+                    ],
+                    "transitions": [{
+                            "move": "query.is_on_ground"
+                        }
+                    ],
+                    "blend_transition": 0.5
+                 }
+             }
+		   }
+    }
+}

@@ -1,0 +1,55 @@
+{
+    "format_version": "1.10.0",
+    "animation_controllers": {
+		"controller.animation.leopard": {
+            "initial_state": "leopard_moving",
+            "states": {
+                "leopard_moving": {
+                    "animations": [ 
+                        "leopard_idle"
+                    ],
+                    "transitions": [
+						{"neko_stun" : "query.get_equipped_item_name == 'neko_stun' && query.is_using_item"},
+                       {
+                            "leopard_jump": "!query.is_on_ground && !query.is_in_water && !query.is_wall_climbing"
+                        },
+                       {
+                            "leopard_move": "query.is_moving"
+                        }
+                    ]
+                },
+				"leopard_jump": {
+                    "animations": [
+                        "leopard_jump"
+                    ],
+                    "transitions": [
+						{"neko_stun" : "query.get_equipped_item_name == 'neko_stun' && query.is_using_item"},
+                       {
+                            "leopard_moving": "query.is_on_ground"
+                        }
+                    ]
+                },
+				"leopard_move": {
+                    "animations": [
+                        "leopard_move"
+                    ],
+                    "transitions": [
+						{"neko_stun" : "query.get_equipped_item_name == 'neko_stun' && query.is_using_item"},
+                       {
+                            "leopard_moving": "!query.is_moving"
+                        },
+                       {
+                            "leopard_jump": "!query.is_on_ground && !query.is_in_water && !query.is_wall_climbing"
+                        }
+                    ]
+                },
+				"neko_stun" : {
+					"animations" : ["leopard_stun"],
+					"transitions" : [
+						{"default" : "!q.is_using_item || q.get_equipped_item_name != 'neko_stun'"}
+			          		]
+			        	}
+            }
+		    }
+    }
+}

@@ -1,0 +1,119 @@
+{
+	"format_version" : "1.10.0",
+	"animation_controllers": {
+		"controller.animation.fight_attack": {
+			"initial_state": "default",
+			"states": {
+				"default": {
+					"blend_transition": 0.1,
+					"transitions": [
+					    {"attack1":"variable.attack && variable.sword_f1"},
+					    {"attack4":"variable.attack && variable.sword_f2"},
+					    {"attack7":"variable.attack && variable.sword_f3"},
+					    {"attack10":"variable.attack && variable.sword_f4"}
+					]
+				},
+				"attack1": {
+					"animations": [ "estilo1" ],
+					"blend_transition": 0.1,
+					"transitions": [
+					    { "attack2": "variable.attack && variable.sword_f1 && query.any_animation_finished" },
+					    { "default": "!variable.attack && query.any_animation_finished" }
+					]
+				},
+				"attack2": {
+					"animations": [ "estilo2" ],
+					"blend_transition": 0.1,
+					"transitions": [
+					    { "attack3": "variable.attack && variable.sword_f1 && query.any_animation_finished" },
+					    { "default": "!variable.attack && query.any_animation_finished" }
+					]
+				},
+				"attack3": {
+					"animations": [ "estilo3" ],
+					"blend_transition": 0.1,
+					"transitions": [
+					    { "default": "!variable.attack && query.any_animation_finished" }
+					]
+				},
+				"attack4": {
+					"animations": [ "estilo4" ],
+					"blend_transition": 0.1,
+					"transitions": [
+					    { "attack5": "variable.attack && variable.sword_f2 && query.any_animation_finished" },
+					    { "default": "!variable.attack && query.any_animation_finished" }
+					]
+				},
+				"attack5": {
+					"animations": [ "estilo5" ],
+					"blend_transition": 0.1,
+					"transitions": [
+					    { "attack6": "variable.attack && variable.sword_f2 && query.any_animation_finished" },
+					    { "default": "!variable.attack && query.any_animation_finished" }
+					]
+				},
+				"attack6": {
+					"animations": [ "estilo6" ],
+					"blend_transition": 0.1,
+					"transitions": [
+					    { "default": "!variable.attack && query.any_animation_finished" }
+					]
+				},
+				"attack7": {
+					"animations": [ "estilo7" ],
+					"blend_transition": 0.1,
+					"transitions": [
+					    { "attack8": "variable.attack && variable.sword_f3 && query.any_animation_finished" },
+					    { "default": "!variable.attack && query.any_animation_finished" }
+					]
+				},
+				"attack8": {
+					"animations": [ "estilo8" ],
+					"blend_transition": 0.1,
+					"transitions": [
+					    { "attack9": "variable.attack && variable.sword_f3 && query.any_animation_finished" },
+					    { "default": "!variable.attack && query.any_animation_finished" }
+					]
+				},
+				"attack9": {
+					"animations": [ "estilo9" ],
+					"blend_transition": 0.1,
+					"transitions": [
+					    { "default": "!variable.attack && query.any_animation_finished" }
+					]
+				},
+				"attack10": {
+					"animations": [ "estilo10" ],
+					"blend_transition": 0.1,
+					"transitions": [
+					    { "attack11": "variable.attack && variable.sword_f4 && query.any_animation_finished" },
+					    { "default": "!variable.attack && query.any_animation_finished" }
+					]
+				},
+				"attack11": {
+					"animations": [ "estilo11" ],
+					"blend_transition": 0.1,
+					"transitions": [
+					    { "attack12": "variable.attack && variable.sword_f4 && query.any_animation_finished" },
+					    { "default": "!variable.attack && query.any_animation_finished" }
+					]
+				},
+				"attack12": {
+					"animations": [ "estilo12" ],
+					"blend_transition": 0.1,
+					"transitions": [
+					    { "attack13": "variable.attack && variable.sword_f4 && query.any_animation_finished" },
+					    { "default": "!variable.attack && query.any_animation_finished" }
+					]
+				},
+				"attack13": {
+					"animations": [ "estilo13" ],
+					"blend_transition": 0.1,
+					"transitions": [
+					    { "default": "!variable.attack && query.any_animation_finished" }
+					]
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,25 @@
+{
+	"format_version" : "1.10.0",
+	"animation_controllers" : {
+		"controller.animation.counter" : {
+			"initial_state" : "default",
+			"states" : {
+				"default" : {
+					"transitions" : [
+						{
+							"counter" : "query.variant == 1"
+						}
+					]
+				},
+				"counter" : {
+					"animations" : [ "counter" ],
+					"transitions" : [
+						{
+							"default" : "query.variant != 1"
+						}
+					]
+				}
+			}
+		}
+	}
+}

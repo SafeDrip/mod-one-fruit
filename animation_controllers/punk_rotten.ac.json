@@ -1,0 +1,29 @@
+{
+	"format_version" : "1.10.0",
+	"animation_controllers" : {
+		"controller.animation.punk_rotten" : {
+			"initial_state" : "default",
+			"states" : {
+				"default" : {
+					"animations" : ["default"],
+					"transitions" : [
+						{"attack" : "query.variant == 1"},
+						{"move" : "query.has_rider && query.ground_speed >= 1"}
+					]
+				},
+				"attack" : {
+					"animations" : ["attack"],
+					"transitions" : [
+						{"default" : "query.variant == 0"}
+					]
+				},
+				"move" : {
+					"animations" : ["move"],
+					"transitions" : [
+						{"default" : "query.ground_speed < 1"}
+					]
+				}
+			}
+		}
+	}
+}

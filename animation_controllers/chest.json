@@ -1,0 +1,36 @@
+//bridge-file-version: #124
+{
+	"format_version": "1.10.0",
+	"animation_controllers": {
+		"controller.animation.chest.general": {
+			"initial_state": "spawned",
+			"states": {
+				"spawned": {
+					"animations": [
+						"spawned"
+					],
+					"transitions": [
+						{
+							"animate": "query.any_animation_finished"
+						}
+					]
+				},
+				"animate": {
+					"animations": [
+						"animate"
+					],
+					"transitions": [
+						{
+							"opened": "query.is_sheared"
+						}
+					]
+				},
+				"opened": {
+					"animations": [
+						"opened"
+					]
+				}
+			}
+		}
+	}
+}

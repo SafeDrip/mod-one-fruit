@@ -1,0 +1,64 @@
+{
+	"format_version" : "1.10.0",
+	"animation_controllers": {
+		"controller.animation.one": {
+			"initial_state": "default",
+			"states": {
+				"default": {
+					"animations": [ "default" ],
+					"transitions": [
+						{ "correr": "onenn" },
+						{ "agachar": "query.is_sneaking" },
+						{ "andar": "query.is_moving" },
+						{ "pular": "One" }
+					],
+					"blend_transition": 0.1,
+					"blend_via_shortest_path": true
+				},
+				"correr": {
+					"animations": [ "correr" ],
+					"transitions": [
+						{ "andar": "query.is_moving" },
+						{ "pular": "One" },
+						{ "default": "!onenn" }
+					],
+					"blend_transition": 0.1,
+					"blend_via_shortest_path": true
+				},
+				"agachar": {
+					"animations": [ "agachar" ],
+					"transitions": [
+						{ "correr": "onenn" },
+						{ "andar": "onenn" },
+						{ "pular": "One" },
+						{ "default": "!query.is_sneaking" }
+					],
+					"blend_transition": 0.1,
+					"blend_via_shortest_path": true
+				},
+				"andar": {
+					"animations": [ "andar" ],
+					"transitions": [
+						{ "correr": "onenn" },
+						{ "agachar": "query.is_sneaking" },
+						{ "pular": "One" },
+						{ "default": "!query.is_moving" }
+					],
+					"blend_transition": 0.1,
+					"blend_via_shortest_path": true
+				},
+				"pular": {
+					"animations": [ "pular" ],
+					"transitions": [
+						{ "correr": "onenn" },
+						{ "agachar": "query.is_sneaking" },
+						{ "andar": "query.is_moving" },
+						{ "default": "!One" }
+					],
+					"blend_transition": 0.1,
+					"blend_via_shortest_path": true
+				}
+			}
+		}
+	}
+}

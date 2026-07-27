@@ -1,0 +1,26 @@
+{
+	"format_version" : "1.10.0",
+	"animation_controllers" : {
+		"controller.animation.navio" : {
+			"initial_state" : "default",
+			"states" : {
+				"default" : {
+					"transitions" : [
+						{"0" : "query.variant == 1"},
+						{"01" : "query.variant == 2"},
+						{"02" : "query.variant == 3"}
+					]
+				},
+				"0" : {
+					"animations" : ["1"]
+				},
+				"01" : {
+					"animations" : ["2"]
+				},
+				"02" : {
+					"animations" : ["3"]
+				}
+			}
+		}
+	}
+}

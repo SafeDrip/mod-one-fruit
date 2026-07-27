@@ -1,0 +1,92 @@
+{
+    "format_version": "1.10.0",
+    "animation_controllers": {
+		"controller.animation.katakuri.general": {
+            "initial_state": "spawn",
+            "states": {
+				"spawn": {
+                    "animations": [
+                        "spawn"
+                    ],
+                    "transitions": [{
+                            "moving": "query.variant == 2"
+                        }
+                    ]
+                },
+                "moving": {
+                    "variables": {
+                        "move_speed": {
+                            "input": "query.modified_move_speed",
+                            "remap_curve": {
+                                "0.0": 0.0,
+                                "0.25": 1.0
+                            }
+                        },
+                        "is_idling": {
+                            "input": "query.modified_move_speed",
+                            "remap_curve": {
+                                "0.0": 1.0,
+                                "0.1": 0.0
+                            }
+                        }
+                    },
+					"blend_transition": 0.5,
+                    "animations": [{
+                            "moving": "variable.move_speed"
+                        }, {
+                            "katakuri_general": "variable.is_idling"
+                        }
+                    ],
+					"blend_transition": 0.5,
+                    "transitions": [{
+                            "running": "query.ground_speed >= 4.0 && query.is_on_ground"
+                        }, {
+                            "jumping": "!query.is_on_ground && !query.is_in_water && !query.is_wall_climbing"
+                        }, {
+                            "climbing": "query.is_wall_climbing"
+                        }
+                    ],
+					"blend_transition": 0.1
+                },
+                "running": {
+                    "animations": [
+                        "running"
+                    ],
+                    "transitions": [{
+                            "moving": "query.ground_speed <= 4.0 && query.is_on_ground"
+                        }
+                    ],
+                    "blend_transition": 0.1
+                },
+				"jumping": {
+                    "animations": [
+                        "jumping"
+                    ],
+                    "transitions": [{
+                            "moving": "query.is_on_ground"
+                        }
+                    ],
+                    "blend_transition": 0.5
+                },
+				"climbing": {
+                    "animations": [
+                        "climbing"
+                    ],
+                    "transitions": [{
+                            "moving": "!query.is_wall_climbing"
+                        }
+                    ],
+                    "blend_transition": 0.5
+                }
+            }
+		},
+		"controller.animation.katakuri.looking_at": {
+            "states": {
+                "default": {
+                    "animations": ["looking"
+					]
+				}
+			}
+		}
+    }
+}

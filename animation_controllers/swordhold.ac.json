@@ -1,0 +1,59 @@
+{
+	"format_version" : "1.10.0",
+	"animation_controllers" : {
+		"controller.animation.swordhold" : {
+			"initial_state" : "default",
+			"states" : {
+				"default" : {
+					"transitions" : [
+						{"skill01" : "query.equipped_item_any_tag('slot.weapon.mainhand','sword') && query.is_using_item && query.get_equipped_item_name('off_hand') == 'sword_skill1'"},
+						{"skill02" : "query.equipped_item_any_tag('slot.weapon.mainhand','sword') && query.is_using_item && query.get_equipped_item_name('off_hand') == 'sword_skill2'"},
+						{"skill03" : "query.equipped_item_any_tag('slot.weapon.mainhand','sword') && query.is_using_item && query.get_equipped_item_name('off_hand') == 'sword_skill3'"}
+					]
+				},
+				"hyoru" : {
+					"animations" : ["yoru0"],
+					"transitions" : [
+						{"default" : "!q.is_using_item"}
+					]
+				},
+				"skill01" : {
+					"animations" : ["skill_sword01"],
+					"transitions" : [
+						{"skill1" : "!q.is_using_item"}
+					]
+				},
+				"skill1" : {
+					"animations" : ["skill_sword1"],
+					"transitions" : [
+						{"default" : "q.any_animation_finished"}
+					]
+				},
+				"skill02" : {
+					"animations" : ["skill_sword02"],
+					"transitions" : [
+						{"skill2" : "!q.is_using_item"}
+					]
+				},
+				"skill2" : {
+					"animations" : ["skill_sword2"],
+					"transitions" : [
+						{"default" : "q.any_animation_finished"}
+					]
+				},
+				"skill03" : {
+					"animations" : ["skill_sword03"],
+					"transitions" : [
+						{"skill3" : "!q.is_using_item"}
+					]
+				},
+				"skill3" : {
+					"animations" : ["skill_sword3"],
+					"transitions" : [
+						{"default" : "q.any_animation_finished"}
+					]
+				}
+			}
+		}
+	}
+}
