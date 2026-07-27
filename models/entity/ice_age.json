@@ -1,0 +1,40 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.ice_age",
+				"texture_width": 64,
+				"texture_height": 64,
+				"visible_bounds_width": 21,
+				"visible_bounds_height": 4,
+				"visible_bounds_offset": [0, 1, 0]
+			},
+			"bones": [
+				{
+					"name": "bone3",
+					"pivot": [0, 0, 0]
+				},
+				{
+					"name": "bone",
+					"parent": "bone3",
+					"pivot": [0, 0, 0],
+					"cubes": [
+						{
+							"origin": [-144, 0, -159],
+							"size": [287, 9, 318],
+							"uv": {
+								"north": {"uv": [0, 0], "uv_size": [64, 9]},
+								"east": {"uv": [0, 0], "uv_size": [64, 9]},
+								"south": {"uv": [0, 0], "uv_size": [64, 9]},
+								"west": {"uv": [0, 0], "uv_size": [64, 9]},
+								"up": {"uv": [64, 64], "uv_size": [-64, -64]},
+								"down": {"uv": [64, 64], "uv_size": [-64, -64]}
+							}
+						}
+					]
+				}
+			]
+		}
+	]
+}

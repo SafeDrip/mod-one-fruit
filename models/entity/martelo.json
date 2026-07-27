@@ -1,0 +1,65 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.martelo",
+				"texture_width": 64,
+				"texture_height": 64,
+				"visible_bounds_width": 3,
+				"visible_bounds_height": 4.5,
+				"visible_bounds_offset": [0, 0.75, 0]
+			},
+			"bones": [
+				{
+					"name": "root",
+					"pivot": [0, 0, 0]
+				},
+				{
+					"name": "waist",
+					"parent": "root",
+					"pivot": [0, 0, 0]
+				},
+				{
+					"name": "body",
+					"parent": "waist",
+					"pivot": [0, 24, 0]
+				},
+				{
+					"name": "rightArm",
+					"parent": "body",
+					"pivot": [-5, 22, 0],
+					"texture_meshes": [
+						{
+							"texture": "",
+							"position": [0, 22, 0],
+							"rotation": [0, 0, 90],
+							"local_pivot": [20, -6, 12],
+							"scale": [0.2, 1, 0.2]
+						}
+					]
+				},
+				{
+					"name": "rightArm2",
+					"parent": "rightArm",
+					"pivot": [-5, 18, 0]
+				},
+				{
+					"name": "rightSleeve2",
+					"parent": "rightArm2",
+					"pivot": [-5, 18, 0]
+				},
+				{
+					"name": "rightItem",
+					"parent": "rightArm2",
+					"pivot": [-6, 15, 1]
+				},
+				{
+					"name": "rightSleeve",
+					"parent": "rightArm",
+					"pivot": [-5, 22, 0]
+				}
+			]
+		}
+	]
+}
