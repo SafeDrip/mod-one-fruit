@@ -1,0 +1,31 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:attachable": {
+    "description": {
+      "identifier": "of:capa_pirata",
+      "item": { "of:capa_pirata": "query.owner_identifier == 'minecraft:player'" },
+      "materials": {
+        "default": "armor",
+        "enchanted": "armor_enchanted"
+      },
+      "textures": {
+        "default": "textures/entity/capa_pirata",
+        "enchanted": "textures/misc/enchanted_item_glint"
+      },
+      "geometry": {
+        "default": "geometry.capa_mp"
+      },
+      "animations": {
+        "c_leo": "controller.animation.capa2",
+        "capa_leo": "animation.look_leopard"
+      },
+      "scripts": {
+        "parent_setup": "variable.chest_layer_visible = 0.0;",
+        "animate": [
+          "c_leo"
+        ]
+      },
+      "render_controllers": [ "controller.render.armor" ]
+    }
+  }
+}
