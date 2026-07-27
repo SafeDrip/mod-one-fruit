@@ -1,0 +1,32 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.g5ex": {
+			"loop": "hold_on_last_frame",
+			"animation_length": 1.7,
+			"bones": {
+				"circu5": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"1.5": [2000, -2500, 1500]
+					},
+					"scale": {
+						"0.0": {
+							"post": [0, 0, 0],
+							"lerp_mode": "catmullrom"
+						},
+						"1.0": {
+							"post": [200, 200, 200],
+							"lerp_mode": "catmullrom"
+						},
+						"1.1": {
+							"post": [250, 250, 250],
+							"lerp_mode": "catmullrom"
+						},
+						"1.5": [0, 0, 0]
+					}
+				}
+			}
+		}
+	}
+}

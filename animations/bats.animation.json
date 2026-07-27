@@ -1,0 +1,23 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.kage.bats": {
+			"animation_length": 3,
+			"override_previous_animation": true,
+			"bones": {
+				"bats": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"2.0": [0, -360, 0]
+					}
+				}
+			},
+			"particle_effects": {
+				"0.0": {
+					"effect": "bat",
+					"locator": "p0"
+				}
+			}
+		}
+	}
+}

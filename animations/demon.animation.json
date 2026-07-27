@@ -1,0 +1,29 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.demon": {
+			"loop": true,
+			"override_previous_animation": true,
+			"bones": {
+				"R0": {
+					"rotation": ["12.5 + Math.cos(query.life_time * 130) * -15", "0 + Math.cos(query.life_time * 20) * -25", 0]
+				},
+				"R1": {
+					"rotation": ["-7.5 + Math.cos(query.life_time * 110) * 20", "0 + Math.cos(query.life_time * 50) * 10", 0]
+				},
+				"R2": {
+					"rotation": ["-20 + Math.cos(query.life_time * 100) * 10", 0, 0]
+				},
+				"R3": {
+					"rotation": ["25 + Math.cos(query.life_time * 80) * -20", 0, 0]
+				},
+				"R4": {
+					"rotation": ["20 + Math.cos(query.life_time * 150) * -5", 0, 0]
+				},
+				"R5": {
+					"rotation": ["22.5 + Math.cos(query.life_time * 120) * -30", 0, 0]
+				}
+			}
+		}
+	}
+}

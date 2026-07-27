@@ -1,0 +1,22 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.kaidou_cauda": {
+			"loop": true,
+			"bones": {
+				"cauda": {
+					"rotation": ["-5+Math.cos(query.life_time * 100) * 5", "-15+Math.cos(query.life_time * 120) * 10", 0]
+				},
+				"c1": {
+					"rotation": ["0+Math.cos(query.life_time * 100) * 15", 0, 0]
+				},
+				"c2": {
+					"rotation": ["0+Math.cos(query.life_time * 70) * -20", "0+Math.cos(query.life_time * 100) * 20", 0]
+				},
+				"c3": {
+					"rotation": ["0+Math.cos(query.life_time * 100) * 25", 0, 0]
+				}
+			}
+		}
+	}
+}

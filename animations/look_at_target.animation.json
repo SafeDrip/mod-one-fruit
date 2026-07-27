@@ -1,0 +1,35 @@
+{
+	"format_version" : "1.8.0",
+	"animations" : {
+		"animation.look_mole" : {
+			"loop" : true,
+			"bones" : {
+				"hd_mole" : {
+					"relative_to" : {
+						"rotation" : "entity"
+					},
+					"rotation" : [ "query.target_x_rotation - this", "query.target_y_rotation - this", 0.0 ]
+				},
+				"head": {
+					"position": [0, 2, 0],
+					"scale": 0.6
+				},
+				"Capa": {
+					"position": [0, 4, 0],
+					"scale": [0.8, 0.8, 0.8]
+				}
+			}
+		},
+		"animation.look_at_target" : {
+			"loop" : true,
+			"bones" : {
+				"head" : {
+					"relative_to" : {
+						"rotation" : "entity"
+					},
+					"rotation" : [ "query.target_x_rotation - this", "query.target_y_rotation - this", 0.0 ]
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,18 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.dragon_cut": {
+			"animation_length": 1,
+			"override_previous_animation": true,
+			"bones": {
+				"body": {
+					"scale": {
+						"0.0": [1, 0.1, 1],
+						"0.25": [1, 1, 1],
+						"0.6": [1, -1, 1]
+					}
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,58 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.cannon_ball2": {
+			"loop": true,
+			"animation_length": 1,
+			"override_previous_animation": true,
+			"bones": {
+				"waist": {
+					"scale": [0, 0, 0]
+				},
+				"cannon_ball": {
+					"rotation": [-90, 0, 0],
+					"position": {
+						"0.0": [0, -15, 0],
+						"0.5": [0, -13, 0],
+						"1.0": [0, -15, 0]
+					},
+					"scale": {
+						"0.0": [4, 4, 4],
+						"0.5": [4.5, 4.5, 4.5],
+						"1.0": [4, 4, 4]
+					}
+				},
+				"chain": {
+					"scale": [0.5, 1, 1]
+				},
+				"ground": {
+					"scale": [0, 0, 0]
+				}
+			}
+		},
+		"animation.cannon_ball": {
+			"loop": true,
+			"animation_length": 1,
+			"override_previous_animation": true,
+			"bones": {
+				"waist": {
+					"scale": [0, 0, 0]
+				},
+				"cannon_ball": {
+					"rotation": {
+						"0.0": ["-q.target_x_rotation", "-q.body_y_rotation", 0],
+						"1.0": ["360-q.target_x_rotation", "-q.body_y_rotation", 0]
+					},
+					"position": [0, -15, 0],
+					"scale": [2, 2, 2]
+				},
+				"chain": {
+					"scale": [0, 0, 0]
+				},
+				"ground": {
+					"scale": [0, 0, 0]
+				}
+			}
+		}
+	}
+}

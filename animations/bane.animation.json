@@ -1,0 +1,74 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.bane_mola": {
+			"loop": "hold_on_last_frame",
+			"animation_length": 0.55,
+			"bones": {
+				"waist": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"0.5": [10, 0, 0]
+					},
+					"position": {
+						"0.0": [0, 0, 0],
+						"0.5": [0, -6, 0]
+					}
+				},
+				"leftLeg": {
+					"position": {
+						"0.0": [0, 0, 0],
+						"0.5": [0, -6, 0]
+					},
+					"scale": {
+						"0.0": [1, 1, 1],
+						"0.5": [1, 0.5, 1]
+					}
+				},
+				"rightLeg": {
+					"position": {
+						"0.0": [0, 0, 0],
+						"0.5": [0, -6, 0]
+					},
+					"scale": {
+						"0.0": [1, 1, 1],
+						"0.5": [1, 0.5, 1]
+					}
+				}
+			}
+		},
+		"animation.bane_mola2": {
+			"animation_length": 0.5,
+			"bones": {
+				"waist": {
+					"rotation": [10, 0, 0],
+					"position": [0, -6, 0]
+				},
+				"leftLeg": {
+					"position": [0, -6, 0],
+					"scale": {
+						"0.0": [1, 0.5, 1],
+						"0.3": [1, 1, 1]
+					}
+				},
+				"rightLeg": {
+					"position": [0, -6, 0],
+					"scale": {
+						"0.0": [1, 0.5, 1],
+						"0.3": [1, 1, 1]
+					}
+				},
+				"root": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"0.3": [30, 0, 0]
+					},
+					"position": {
+						"0.0": [0, 0, 0],
+						"0.3": [0, 5, 0]
+					}
+				}
+			}
+		}
+	}
+}

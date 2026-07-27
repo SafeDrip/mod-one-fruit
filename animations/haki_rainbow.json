@@ -1,0 +1,26 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.haki_rainbow": {
+			"loop": true,
+			"animation_length": 0.5,
+			"override_previous_animation": true,
+			"bones": {
+				"Rainbow1": {
+					"scale": {
+						"0.0": [2.5, 2.5, 2.5],
+						"0.25": [2.7, 2.7, 2.7],
+						"0.45": [2.5, 2.5, 2.5]
+					}
+				},
+				"Rainbow2": {
+					"scale": {
+						"0.0": [2.5, 2.5, 2.5],
+						"0.25": [2.7, 2.7, 2.7],
+						"0.5": [2.5, 2.5, 2.5]
+					}
+				}
+			}
+		}
+	}
+}

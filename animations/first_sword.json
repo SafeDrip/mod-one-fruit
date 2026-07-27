@@ -1,0 +1,20 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.player.first_sword": {
+			"loop": true,
+			"bones": {
+				"RightArm": {
+					"rotation": [-265, -360, 155],
+					"position": [25, -5, 10],
+					"scale": 1
+				},
+				"LeftArm": {
+					"rotation": [-265, -360, -155],
+					"position": [-25, -5, 10],
+					"scale": 1
+				}
+			}
+		}
+	}
+}

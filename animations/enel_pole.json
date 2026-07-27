@@ -1,0 +1,18 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.enel_pole": {
+			"animation_length": 1,
+			"bones": {
+				"rightArm": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"0.5": [-90, 0, 0],
+						"0.75": [-90, 0, -57.5],
+						"1.0": [-25, 0, -22.5]
+					}
+				}
+			}
+		}
+	}
+}

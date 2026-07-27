@@ -1,0 +1,25 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.atirar": {
+			"animation_length": 1,
+			"bones": {
+				"head": {
+					"rotation": [5, 0, 0]
+				},
+				"rightArm": {
+					"rotation": {
+						"0.0": [-80, -22.5, 0],
+						"0.5": [-72.5, -22.5, 0]
+					}
+				},
+				"leftArm": {
+					"rotation": {
+						"0.0": [-75, 50, 0],
+						"0.5": [-7.5, 12.5, 0]
+					}
+				}
+			}
+		}
+	}
+}

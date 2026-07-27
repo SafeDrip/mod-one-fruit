@@ -1,0 +1,26 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.bag_swords": {
+			"loop": "hold_on_last_frame",
+			"override_previous_animation": true,
+			"bones": {
+				"ttk": {
+					"scale": 0
+				},
+				"wado": {
+					"rotation": [77.03752, -39.27345, 8.29012],
+					"position": [0, 40, 17]
+				},
+				"enma": {
+					"rotation": [71.48818, 74.19163, -18.29254],
+					"position": [14, 41, 7]
+				},
+				"sandai": {
+					"rotation": [-74.08473, -19.291, -185.38152],
+					"position": [-7, 43, 2]
+				}
+			}
+		}
+	}
+}

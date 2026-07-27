@@ -1,0 +1,22 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.ace_cut1": {
+			"loop": "hold_on_last_frame",
+			"animation_length": 1,
+			"override_previous_animation": true,
+			"bones": {
+				"body": {
+					"rotation": {
+						"0.0": ["-q.target_x_rotation", "-q.body_y_rotation", -90],
+						"0.6": ["-q.target_x_rotation", "-q.body_y_rotation", -90]
+					},
+					"scale": {
+						"0.0": [1, 0.1, 1],
+						"0.6": [1, -1, 1]
+					}
+				}
+			}
+		}
+	}
+}

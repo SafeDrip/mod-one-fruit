@@ -1,0 +1,105 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.ice_bird": {
+			"animation_length": 0.5,
+			"override_previous_animation": true,
+			"bones": {
+				"icebird": {
+					"rotation": {
+						"0.0": [35, 0, 0],
+						"0.5": [0, 0, 0]
+					},
+					"position": {
+						"0.0": [0, 0, 100],
+						"0.5": [0, 0, 0]
+					},
+					"scale": {
+						"0.0": [0, 0, 0],
+						"0.5": [1, 1, 1]
+					}
+				}
+			}
+		},
+				"animation.ice_step": {
+			"animation_length": 2,
+			"bones": {
+				"hexadecagon": {
+					"scale": {
+						"0.0": [1, 1, 1],
+						"0.5": [1, 0.5, 1]
+					}
+				},
+				"hexadecagon2": {
+					"scale": {
+						"0.0": [1, 1, 1],
+						"0.5": [0, 1, 0]
+					}
+				}
+			}
+		},
+				"animation.ice_age": {
+			"animation_length": 1,
+			"bones": {
+				"bone3": {
+					"scale": {
+						"0.0": [1, 0.1, 1],
+						"1.0": [1, 1.1, 1]
+					}
+				}
+			}
+		},
+				"animation.ice_bike": {
+			"loop": true,
+			"animation_length": 1,
+			"bones": {
+				"p1": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"1.0": [347.5, 0, 0]
+					}
+				},
+				"p4": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"1.0": [340, 0, 0]
+					}
+				},
+				"pedal1": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"1.0": [357.5, 0, 0]
+					}
+				},
+				"pedal2": {
+					"rotation": {
+						"0.0": [0, 0, 2.5],
+						"1.0": [357.5, 0, 2.5]
+					}
+				}
+			}
+		},
+				"animation.ice_block": {
+			"animation_length": 2,
+			"bones": {
+				"bone": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"0.5": [105, -275, 0]
+					}
+				}
+			}
+		},
+		"animation.ice_freeze": {
+			"animation_length": 1,
+			"bones": {
+				"bone": {
+					"scale": {
+						"0.0": [1, 0, 1],
+						"1.0": [1, 1, 1]
+					}
+				}
+			}
+		}
+	}
+}

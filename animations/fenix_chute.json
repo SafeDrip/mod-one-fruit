@@ -1,0 +1,26 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.fenix_chute": {
+			"loop": true,
+			"override_previous_animation": true,
+			"bones": {
+				"root" : {
+					"rotation": [ "query.target_x_rotation - this", "query.target_y_rotation - this", 0.0 ]
+				},
+				"waist": {
+					"rotation": [-90, 0, -90]
+				},
+				"body": {
+					"rotation": [-10, 0, 0]
+				},
+				"rightleg": {
+					"rotation": [0, 0, 5]
+				},
+				"leftleg": {
+					"rotation": [0, 0, -5]
+				}
+			}
+		}
+	}
+}

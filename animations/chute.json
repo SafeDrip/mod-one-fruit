@@ -1,0 +1,25 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.chute": {
+			"animation_length": 1,
+			"bones": {
+				"head": {
+					"rotation": [10, 0, 0]
+				},
+				"rightArm": {
+					"rotation": [7.5, 0, 10]
+				},
+				"leftArm": {
+					"rotation": [5, 0, -10]
+				},
+				"rightLeg": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"0.5": [-90, 0, 0]
+					}
+				}
+			}
+		}
+	}
+}

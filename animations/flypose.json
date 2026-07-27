@@ -1,0 +1,26 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.flypose": {
+			"loop": true,
+			"animation_length": 0.5,
+			"bones": {
+				"head": {
+					"rotation": [5, 0, 0]
+				},
+				"rightArm": {
+					"rotation": [0, 15, 5]
+				},
+				"leftArm": {
+					"rotation": [0, -15, -5]
+				},
+				"rightLeg": {
+					"rotation": [0, -17.5, 15]
+				},
+				"leftLeg": {
+					"rotation": [0, 15, -15]
+				}
+			}
+		}
+	}
+}

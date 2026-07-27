@@ -1,0 +1,42 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.tfffly": {
+			"loop": true,
+			"bones": {
+				"root" : {
+					"rotation" : ["query.target_x_rotation", "query.target_y_rotation", 0.0]
+				}
+			}
+		},
+		"animation.tfffly2": {
+			"loop": true,
+			"bones": {
+				"waist": {
+					"rotation": [90, 0, 0],
+					"position": [0, -10, 0]
+				}
+			}
+		},
+		"animation.tfffly3": {
+			"loop": true,
+			"animation_length": 1,
+			"bones": {
+				"AsaR": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"0.5": [0, 40, 0],
+						"1.0": [0, 0, 0]
+					}
+				},
+				"AsaL": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"0.5": [0, -40, 0],
+						"1.0": [0, 0, 0]
+					}
+				}
+			}
+		}
+	}
+}

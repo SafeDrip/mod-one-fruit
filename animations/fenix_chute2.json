@@ -1,0 +1,35 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.fenix_chute2": {
+			"animation_length": 1,
+			"override_previous_animation": true,
+			"bones": {
+				"root" : {
+					"rotation": [ "query.target_x_rotation - this", "query.target_y_rotation - this", 0.0 ]
+				},
+				"waist": {
+					"rotation": [-90, 0, -90]
+				},
+				"body": {
+					"rotation": {
+						"0.0": [-10, 0, 0],
+						"0.1": [5.04292, -7.4713, -0.6574]
+					}
+				},
+				"rightleg": {
+					"rotation": {
+						"0.0": [0, 0, 5],
+						"0.1": [-10, 0, 5]
+					}
+				},
+				"leftleg": {
+					"rotation": {
+						"0.0": [0, 0, -5],
+						"0.1": [-10, 0, -5]
+					}
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,131 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.haki_pink": {
+			"loop": true,
+			"animation_length": 0.5,
+			"override_previous_animation": true,
+			"bones": {
+				"Pink1": {
+					"scale": {
+						"0.0": [2.5, 2.5, 2.5],
+						"0.25": [2.7, 2.7, 2.7],
+						"0.45": [2.5, 2.5, 2.5]
+					}
+				},
+				"Pink2": {
+					"scale": {
+						"0.0": [2.5, 2.5, 2.5],
+						"0.25": [2.7, 2.7, 2.7],
+						"0.5": [2.5, 2.5, 2.5]
+					}
+				}
+			}
+		},
+		"animation.haki_white": {
+			"loop": true,
+			"animation_length": 0.5,
+			"override_previous_animation": true,
+			"bones": {
+				"White1": {
+					"scale": {
+						"0.0": [2.5, 2.5, 2.5],
+						"0.25": [2.7, 2.7, 2.7],
+						"0.45": [2.5, 2.5, 2.5]
+					}
+				},
+				"White2": {
+					"scale": {
+						"0.0": [2.5, 2.5, 2.5],
+						"0.25": [2.7, 2.7, 2.7],
+						"0.5": [2.5, 2.5, 2.5]
+					}
+				}
+			}
+		},
+		"animation.haki_green": {
+			"loop": true,
+			"animation_length": 0.5,
+			"override_previous_animation": true,
+			"bones": {
+				"Green1": {
+					"scale": {
+						"0.0": [2.5, 2.5, 2.5],
+						"0.25": [2.7, 2.7, 2.7],
+						"0.45": [2.5, 2.5, 2.5]
+					}
+				},
+				"Green2": {
+					"scale": {
+						"0.0": [2.5, 2.5, 2.5],
+						"0.25": [2.7, 2.7, 2.7],
+						"0.5": [2.5, 2.5, 2.5]
+					}
+				}
+			}
+		},
+		"animation.haki_blue": {
+			"loop": true,
+			"animation_length": 0.5,
+			"override_previous_animation": true,
+			"bones": {
+				"Blue1": {
+					"scale": {
+						"0.0": [2.5, 2.5, 2.5],
+						"0.25": [2.7, 2.7, 2.7],
+						"0.45": [2.5, 2.5, 2.5]
+					}
+				},
+				"Blue2": {
+					"scale": {
+						"0.0": [2.5, 2.5, 2.5],
+						"0.25": [2.7, 2.7, 2.7],
+						"0.5": [2.5, 2.5, 2.5]
+					}
+				}
+			}
+		},
+		"animation.haki_king": {
+			"loop": true,
+			"animation_length": 0.5,
+			"override_previous_animation": true,
+			"bones": {
+				"King1": {
+					"scale": {
+						"0.0": [2.5, 2.5, 2.5],
+						"0.25": [2.7, 2.7, 2.7],
+						"0.45": [2.5, 2.5, 2.5]
+					}
+				},
+				"King2": {
+					"scale": {
+						"0.0": [2.5, 2.5, 2.5],
+						"0.25": [2.7, 2.7, 2.7],
+						"0.5": [2.5, 2.5, 2.5]
+					}
+				}
+			}
+		},
+		"animation.haki_yellow": {
+			"loop": true,
+			"animation_length": 0.5,
+			"override_previous_animation": true,
+			"bones": {
+				"Yellow1": {
+					"scale": {
+						"0.0": [2.5, 2.5, 2.5],
+						"0.25": [2.7, 2.7, 2.7],
+						"0.45": [2.5, 2.5, 2.5]
+					}
+				},
+				"Yellow2": {
+					"scale": {
+						"0.0": [2.5, 2.5, 2.5],
+						"0.25": [2.7, 2.7, 2.7],
+						"0.5": [2.5, 2.5, 2.5]
+					}
+				}
+			}
+		}
+	}
+}

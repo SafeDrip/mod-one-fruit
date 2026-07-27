@@ -1,0 +1,90 @@
+{
+    "format_version": "1.8.0",
+    "animations": {
+    "animation.health_player": {
+      "loop": true,
+      "bones": {
+        "hp": {
+          "rotation": [ "query.camera_rotation(0)", "query.camera_rotation(1) - query.body_y_rotation", 0 ],
+          "position": [ 0, 27, 0 ],
+          "scale": "query.is_in_ui ? 0 : 1"
+        },
+        "dmg": {
+          "position": [ 0, 10, 0 ]
+        }
+      }
+    },
+    "animation.health_mob": {
+      "loop": true,
+      "bones": {
+        "hp": {
+          "rotation": [ "query.camera_rotation(0)", "query.camera_rotation(1) - query.body_y_rotation", 0 ],
+          "position": [ 0, 34.5, 0 ],
+          "scale": "query.is_baby ? 2 : 1"
+        },
+        "health": {
+          "rotation": [ "query.camera_rotation(0)", "query.camera_rotation(1) - query.body_y_rotation", 0 ],
+          "position": [ 0, 38.5, 0 ],
+          "scale": "query.is_baby ? 2 : 1"
+        },
+        "dmg": {
+          "position": [ 0, 10, 0 ]
+        }
+      }
+    },
+    "animation.health_mob2": {
+      "loop": true,
+      "bones": {
+        "hp": {
+          "rotation": [ "query.camera_rotation(0)", "query.camera_rotation(1) - query.body_y_rotation", 0 ],
+          "position": [ 0, 40, 0 ],
+          "scale": "query.is_baby ? 2 : 1"
+        },
+        "health": {
+          "rotation": [ "query.camera_rotation(0)", "query.camera_rotation(1) - query.body_y_rotation", 0 ],
+          "position": [ 0, 44, 0 ],
+          "scale": "query.is_baby ? 2 : 1"
+        },
+        "dmg": {
+          "position": [ 0, 10, 0 ]
+        }
+      }
+    },
+    "animation.health_mob3": {
+      "loop": true,
+      "bones": {
+        "hp": {
+          "rotation": [ "query.camera_rotation(0)", "query.camera_rotation(1) - query.body_y_rotation", 0 ],
+          "position": [ 0, 80, 0 ],
+          "scale": "query.is_baby ? 2 : 1"
+        },
+        "health": {
+          "rotation": [ "query.camera_rotation(0)", "query.camera_rotation(1) - query.body_y_rotation", 0 ],
+          "position": [ 0, 84, 0 ],
+          "scale": "query.is_baby ? 2 : 1"
+        },
+        "dmg": {
+          "position": [ 0, 10, 0 ]
+        }
+      }
+    },
+    "animation.health_mob4": {
+      "loop": true,
+      "bones": {
+        "hp": {
+          "rotation": [ "query.camera_rotation(0)", "query.camera_rotation(1) - query.body_y_rotation", 0 ],
+          "position": [ 0, 46, 0 ],
+          "scale": "query.is_baby ? 2 : 1"
+        },
+        "health": {
+          "rotation": [ "query.camera_rotation(0)", "query.camera_rotation(1) - query.body_y_rotation", 0 ],
+          "position": [ 0, 50, 0 ],
+          "scale": "query.is_baby ? 2 : 1"
+        },
+        "dmg": {
+          "position": [ 0, 10, 0 ]
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,32 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.bomb_fly": {
+			"animation_length": 2.5,
+			"override_previous_animation": true,
+			"bones": {
+				"root": {
+					"rotation": [17.5, 0, 0]
+				},
+				"RightArm": {
+					"rotation": [17.5, 0, 25]
+				},
+				"LeftArm": {
+					"rotation": [22.5, 0, -30]
+				}
+			},
+			"particle_effects": {
+				"0.0": [
+					{
+						"effect": "bomb",
+						"locator": "l1"
+					},
+					{
+						"effect": "bomb",
+						"locator": "l2"
+					}
+				]
+			}
+		}
+	}
+}

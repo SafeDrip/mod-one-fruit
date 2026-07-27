@@ -1,0 +1,46 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.gpunch": {
+			"loop": "hold_on_last_frame",
+			"animation_length": 2,
+			"override_previous_animation": true,
+			"bones": {
+				"body": {
+					"rotation": {
+						"0.0": [25, 0, 0],
+						"2.0": [0, 0, 0]
+					},
+					"scale": {
+						"0.0": [0.15, 0.15, 0.15],
+						"2.0": [0.5, 0.5, 0.5]
+					}
+				}
+			}
+		},
+		"animation.g5punch": {
+			"loop": true,
+			"animation_length": 1.3,
+			"override_previous_animation": true,
+			"bones": {
+				"body": {
+					"rotation": ["-q.target_x_rotation", "-q.body_y_rotation", 0]
+				}
+			},
+			"particle_effects": {
+				"0.0": {
+					"effect": "g5",
+					"locator": "p1"
+				},
+				"0.25": {
+					"effect": "g5",
+					"locator": "p1"
+				},
+				"0.55": {
+					"effect": "g5",
+					"locator": "p1"
+				}
+			}
+		}
+	}
+}

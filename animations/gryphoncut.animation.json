@@ -1,0 +1,245 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.gryphoncut": {
+			"loop": true,
+			"animation_length": 0.5,
+			"override_previous_animation": true,
+			"bones": {
+				"body": {
+					"rotation": ["-q.target_x_rotation", "-q.body_y_rotation", 0]
+				}
+			},
+			"particle_effects": {
+				"0.0": [
+					{
+						"effect": "haki",
+						"locator": "h1"
+					},
+					{
+						"effect": "haki",
+						"locator": "h2"
+					},
+					{
+						"effect": "haki",
+						"locator": "h3"
+					},
+					{
+						"effect": "haki",
+						"locator": "h4"
+					},
+					{
+						"effect": "haki",
+						"locator": "h5"
+					},
+					{
+						"effect": "haki",
+						"locator": "h6"
+					},
+					{
+						"effect": "haki",
+						"locator": "h7"
+					},
+					{
+						"effect": "haki",
+						"locator": "h8"
+					},
+					{
+						"effect": "haki",
+						"locator": "h9"
+					}
+				],
+				"0.1": [
+					{
+						"effect": "haki",
+						"locator": "h1"
+					},
+					{
+						"effect": "haki",
+						"locator": "h2"
+					},
+					{
+						"effect": "haki",
+						"locator": "h3"
+					},
+					{
+						"effect": "haki",
+						"locator": "h4"
+					},
+					{
+						"effect": "haki",
+						"locator": "h5"
+					},
+					{
+						"effect": "haki",
+						"locator": "h6"
+					},
+					{
+						"effect": "haki",
+						"locator": "h7"
+					},
+					{
+						"effect": "haki",
+						"locator": "h8"
+					},
+					{
+						"effect": "haki",
+						"locator": "h9"
+					}
+				],
+				"0.2": [
+					{
+						"effect": "haki",
+						"locator": "h1"
+					},
+					{
+						"effect": "haki",
+						"locator": "h2"
+					},
+					{
+						"effect": "haki",
+						"locator": "h3"
+					},
+					{
+						"effect": "haki",
+						"locator": "h4"
+					},
+					{
+						"effect": "haki",
+						"locator": "h5"
+					},
+					{
+						"effect": "haki",
+						"locator": "h6"
+					},
+					{
+						"effect": "haki",
+						"locator": "h7"
+					},
+					{
+						"effect": "haki",
+						"locator": "h8"
+					},
+					{
+						"effect": "haki",
+						"locator": "h9"
+					}
+				],
+				"0.3": [
+					{
+						"effect": "haki",
+						"locator": "h1"
+					},
+					{
+						"effect": "haki",
+						"locator": "h2"
+					},
+					{
+						"effect": "haki",
+						"locator": "h3"
+					},
+					{
+						"effect": "haki",
+						"locator": "h4"
+					},
+					{
+						"effect": "haki",
+						"locator": "h5"
+					},
+					{
+						"effect": "haki",
+						"locator": "h6"
+					},
+					{
+						"effect": "haki",
+						"locator": "h7"
+					},
+					{
+						"effect": "haki",
+						"locator": "h8"
+					},
+					{
+						"effect": "haki",
+						"locator": "h9"
+					}
+				],
+				"0.4": [
+					{
+						"effect": "haki",
+						"locator": "h1"
+					},
+					{
+						"effect": "haki",
+						"locator": "h2"
+					},
+					{
+						"effect": "haki",
+						"locator": "h3"
+					},
+					{
+						"effect": "haki",
+						"locator": "h4"
+					},
+					{
+						"effect": "haki",
+						"locator": "h5"
+					},
+					{
+						"effect": "haki",
+						"locator": "h6"
+					},
+					{
+						"effect": "haki",
+						"locator": "h7"
+					},
+					{
+						"effect": "haki",
+						"locator": "h8"
+					},
+					{
+						"effect": "haki",
+						"locator": "h9"
+					}
+				],
+				"0.5": [
+					{
+						"effect": "haki",
+						"locator": "h1"
+					},
+					{
+						"effect": "haki",
+						"locator": "h2"
+					},
+					{
+						"effect": "haki",
+						"locator": "h3"
+					},
+					{
+						"effect": "haki",
+						"locator": "h4"
+					},
+					{
+						"effect": "haki",
+						"locator": "h5"
+					},
+					{
+						"effect": "haki",
+						"locator": "h6"
+					},
+					{
+						"effect": "haki",
+						"locator": "h7"
+					},
+					{
+						"effect": "haki",
+						"locator": "h8"
+					},
+					{
+						"effect": "haki",
+						"locator": "h9"
+					}
+				]
+			}
+		}
+	}
+}
