@@ -1,0 +1,40 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.crate",
+				"texture_width": 128,
+				"texture_height": 128,
+				"visible_bounds_width": 5,
+				"visible_bounds_height": 5.5,
+				"visible_bounds_offset": [0, 2.25, 0]
+			},
+			"bones": [
+				{
+					"name": "root",
+					"pivot": [0, 57.5, 0]
+				},
+				{
+					"name": "Crate",
+					"parent": "root",
+					"pivot": [0, 1315, 0],
+					"cubes": [
+						{
+							"origin": [-32, 0, -32],
+							"size": [64, 64, 64],
+							"uv": {
+								"north": {"uv": [77, 74], "uv_size": [46, 43]},
+								"east": {"uv": [77, 74], "uv_size": [46, 43]},
+								"south": {"uv": [77, 74], "uv_size": [46, 43]},
+								"west": {"uv": [77, 74], "uv_size": [46, 43]},
+								"up": {"uv": [123, 117], "uv_size": [-46, -43]},
+								"down": {"uv": [123, 117], "uv_size": [-46, -43]}
+							}
+						}
+					]
+				}
+			]
+		}
+	]
+}
