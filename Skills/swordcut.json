@@ -1,0 +1,31 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "of:swordcut",
+      "materials": {
+        "default": "skeleton"
+      },
+      "textures": {
+        "default": "textures/atks/zoro_dragon"
+      },
+      "geometry": {
+        "default": "geometry.swordcut"
+      },
+      "particle_effects": {
+        "effect0": "of:mcut"
+      },
+      "scripts": {
+        "scale": "1.5",
+        "animate": [
+          "look", "swordcut"
+        ]
+      },
+      "animations": {
+        "look": "animation.look.projectile",
+        "swordcut": "animation.swordcut"
+      },
+      "render_controllers": [ "controller.render.translucence" ]
+    }
+  }
+}

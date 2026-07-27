@@ -1,0 +1,25 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": { "identifier": "of:ame_skill",
+      "materials": {
+        "default": "armor"
+      },
+      "textures": {
+        "default": "textures/atks/ame_skill"
+      },
+      "geometry": {
+        "default": "geometry.emma_skill"
+      },
+      "animations": {
+        "move": "animation.emma_skill"
+      },
+      "scripts": {
+        "animate": [
+          "move"
+        ]
+      },
+      "render_controllers": [ "controller.render.base" ]
+    }
+  }
+}

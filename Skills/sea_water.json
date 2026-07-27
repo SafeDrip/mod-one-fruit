@@ -1,0 +1,26 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": { "identifier": "of:sea_water",
+      "materials": {
+        "default": "charged"
+      },
+      "textures": {
+        "default": "textures/atks/gura_tsunami"
+      },
+      "geometry": {
+        "default": "geometry.gura_punch_ball"
+      },
+      "animations": {
+        "move": "animation.one"
+      },
+      "scripts": {
+        "animate": [
+          "move"
+        ]
+      },
+      "render_controllers": [ "controller.render.base",
+      "controller.render.base"]
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": { "identifier": "of:law_room",
+      "materials": {
+        "default": "charged"
+      },
+      "textures": {
+        "default": "textures/atks/room"
+      },
+      "geometry": {
+        "default": "geometry.room2"
+      },
+      "animations": {
+        "move": "animation.room"
+      },
+      "scripts": {
+        "animate": [
+          "move"
+        ]
+      },
+      "render_controllers": [ "controller.render.base",
+      "controller.render.base"]
+    }
+  }
+}

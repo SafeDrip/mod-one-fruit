@@ -1,0 +1,26 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": { "identifier": "of:door2",
+      "materials": {
+        "default": "armor"
+      },
+      "textures": {
+        "default": "textures/entity/door"
+      },
+      "geometry": {
+        "default": "geometry.door"
+      },
+      "animations": {
+        "move": "animation.door"
+      },
+      "scripts": {
+        "animate": [
+          "move"
+        ]
+      },
+      "render_controllers": [ "controller.render.base",
+      "controller.render.base"]
+    }
+  }
+}

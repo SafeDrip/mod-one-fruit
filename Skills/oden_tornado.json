@@ -1,0 +1,26 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": { "identifier": "of:oden_tornado",
+      "materials": {
+        "default": "armor"
+      },
+      "textures": {
+        "default": "textures/atks/oden_tornado"
+      },
+      "geometry": {
+        "default": "geometry.oden_tornado"
+      },
+      "animations": {
+        "move": "animation.oden_tornado"
+      },
+      "scripts": {
+        "animate": [
+          "move"
+        ]
+      },
+      "render_controllers": [ "controller.render.base",
+      "controller.render.base"]
+    }
+  }
+}

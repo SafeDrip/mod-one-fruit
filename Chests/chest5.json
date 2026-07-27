@@ -1,0 +1,41 @@
+//bridge-file-version: #19
+{
+	"format_version": "1.10.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "of:chest5",
+			"materials": {
+				"default": "entity_alphatest"
+			},
+			"textures": {
+				"default": "textures/entity/chest5"
+			},
+			"geometry": {
+				"default": "geometry.chest2"
+			},
+      "particle_effects": {
+        "gold": "of:chestgold"
+      },
+      "sound_effects": {
+        "rool": "mob.witch.throw",
+        "open": "random.chestopen",
+        "coins": "random.coins",
+        "close": "random.chestclosed"
+      },
+			"scripts": {
+				"animate": [
+					"controller"
+				]
+			},
+			"animations": {
+				"controller": "controller.animation.chest.general",
+        "animate": "animation.chest",
+				"opened": "animation.chest.open",
+        "spawned": "animation.chest.spawn"
+			},
+			"render_controllers": [
+				"controller.render.chest"
+			]
+		}
+	}
+}
