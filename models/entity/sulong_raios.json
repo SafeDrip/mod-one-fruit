@@ -1,0 +1,193 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.sulong_raios",
+				"texture_width": 32,
+				"texture_height": 32,
+				"visible_bounds_width": 4,
+				"visible_bounds_height": 3.5,
+				"visible_bounds_offset": [0, 1.25, 0]
+			},
+			"bones": [
+				{
+					"name": "root",
+					"pivot": [0, 20, 0]
+				},
+				{
+					"name": "waist",
+					"parent": "root",
+					"pivot": [0, 12, 0]
+				},
+				{
+					"name": "body",
+					"parent": "waist",
+					"pivot": [0, 12, 0]
+				},
+				{
+					"name": "Sulong_raios",
+					"parent": "body",
+					"pivot": [0, 12, 0]
+				},
+				{
+					"name": "Sulong_raio1",
+					"parent": "Sulong_raios",
+					"pivot": [12.5, 21, 0],
+					"cubes": [
+						{
+							"origin": [9, 12, 0],
+							"size": [7, 10, 0],
+							"uv": {
+								"north": {"uv": [0, 0], "uv_size": [7, 10]},
+								"east": {"uv": [0, 0], "uv_size": [0, 10]},
+								"south": {"uv": [7, 0], "uv_size": [7, 10]},
+								"west": {"uv": [0, 0], "uv_size": [0, 10]},
+								"up": {"uv": [0, 0], "uv_size": [7, 0]},
+								"down": {"uv": [0, 0], "uv_size": [7, 0]}
+							}
+						}
+					]
+				},
+				{
+					"name": "Sulong_raio2",
+					"parent": "Sulong_raios",
+					"pivot": [8.5, 11, -5],
+					"cubes": [
+						{
+							"origin": [5, 2, -5],
+							"size": [7, 10, 0],
+							"uv": {
+								"north": {"uv": [0, 20], "uv_size": [7, 10]},
+								"east": {"uv": [0, 0], "uv_size": [0, 10]},
+								"south": {"uv": [7, 20], "uv_size": [7, 10]},
+								"west": {"uv": [0, 0], "uv_size": [0, 10]},
+								"up": {"uv": [0, 0], "uv_size": [7, 0]},
+								"down": {"uv": [0, 0], "uv_size": [7, 0]}
+							}
+						}
+					]
+				},
+				{
+					"name": "Sulong_raio3",
+					"parent": "Sulong_raios",
+					"pivot": [10.5, 37, 2],
+					"cubes": [
+						{
+							"origin": [7, 27, 2],
+							"size": [7, 10, 0],
+							"uv": {
+								"north": {"uv": [0, 10], "uv_size": [7, 10]},
+								"east": {"uv": [0, 0], "uv_size": [0, 10]},
+								"south": {"uv": [7, 10], "uv_size": [7, 10]},
+								"west": {"uv": [0, 0], "uv_size": [0, 10]},
+								"up": {"uv": [0, 0], "uv_size": [7, 0]},
+								"down": {"uv": [0, 0], "uv_size": [7, 0]}
+							}
+						}
+					]
+				},
+				{
+					"name": "Sulong_raio4",
+					"parent": "Sulong_raios",
+					"pivot": [10.5, 31, 8],
+					"cubes": [
+						{
+							"origin": [7, 21, 8],
+							"size": [7, 10, 0],
+							"uv": {
+								"north": {"uv": [14, 0], "uv_size": [7, 10]},
+								"east": {"uv": [0, 0], "uv_size": [0, 10]},
+								"south": {"uv": [14, 10], "uv_size": [7, 10]},
+								"west": {"uv": [0, 0], "uv_size": [0, 10]},
+								"up": {"uv": [0, 0], "uv_size": [7, 0]},
+								"down": {"uv": [0, 0], "uv_size": [7, 0]}
+							}
+						}
+					]
+				},
+				{
+					"name": "Sulong_raios2",
+					"parent": "body",
+					"pivot": [0, 12, 0]
+				},
+				{
+					"name": "Sulong_raio5",
+					"parent": "Sulong_raios2",
+					"pivot": [-12.5, 21, 0],
+					"cubes": [
+						{
+							"origin": [-16, 12, 0],
+							"size": [7, 10, 0],
+							"uv": {
+								"north": {"uv": [7, 0], "uv_size": [-7, 10]},
+								"east": {"uv": [0, 0], "uv_size": [0, 10]},
+								"south": {"uv": [14, 0], "uv_size": [-7, 10]},
+								"west": {"uv": [0, 0], "uv_size": [0, 10]},
+								"up": {"uv": [7, 0], "uv_size": [-7, 0]},
+								"down": {"uv": [7, 0], "uv_size": [-7, 0]}
+							}
+						}
+					]
+				},
+				{
+					"name": "Sulong_raio6",
+					"parent": "Sulong_raios2",
+					"pivot": [-8.5, 11, -5],
+					"cubes": [
+						{
+							"origin": [-12, 2, -5],
+							"size": [7, 10, 0],
+							"uv": {
+								"north": {"uv": [7, 20], "uv_size": [-7, 10]},
+								"east": {"uv": [0, 0], "uv_size": [0, 10]},
+								"south": {"uv": [14, 20], "uv_size": [-7, 10]},
+								"west": {"uv": [0, 0], "uv_size": [0, 10]},
+								"up": {"uv": [7, 0], "uv_size": [-7, 0]},
+								"down": {"uv": [7, 0], "uv_size": [-7, 0]}
+							}
+						}
+					]
+				},
+				{
+					"name": "Sulong_raio7",
+					"parent": "Sulong_raios2",
+					"pivot": [-10.5, 37, 2],
+					"cubes": [
+						{
+							"origin": [-14, 27, 2],
+							"size": [7, 10, 0],
+							"uv": {
+								"north": {"uv": [7, 10], "uv_size": [-7, 10]},
+								"east": {"uv": [0, 0], "uv_size": [0, 10]},
+								"south": {"uv": [14, 10], "uv_size": [-7, 10]},
+								"west": {"uv": [0, 0], "uv_size": [0, 10]},
+								"up": {"uv": [7, 0], "uv_size": [-7, 0]},
+								"down": {"uv": [7, 0], "uv_size": [-7, 0]}
+							}
+						}
+					]
+				},
+				{
+					"name": "Sulong_raio8",
+					"parent": "Sulong_raios2",
+					"pivot": [-10.5, 31, 8],
+					"cubes": [
+						{
+							"origin": [-14, 21, 8],
+							"size": [7, 10, 0],
+							"uv": {
+								"north": {"uv": [21, 0], "uv_size": [-7, 10]},
+								"east": {"uv": [0, 0], "uv_size": [0, 10]},
+								"south": {"uv": [21, 10], "uv_size": [-7, 10]},
+								"west": {"uv": [0, 0], "uv_size": [0, 10]},
+								"up": {"uv": [7, 0], "uv_size": [-7, 0]},
+								"down": {"uv": [7, 0], "uv_size": [-7, 0]}
+							}
+						}
+					]
+				}
+			]
+		}
+	]
+}

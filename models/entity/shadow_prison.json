@@ -1,0 +1,35 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.shadow_prison",
+				"texture_width": 64,
+				"texture_height": 64,
+				"visible_bounds_width": 6,
+				"visible_bounds_height": 5,
+				"visible_bounds_offset": [0, 1.5, 0]
+			},
+			"bones": [
+				{
+					"name": "Cube",
+					"pivot": [0, 0, 0],
+					"cubes": [
+						{
+							"origin": [-34, -5, -33],
+							"size": [68, 47, 67],
+							"uv": {
+								"north": {"uv": [40, 33], "uv_size": [22, 22]},
+								"east": {"uv": [40, 33], "uv_size": [22, 22]},
+								"south": {"uv": [40, 33], "uv_size": [22, 22]},
+								"west": {"uv": [40, 33], "uv_size": [22, 22]},
+								"up": {"uv": [62, 55], "uv_size": [-22, -22]},
+								"down": {"uv": [62, 55], "uv_size": [-22, -22]}
+							}
+						}
+					]
+				}
+			]
+		}
+	]
+}

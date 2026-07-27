@@ -1,0 +1,73 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.skypiea",
+				"texture_width": 64,
+				"texture_height": 64,
+				"visible_bounds_width": 4,
+				"visible_bounds_height": 4,
+				"visible_bounds_offset": [0, 1, 0]
+			},
+			"bones": [
+				{
+					"name": "root",
+					"pivot": [0, 20, 0]
+				},
+				{
+					"name": "waist",
+					"parent": "root",
+					"pivot": [0, 12, 0]
+				},
+				{
+					"name": "body",
+					"parent": "waist",
+					"pivot": [0, 12, 0]
+				},
+				{
+					"name": "Asask1",
+					"parent": "body",
+					"pivot": [0, 20, 2],
+					"cubes": [
+						{
+							"origin": [-18, 14, -0.1],
+							"size": [18, 12, 1],
+							"pivot": [1, 0, -1],
+							"rotation": [0, 40, 0],
+							"uv": {
+								"north": {"uv": [0, 58], "uv_size": [8, 6]},
+								"east": {"uv": [0, 58], "uv_size": [8, 6]},
+								"south": {"uv": [32, 14], "uv_size": [31, 28.5]},
+								"west": {"uv": [0, 58], "uv_size": [8, 6]},
+								"up": {"uv": [8, 64], "uv_size": [-8, -6]},
+								"down": {"uv": [8, 64], "uv_size": [-8, -6]}
+							}
+						}
+					]
+				},
+				{
+					"name": "Asask2",
+					"parent": "body",
+					"pivot": [0, 20, 2],
+					"cubes": [
+						{
+							"origin": [0, 14, -0.1],
+							"size": [18, 12, 1],
+							"pivot": [-1, 2, 0],
+							"rotation": [0, -40, 0],
+							"uv": {
+								"north": {"uv": [8, 58], "uv_size": [-8, 6]},
+								"east": {"uv": [8, 58], "uv_size": [-8, 6]},
+								"south": {"uv": [63, 14], "uv_size": [-31, 28.5]},
+								"west": {"uv": [8, 58], "uv_size": [-8, 6]},
+								"up": {"uv": [0, 64], "uv_size": [8, -6]},
+								"down": {"uv": [0, 64], "uv_size": [8, -6]}
+							}
+						}
+					]
+				}
+			]
+		}
+	]
+}
