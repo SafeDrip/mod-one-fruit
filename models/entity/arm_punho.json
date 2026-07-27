@@ -1,0 +1,79 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.arm_punho",
+				"texture_width": 64,
+				"texture_height": 64,
+				"visible_bounds_width": 3,
+				"visible_bounds_height": 4.5,
+				"visible_bounds_offset": [0, 0.75, 0]
+			},
+			"bones": [
+				{
+					"name": "root",
+					"pivot": [0, 20, 0]
+				},
+				{
+					"name": "waist",
+					"parent": "root",
+					"pivot": [0, 12, 0]
+				},
+				{
+					"name": "body",
+					"parent": "waist",
+					"pivot": [0, 12, 0]
+				},
+				{
+					"name": "RightArm",
+					"parent": "body",
+					"pivot": [-6, 22, 0]
+				},
+				{
+					"name": "RightArmD",
+					"parent": "RightArm",
+					"pivot": [-6, 18, 2]
+				},
+				{
+					"name": "Arm",
+					"parent": "RightArmD",
+					"pivot": [-5, 22, 0],
+					"cubes": [
+						{
+							"origin": [-7.6, 11, -2.4],
+							"size": [4.4, 6.6, 5],
+							"uv": {
+								"north": {"uv": [0, 32], "uv_size": [64, 32]},
+								"east": {"uv": [0, 32], "uv_size": [64, 32]},
+								"south": {"uv": [0, 32], "uv_size": [64, 32]},
+								"west": {"uv": [0, 32], "uv_size": [64, 32]},
+								"up": {"uv": [42, 0], "uv_size": [-31, 9]},
+								"down": {"uv": [46, 61], "uv_size": [-36, 3]}
+							}
+						}
+					]
+				},
+				{
+					"name": "Arm2",
+					"parent": "RightArm",
+					"pivot": [-5, 28, 0],
+					"cubes": [
+						{
+							"origin": [-7.6, 17, -2.4],
+							"size": [4.4, 6.6, 5],
+							"uv": {
+								"north": {"uv": [0, 0], "uv_size": [64, 32]},
+								"east": {"uv": [0, 0], "uv_size": [64, 32]},
+								"south": {"uv": [0, 0], "uv_size": [64, 32]},
+								"west": {"uv": [0, 0], "uv_size": [64, 32]},
+								"up": {"uv": [49, 0], "uv_size": [-49, 0]},
+								"down": {"uv": [62, 0], "uv_size": [-36, 22]}
+							}
+						}
+					]
+				}
+			]
+		}
+	]
+}

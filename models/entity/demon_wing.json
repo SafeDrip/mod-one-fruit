@@ -1,0 +1,73 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.demon_wing",
+				"texture_width": 64,
+				"texture_height": 64,
+				"visible_bounds_width": 5,
+				"visible_bounds_height": 5,
+				"visible_bounds_offset": [0, 1.5, 0]
+			},
+			"bones": [
+				{
+					"name": "root",
+					"pivot": [0, 20, 0]
+				},
+				{
+					"name": "waist",
+					"parent": "root",
+					"pivot": [0, 12, 0]
+				},
+				{
+					"name": "body",
+					"parent": "waist",
+					"pivot": [0, 12, 0]
+				},
+				{
+					"name": "Asask1",
+					"parent": "body",
+					"pivot": [0, 20, 2],
+					"cubes": [
+						{
+							"origin": [-22.46241, 13, 3.5],
+							"size": [26, 32, 0],
+							"pivot": [-3.46241, 19, 4.57198],
+							"rotation": [-4.76007, 22.54758, -23.64663],
+							"uv": {
+								"north": {"uv": [0, 58], "uv_size": [8, 6]},
+								"east": {"uv": [0, 58], "uv_size": [8, 6]},
+								"south": {"uv": [0, 0], "uv_size": [64, 64]},
+								"west": {"uv": [0, 58], "uv_size": [8, 6]},
+								"up": {"uv": [8, 64], "uv_size": [-8, -6]},
+								"down": {"uv": [8, 64], "uv_size": [-8, -6]}
+							}
+						}
+					]
+				},
+				{
+					"name": "Asask2",
+					"parent": "body",
+					"pivot": [0, 20, 2],
+					"cubes": [
+						{
+							"origin": [-3.53759, 13, 3.5],
+							"size": [26, 32, 0],
+							"pivot": [3.46241, 19, 4.57198],
+							"rotation": [-4.76007, -22.54758, 23.64663],
+							"uv": {
+								"north": {"uv": [8, 58], "uv_size": [-8, 6]},
+								"east": {"uv": [8, 58], "uv_size": [-8, 6]},
+								"south": {"uv": [64, 0], "uv_size": [-64, 64]},
+								"west": {"uv": [8, 58], "uv_size": [-8, 6]},
+								"up": {"uv": [0, 64], "uv_size": [8, -6]},
+								"down": {"uv": [0, 64], "uv_size": [8, -6]}
+							}
+						}
+					]
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,88 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.akainu_arm",
+				"texture_width": 64,
+				"texture_height": 64,
+				"visible_bounds_width": 3,
+				"visible_bounds_height": 3.5,
+				"visible_bounds_offset": [0, 1.25, 0]
+			},
+			"bones": [
+				{
+					"name": "RightArm",
+					"pivot": [-5, 27, 0]
+				},
+				{
+					"name": "Magma",
+					"parent": "RightArm",
+					"pivot": [-5, 27, 0],
+					"cubes": [
+						{
+							"origin": [-9.86, 13.49, -2.86],
+							"size": [5.72, 7.02, 5.72],
+							"uv": {
+								"north": {"uv": [5, 4], "uv_size": [24, 27]},
+								"east": {"uv": [5, 4], "uv_size": [24, 27]},
+								"south": {"uv": [5, 4], "uv_size": [24, 27]},
+								"west": {"uv": [5, 4], "uv_size": [24, 27]},
+								"up": {"uv": [29, 31], "uv_size": [-24, -27]},
+								"down": {"uv": [29, 31], "uv_size": [-24, -27]}
+							}
+						},
+						{
+							"origin": [-9.146, 15.139, -3.146],
+							"size": [5.292, 7.722, 6.292],
+							"uv": {
+								"north": {"uv": [9, 19], "uv_size": [24, 30]},
+								"east": {"uv": [9, 19], "uv_size": [24, 30]},
+								"south": {"uv": [9, 19], "uv_size": [24, 30]},
+								"west": {"uv": [9, 19], "uv_size": [24, 30]},
+								"up": {"uv": [33, 49], "uv_size": [-24, -30]},
+								"down": {"uv": [33, 49], "uv_size": [-24, -30]}
+							}
+						},
+						{
+							"origin": [-9.8314, 17.5251, -2.8314],
+							"size": [5.6628, 6.9498, 5.6628],
+							"uv": {
+								"north": {"uv": [31, 19], "uv_size": [12, 22]},
+								"east": {"uv": [31, 19], "uv_size": [12, 22]},
+								"south": {"uv": [31, 19], "uv_size": [12, 22]},
+								"west": {"uv": [31, 19], "uv_size": [12, 22]},
+								"up": {"uv": [43, 41], "uv_size": [-12, -22]},
+								"down": {"uv": [43, 41], "uv_size": [-12, -22]}
+							}
+						},
+						{
+							"origin": [-9.54826, 18.87259, -2.54826],
+							"size": [5.09652, 6.25482, 5.09652],
+							"uv": {
+								"north": {"uv": [33, 46], "uv_size": [31, 18]},
+								"east": {"uv": [33, 46], "uv_size": [31, 18]},
+								"south": {"uv": [33, 46], "uv_size": [31, 18]},
+								"west": {"uv": [33, 46], "uv_size": [31, 18]},
+								"up": {"uv": [64, 64], "uv_size": [-31, -18]},
+								"down": {"uv": [64, 64], "uv_size": [-31, -18]}
+							}
+						},
+						{
+							"origin": [-9.05791, 24.7, -3.05791],
+							"size": [5.11582, 4.50578, 6.11582],
+							"uv": {
+								"north": {"uv": [39, 1], "uv_size": [25, 30]},
+								"east": {"uv": [39, 1], "uv_size": [25, 30]},
+								"south": {"uv": [39, 1], "uv_size": [25, 30]},
+								"west": {"uv": [39, 1], "uv_size": [25, 30]},
+								"up": {"uv": [64, 31], "uv_size": [-25, -30]},
+								"down": {"uv": [64, 31], "uv_size": [-25, -30]}
+							}
+						}
+					]
+				}
+			]
+		}
+	]
+}

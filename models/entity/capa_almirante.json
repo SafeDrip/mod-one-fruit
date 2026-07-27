@@ -1,0 +1,84 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.capa_almirante",
+				"texture_width": 64,
+				"texture_height": 64,
+				"visible_bounds_width": 4,
+				"visible_bounds_height": 4,
+				"visible_bounds_offset": [0, 1, 0]
+			},
+			"bones": [
+				{
+					"name": "body",
+					"pivot": [0, 12, 0]
+				},
+				{
+					"name": "Capa",
+					"parent": "body",
+					"pivot": [0, 24, 0],
+					"cubes": [
+						{
+							"origin": [-8, 4, 4],
+							"size": [16, 21, 1],
+							"pivot": [0, 0, 0],
+							"rotation": [5, 0, 0],
+							"uv": {
+								"north": {"uv": [21, 5], "uv_size": [-16, 16]},
+								"east": {"uv": [21, 5], "uv_size": [-16, 16]},
+								"south": {"uv": [21, 5], "uv_size": [-16, 16]},
+								"west": {"uv": [21, 5], "uv_size": [-16, 16]},
+								"up": {"uv": [5, 21], "uv_size": [16, -16]},
+								"down": {"uv": [5, 21], "uv_size": [16, -16]}
+							}
+						},
+						{
+							"origin": [-8, 4, 5.1],
+							"size": [16, 21, 0],
+							"pivot": [0, 0, 0],
+							"rotation": [5, 0, 0],
+							"uv": {
+								"north": {"uv": [2, 0], "uv_size": [-2, 2]},
+								"east": {"uv": [2, 0], "uv_size": [-2, 2]},
+								"south": {"uv": [61, 7], "uv_size": [-30, 51]},
+								"west": {"uv": [2, 0], "uv_size": [-2, 2]},
+								"up": {"uv": [0, 2], "uv_size": [2, -2]},
+								"down": {"uv": [0, 2], "uv_size": [2, -2]}
+							}
+						},
+						{
+							"origin": [4, 24, -1],
+							"size": [5, 1, 5],
+							"pivot": [0, 0, 0],
+							"rotation": [5, 0, 0],
+							"uv": {
+								"north": {"uv": [20, 29], "uv_size": [-15, 13]},
+								"east": {"uv": [20, 29], "uv_size": [-15, 13]},
+								"south": {"uv": [20, 29], "uv_size": [-15, 13]},
+								"west": {"uv": [20, 29], "uv_size": [-15, 13]},
+								"up": {"uv": [5, 42], "uv_size": [15, -13]},
+								"down": {"uv": [5, 42], "uv_size": [15, -13]}
+							}
+						},
+						{
+							"origin": [-9, 24, -1],
+							"size": [5, 1, 5],
+							"pivot": [0, 0, 0],
+							"rotation": [5, 0, 0],
+							"uv": {
+								"north": {"uv": [20, 29], "uv_size": [-15, 13]},
+								"east": {"uv": [20, 29], "uv_size": [-15, 13]},
+								"south": {"uv": [20, 29], "uv_size": [-15, 13]},
+								"west": {"uv": [20, 29], "uv_size": [-15, 13]},
+								"up": {"uv": [5, 42], "uv_size": [15, -13]},
+								"down": {"uv": [5, 42], "uv_size": [15, -13]}
+							}
+						}
+					]
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,68 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.bigode_roger",
+				"texture_width": 64,
+				"texture_height": 64,
+				"visible_bounds_width": 3,
+				"visible_bounds_height": 4.5,
+				"visible_bounds_offset": [0, 0.75, 0]
+			},
+			"bones": [
+				{
+					"name": "Head",
+					"pivot": [0, 24, 0],
+					"cubes": [
+						{
+							"origin": [-4, 24, -4],
+							"size": [8, 8, 8],
+							"inflate": 0.05,
+							"uv": {
+								"north": {"uv": [0, 0], "uv_size": [34, 28]},
+								"east": {"uv": [0, 0], "uv_size": [34, 28]},
+								"south": {"uv": [0, 0], "uv_size": [34, 28]},
+								"west": {"uv": [0, 0], "uv_size": [34, 28]},
+								"up": {"uv": [34, 28], "uv_size": [-34, -28]},
+								"down": {"uv": [34, 28], "uv_size": [-34, -28]}
+							}
+						},
+						{
+							"origin": [-5, 23.5, -4.1],
+							"size": [10, 3, 0],
+							"uv": {
+								"north": {"uv": [0, 37], "uv_size": [64, 21]},
+								"east": {"uv": [0, 0], "uv_size": [0, 2]},
+								"south": {"uv": [0, 0], "uv_size": [6, 2]},
+								"west": {"uv": [0, 0], "uv_size": [0, 2]},
+								"up": {"uv": [6, 0], "uv_size": [-6, 0]},
+								"down": {"uv": [6, 0], "uv_size": [-6, 0]}
+							}
+						}
+					]
+				},
+				{
+					"name": "Body",
+					"pivot": [0, 24, 0]
+				},
+				{
+					"name": "RightArm",
+					"pivot": [-5, 22, 0]
+				},
+				{
+					"name": "LeftArm",
+					"pivot": [5, 22, 0]
+				},
+				{
+					"name": "RightLeg",
+					"pivot": [-1.9, 12, 0]
+				},
+				{
+					"name": "LeftLeg",
+					"pivot": [1.9, 12, 0]
+				}
+			]
+		}
+	]
+}
