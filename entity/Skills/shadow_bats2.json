@@ -1,0 +1,25 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": { "identifier": "of:shadow_bats2",
+      "materials": {
+        "default": "armor"
+      },
+      "geometry": {
+        "default": "geometry.bats"
+      },
+		"particle_effects": {
+        "bat": "of:bats"
+      },
+      "animations": {
+        "move": "animation.kage.bats"
+      },
+      "scripts": {
+        "animate": [
+          "move"
+        ]
+      },
+      "render_controllers": [ "controller.render.base" ]
+    }
+  }
+}

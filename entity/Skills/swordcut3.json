@@ -1,0 +1,27 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "of:swordcut3",
+      "materials": {
+        "default": "skeleton"
+      },
+      "textures": {
+        "default": "textures/atks/linha"
+      },
+      "geometry": {
+        "default": "geometry.swordcut2"
+      },
+      "scripts": {
+        "scale": "1.5",
+        "animate": [
+          "swordcut"
+        ]
+      },
+      "animations": {
+        "swordcut": "animation.swordcut2"
+      },
+      "render_controllers": [ "controller.render.translucence" ]
+    }
+  }
+}

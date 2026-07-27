@@ -1,0 +1,26 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": { "identifier": "of:water_pool",
+      "materials": {
+        "default": "armor"
+      },
+      "textures": {
+        "default": "textures/entity/karate_tritao_1"
+      },
+      "geometry": {
+        "default": "geometry.water_pool"
+      },
+      "animations": {
+        "move": "animation.water_pool"
+      },
+      "scripts": {
+        "animate": [
+          "move"
+        ]
+      },
+      "render_controllers": [ "controller.render.base",
+      "controller.render.base"]
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": { "identifier": "of:medkit",
+      "materials": {
+        "default": "armor"
+      },
+      "textures": {
+        "default": "textures/entity/medkit"
+      },
+      "geometry": {
+        "default": "geometry.medkit"
+      },
+      "animations": {
+        "move": "animation.medkit"
+      },
+      "scripts": {
+        "animate": [
+          "move"
+        ]
+      },
+      "render_controllers": [ "controller.render.base",
+      "controller.render.base"]
+    }
+  }
+}

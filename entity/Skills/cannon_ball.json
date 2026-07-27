@@ -1,0 +1,27 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "of:cannon_ball",
+      "materials": {
+        "default": "skeleton"
+      },
+      "textures": {
+        "default": "textures/entity/bosses/garp_boss"
+      },
+      "geometry": {
+        "default": "geometry.garp"
+      },
+      "scripts": {
+        "scale": "1.5",
+        "animate": [
+          "look"
+        ]
+      },
+      "animations": {
+        "look": "animation.cannon_ball"
+      },
+      "render_controllers": [ "controller.render.translucence" ]
+    }
+  }
+}

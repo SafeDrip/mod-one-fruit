@@ -1,0 +1,26 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": { "identifier": "of:skill",
+      "materials": {
+        "default": "armor"
+      },
+      "textures": {
+        "default": "textures/atks/skill"
+      },
+      "geometry": {
+        "default": "geometry.skill"
+      },
+      "animations": {
+        "move": "animation.skill"
+      },
+      "scripts": {
+        "animate": [
+          "move"
+        ]
+      },
+      "render_controllers": [ "controller.render.base",
+      "controller.render.base"]
+    }
+  }
+}

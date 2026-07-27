@@ -1,0 +1,26 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": { "identifier": "of:smoker",
+      "materials": {
+        "default": "armor"
+      },
+      "textures": {
+        "default": "textures/entity/smoker"
+      },
+      "geometry": {
+        "default": "geometry.smoker"
+      },
+      "animations": {
+        "move": "animation.smoker"
+      },
+      "scripts": {
+        "animate": [
+          "move"
+        ]
+      },
+      "render_controllers": [ "controller.render.base",
+      "controller.render.base"]
+    }
+  }
+}

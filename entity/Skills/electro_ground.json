@@ -1,0 +1,26 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": { "identifier": "of:electro_ground",
+      "materials": {
+        "default": "armor"
+      },
+      "textures": {
+        "default": "textures/entity/grass"
+      },
+      "geometry": {
+        "default": "geometry.electro_ground"
+      },
+      "animations": {
+        "move": "animation.electro_ground"
+      },
+      "scripts": {
+        "animate": [
+          "move"
+        ]
+      },
+      "render_controllers": [ "controller.render.base",
+      "controller.render.base"]
+    }
+  }
+}

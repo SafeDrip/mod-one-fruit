@@ -1,0 +1,26 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": { "identifier": "of:ground_dragon",
+      "materials": {
+        "default": "armor"
+      },
+      "textures": {
+        "default": "textures/entity/grass"
+      },
+      "geometry": {
+        "default": "geometry.ground_dragon"
+      },
+      "animations": {
+        "move": "animation.dragon_claw_ground"
+      },
+      "scripts": {
+        "animate": [
+          "move"
+        ]
+      },
+      "render_controllers": [ "controller.render.base",
+      "controller.render.base"]
+    }
+  }
+}

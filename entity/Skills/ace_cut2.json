@@ -1,0 +1,27 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "of:ace_cut2",
+      "materials": {
+        "default": "skeleton"
+      },
+      "textures": {
+        "default": "textures/atks/fire"
+      },
+      "geometry": {
+        "default": "geometry.dragon_cut"
+      },
+      "scripts": {
+        "scale": "1.5",
+        "animate": [
+          "anim"
+        ]
+      },
+      "animations": {
+        "anim": "animation.ace_cut1"
+      },
+      "render_controllers": [ "controller.render.translucence" ]
+    }
+  }
+}

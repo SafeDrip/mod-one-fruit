@@ -1,0 +1,26 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": { "identifier": "of:shanks_skill",
+      "materials": {
+        "default": "armor"
+      },
+      "textures": {
+        "default": "textures/atks/shanks_skill"
+      },
+      "geometry": {
+        "default": "geometry.shanks_skill"
+      },
+      "animations": {
+        "move": "animation.shanks_skill"
+      },
+      "scripts": {
+        "animate": [
+          "move"
+        ]
+      },
+      "render_controllers": [ "controller.render.base",
+      "controller.render.base"]
+    }
+  }
+}

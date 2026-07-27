@@ -1,0 +1,26 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": { "identifier": "of:yoru_skill",
+      "materials": {
+        "default": "armor"
+      },
+      "textures": {
+        "default": "textures/atks/skill_yoru"
+      },
+      "geometry": {
+        "default": "geometry.mihawk_skill"
+      },
+      "animations": {
+        "move": "animation.mihawk_skill"
+      },
+      "scripts": {
+        "animate": [
+          "move"
+        ]
+      },
+      "render_controllers": [ "controller.render.base",
+      "controller.render.base"]
+    }
+  }
+}
