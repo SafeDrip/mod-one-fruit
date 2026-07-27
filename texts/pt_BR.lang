@@ -1,0 +1,243 @@
+=======================================
+item.spawn_egg.entity.of:ice_bike.name=§lInvocar Bicicleta De Gelo
+entity.of:ice_bike.name=§bBicicleta De Gelo
+========================================
+item.spawn_egg.entity.of:vendedor.name=§lInvocar Vendedor
+entity.of:vendedor.name=§lVendedor
+========================================
+item.spawn_egg.entity.of:chest.name=§lInvocar Baú
+entity.of:chest.name=§lBaú
+========================================
+item.spawn_egg.entity.of:zoro.name=§lInvocar Zoro
+entity.of:zoro.name=§lZoro
+========================================
+item.spawn_egg.entity.of:zoro_wano.name=§lInvocar Zoro Wano
+entity.of:zoro_wano.name=§lZoro Wano
+========================================
+item.spawn_egg.entity.of:zoro_dressrosa.name=§lInvocar Zoro Dressrosa
+entity.of:zoro_dressrosa.name=§lZoro Dressrosa
+========================================
+item.spawn_egg.entity.of:luffy.name=§lInvocar Luffy
+entity.of:luffy.name=§lLuffy
+========================================
+item.spawn_egg.entity.of:luffy_wano.name=§lInvocar Luffy Wano
+entity.of:luffy_wano.name=§lLuffy Wano
+========================================
+item.spawn_egg.entity.of:luffy2_wano.name=§lInvocar Luffy Wano
+entity.of:luffy2_wano.name=§lLuffy Wano
+========================================
+item.spawn_egg.entity.of:luffy_onigashima.name=§lInvocar Luffy Onigashima
+entity.of:luffy_onigashima.name=§lLuffy Onigashima
+========================================
+item.of:xp.name=§lXp
+item.of:points_up.name=§lPoints Up!
+========================================
+item.spawn_egg.entity.of:sanji.name=§lInvocar Sanji
+entity.of:sanji.name=§lSanji
+========================================
+item.spawn_egg.entity.of:sanji_whole_cake.name=§lInvocar Sanji Whole Cake
+entity.of:sanji_whole_cake.name=§lSanji Whole Cake
+========================================
+item.spawn_egg.entity.of:usopp_time_skip.name=§lInvocar Usopp Time Skip
+entity.of:usopp_time_skip.name=§lUsopp Time Skip
+========================================
+item.spawn_egg.entity.of:pirata.name=§lInvocar Pirata
+entity.of:pirata.name=§lPirata
+========================================
+item.spawn_egg.entity.of:pirata2.name=§lInvocar Capitão
+entity.of:pirata2.name=§lCapitão
+========================================
+item.spawn_egg.entity.of:marinheiro.name=§lInvocar Marinheiro
+entity.of:marinheiro.name=§lMarinheiro
+========================================
+item.spawn_egg.entity.of:marinheiro2.name=§lInvocar Comandante
+entity.of:marinheiro2.name=§lComandante
+========================================
+item.spawn_egg.entity.of:marinheiro3.name=§lInvocar Contra-Almirante
+entity.of:marinheiro3.name=§lContra-Almirante
+========================================
+item.spawn_egg.entity.of:marinheiro_vice.name=§lInvocar Vice-Almirante
+entity.of:marinheiro_vice.name=§lVice-Almirante
+========================================
+item.spawn_egg.entity.of:mihawk_boss.name=§lInvocar Mihawk
+entity.of:mihawk_boss.name=§lMihawk
+========================================
+item.spawn_egg.entity.of:rayleigh_boss.name=§lInvocar Rayleigh
+entity.of:rayleigh_boss.name=§lRayleigh
+========================================
+item.spawn_egg.entity.of:jinbei.name=§lInvocar Jinbei
+entity.of:jinbei.name=§lJinbei
+========================================
+item.spawn_egg.entity.of:barba_negra.name=§lInvocar Barba Negra
+entity.of:barba_negra.name=§lBarba Negra
+========================================
+item.spawn_egg.entity.of:kaku.name=§lInvocar Cp9 Kaku
+entity.of:kaku.name=§lCp9 Kaku
+========================================
+item.spawn_egg.entity.of:shanks.name=§lInvocar Shanks 
+entity.of:shanks.name=§lShanks O Ruivo
+========================================
+item.spawn_egg.entity.of:arvore.name=§lInvocar Árvore
+entity.of:arvore.name=§lÁrvore
+========================================
+item.spawn_egg.entity.of:doflamingo.name=§lInvocar Doflamingo
+entity.of:doflamingo.name=§lDoflamingo
+========================================
+item.spawn_egg.entity.of:oden.name=§lInvocar Oden
+entity.of:oden.name=§lOden
+========================================
+item.spawn_egg.entity.of:law.name=§lInvocar Law
+entity.of:law.name=§lLaw
+========================================
+item.spawn_egg.entity.of:brook.name=§lInvocar Brook
+entity.of:brook.name=§lBrook
+========================================
+item.spawn_egg.entity.of:brook_onigashima.name=§lInvocar Brook Onigashima
+entity.of:brook_onigashima.name=§lBrook Onigashima
+========================================
+item.spawn_egg.entity.of:barba_branca_old.name=§lInvocar Barba Branca
+entity.of:barba_branca_old.name=§lBarba Branca
+========================================
+item.spawn_egg.entity.of:big_mom.name=§lInvocar Big Mom
+entity.of:big_mom.name=§lBig Mom
+========================================
+item.spawn_egg.entity.of:big_mom2.name=§lInvocar Big Mom Onigashima
+entity.of:big_mom2.name=§lBig Mom Onigashima
+========================================
+item.spawn_egg.entity.of:soldado_xadrez.name=§lInvocar Soldado Xadrez
+entity.of:soldado_xadrez.name=§lSoldado Xadrez
+========================================
+item.spawn_egg.entity.of:soldado_xadrez_elite.name=§lInvocar Soldado Xadrez Elite
+entity.of:soldado_xadrez_elite.name=§lSoldado Xadrez Elite
+========================================
+item.spawn_egg.entity.of:katakuri.name=§lInvocar Katakuri
+entity.of:katakuri.name=§lKatakuri
+========================================
+item.spawn_egg.entity.of:tom.name=§lInvocar Tom
+entity.of:tom.name=§lTom
+========================================
+item.spawn_egg.entity.of:treino.name=§lInvocar Treino §5[Haki]
+entity.of:treino.name=§lTreino §5[Haki]
+========================================
+item.spawn_egg.entity.of:treino2.name=§lInvocar Treino §6[Ryuo]
+entity.of:treino2.name=§lTreino §6[Ryuo]
+========================================
+item.spawn_egg.entity.of:kaido.name=§lInvocar Kaido
+entity.of:kaido.name=§lKaido
+========================================
+item.spawn_egg.entity.of:sabo.name=§lInvocar Sabo
+entity.of:sabo.name=§lSabo
+========================================
+item.spawn_egg.entity.of:sea_beast.name=§lInvocar Sea Beast
+entity.of:sea_beast.name=§lSea Beast
+========================================
+item.spawn_egg.entity.of:kuma.name=§lInvocar Kuma
+entity.of:kuma.name=§lKuma
+========================================
+item.spawn_egg.entity.of:marco.name=§lInvocar Marco
+entity.of:marco.name=§lMarco
+========================================
+item.spawn_egg.entity.of:aokiji.name=§l§bInvocar Aokiji
+entity.of:aokiji.name=§lAokiji
+========================================
+item.spawn_egg.entity.of:akainu.name=§l§cInvocar Akainu
+entity.of:akainu.name=§lAkainu
+========================================
+item.spawn_egg.entity.of:kizaru.name=§l§eInvocar Kizaru
+entity.of:kizaru.name=§lKizaru
+========================================
+item.spawn_egg.entity.of:fujitora.name=§l§5Invocar Fujitora
+entity.of:kizaru.name=§lFujitora
+========================================
+item.spawn_egg.entity.of:ryokugyu.name=§l§aInvocar Ryokugyu
+entity.of:ryokugyu.name=§lRyokugyu
+========================================
+item.spawn_egg.entity.of:sengoku.name=§l§eInvocar Sengoku
+entity.of:sengoku.name=§lSengoku
+========================================
+item.spawn_egg.entity.of:sengoku2.name=§l§eInvocar Sengoku (Time Skip)
+entity.of:sengoku.name=§lSengoku (Time Skip)
+========================================
+item.spawn_egg.entity.of:denden_aokiji.name=§l§bInvocar Den Den Mushi (Aokiji)
+entity.of:denden_aokiji.name=§lDen Den Mushi Aokiji
+========================================
+item.spawn_egg.entity.of:denden_akainu.name=§l§bInvocar Den Den Mushi (Akainu)
+entity.of:denden_akainu.name=§lDen Den Mushi Akainu
+========================================
+item.spawn_egg.entity.of:denden_kizaru.name=§l§bInvocar Den Den Mushi (Kizaru)
+entity.of:denden_kizaru.name=§lDen Den Mushi Kizaru
+========================================
+item.spawn_egg.entity.of:denden_fujitora.name=§l§bInvocar Den Den Mushi (Fujitora)
+entity.of:denden_fujitora.name=§lDen Den Mushi Fujitora
+========================================
+item.spawn_egg.entity.of:denden_ryokugyu.name=§l§bInvocar Den Den Mushi (Ryokugyu)
+entity.of:denden_ryokugyu.name=§lDen Den Mushi Ryokugyu
+========================================
+item.spawn_egg.entity.of:sanji_germa.name=§lInvocar Sanji Germa
+entity.of:sanji_germa.name=§lSanji Germa
+========================================
+item.spawn_egg.entity.of:roger_boss.name=§lInvocar §cRoger (Rei Dos Piratas)
+entity.of:roger_boss.name=§l§cRoger
+========================================
+item.spawn_egg.entity.of:luffy_nika.name=§lInvocar Luffy §eNika
+entity.of:luffy_nika.name=§lLuffy §eNika
+========================================
+item.spawn_egg.entity.of:eustass_kid.name=§lInvocar Eustass Kid
+entity.of:eustass_kid.name=Eustass Kid
+========================================
+item.spawn_egg.entity.of:yamato.name=§lInvocar Yamato
+entity.of:yamato.name=Yamato
+========================================
+item.spawn_egg.entity.of:hancock.name=§lInvocar Boa Hancock
+entity.of:hancock.name=Boa Hancock
+========================================
+item.spawn_egg.entity.of:garp_boss.name=§lInvocar Garp
+entity.of:garp_boss.name=Garp
+========================================
+item.spawn_egg.entity.of:npc_races.name=§lInvocar NPC De Raças
+entity.of:npc_races.name=NPC De Raças
+========================================
+item.spawn_egg.entity.of:sanji_onigashima.name=§lInvocar Sanji Onigashima
+entity.of:sanji_onigashima.name=Sanji Onigashima
+========================================
+item.spawn_egg.entity.of:hunter.name=§lInvocar Hunter
+entity.of:hunter.name=Hunter
+========================================
+item.spawn_egg.entity.of:uta_boss.name=§lInvocar Uta
+entity.of:uta_boss.name=Uta
+========================================
+item.spawn_egg.entity.of:punk_rotten.name=§lInvocar Punk Rotten
+entity.of:punk_rotten.name=Punk Rotten
+
+tile.of:lucky.name=§l§6Lucky §eBlock
+
+entity.of:treino.name=§lTreino (Não Tem Uso Ainda)
+
+entity.of:bandido.name=§lBandido
+entity.of:higuma.name=§lHiguma
+entity.of:coby_mob.name=§lCoby
+entity.of:morgan.name=§lMorgan
+
+entity.of:tritao_mob.name=§lTritão
+entity.of:nami.name=§lNami
+entity.of:usopp.name=§lUsopp
+entity.of:arlong.name=§lArlong
+
+entity.of:bandido2.name=§lBandido De Alabasta
+entity.of:ace.name=§lAce
+entity.of:smoker_mob.name=§lSmoker
+entity.of:tashigi.name=§lTashigi
+entity.of:crocodile.name=§lCrocodile
+
+entity.of:skypiea_mob.name=§lSkypiea
+entity.of:robin.name=§lRobin
+entity.of:bellamy.name=§lBellamy
+entity.of:enel.name=§lEnel
+
+entity.of:franky.name=§lFranky
+entity.of:franky_family.name=§lFamília Franky
+entity.of:blueno.name=§lBlueno
+entity.of:jabra.name=§lJabra
+entity.of:lucci.name=§lRob Lucci
+
+
