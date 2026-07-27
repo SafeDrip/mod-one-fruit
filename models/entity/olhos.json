@@ -1,0 +1,56 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.olhos",
+				"texture_width": 64,
+				"texture_height": 64,
+				"visible_bounds_width": 3,
+				"visible_bounds_height": 4.5,
+				"visible_bounds_offset": [0, 0.75, 0]
+			},
+			"bones": [
+				{
+					"name": "Head",
+					"pivot": [0, 24, 0],
+					"cubes": [
+						{
+							"origin": [-4, 24, -4],
+							"size": [8, 7, 8],
+							"inflate": 0.05,
+							"uv": {
+								"north": {"uv": [4, 10], "uv_size": [56, 48]},
+								"east": {"uv": [0, 0], "uv_size": [0, 1]},
+								"south": {"uv": [0, 0], "uv_size": [0, 1]},
+								"west": {"uv": [0, 0], "uv_size": [0, 0]},
+								"up": {"uv": [0, 0], "uv_size": [0, 0]},
+								"down": {"uv": [0, 0], "uv_size": [0, 0]}
+							}
+						}
+					]
+				},
+				{
+					"name": "Body",
+					"pivot": [0, 24, 0]
+				},
+				{
+					"name": "RightArm",
+					"pivot": [-5, 22, 0]
+				},
+				{
+					"name": "LeftArm",
+					"pivot": [5, 22, 0]
+				},
+				{
+					"name": "RightLeg",
+					"pivot": [-1.9, 12, 0]
+				},
+				{
+					"name": "LeftLeg",
+					"pivot": [1.9, 12, 0]
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,33 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.roger_sword_anchor",
+				"texture_width": 64,
+				"texture_height": 64,
+				"visible_bounds_width": 4,
+				"visible_bounds_height": 3.5,
+				"visible_bounds_offset": [0, 1.25, 0]
+			},
+			"bones": [
+				{
+					"name": "RightArm",
+					"pivot": [-6, 22, 0]
+				},
+				{
+					"name": "RightArmD",
+					"parent": "RightArm",
+					"pivot": [-6, 16, 2],
+					"locators": {
+						"p1": [-6, 13, -9],
+						"p2": [-6, 13, -13],
+						"p3": [-6, 13, -18],
+						"p4": [-6, 13, -22],
+						"p5": [-6, 13, -26]
+					}
+				}
+			]
+		}
+	]
+}

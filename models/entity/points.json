@@ -1,0 +1,37 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.points",
+				"texture_width": 16,
+				"texture_height": 16,
+				"visible_bounds_width": 2,
+				"visible_bounds_height": 3.5,
+				"visible_bounds_offset": [0, 1.25, 0]
+			},
+			"bones": [
+				{
+					"name": "points",
+					"pivot": [0, 0, 0]
+				},
+				{
+					"name": "lp1",
+					"parent": "points",
+					"pivot": [0, 0, 0],
+					"locators": {
+						"point1": [0, 0, 0]
+					}
+				},
+				{
+					"name": "lp2",
+					"parent": "points",
+					"pivot": [0, 0, 0],
+					"locators": {
+						"point2": [0, 0, 0]
+					}
+				}
+			]
+		}
+	]
+}
