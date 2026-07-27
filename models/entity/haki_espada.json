@@ -1,0 +1,83 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.haki_espada",
+				"texture_width": 64,
+				"texture_height": 64,
+				"visible_bounds_width": 4,
+				"visible_bounds_height": 3.5,
+				"visible_bounds_offset": [0, 1.25, 0]
+			},
+			"bones": [
+				{
+					"name": "root",
+					"pivot": [0, 20, 0]
+				},
+				{
+					"name": "waist",
+					"parent": "root",
+					"pivot": [0, 12, 0]
+				},
+				{
+					"name": "body",
+					"parent": "waist",
+					"pivot": [0, 12, 0]
+				},
+				{
+					"name": "RightArm",
+					"parent": "body",
+					"pivot": [-6, 22, 0]
+				},
+				{
+					"name": "RightArmD",
+					"parent": "RightArm",
+					"pivot": [-6, 18, 2],
+					"cubes": [
+						{
+							"origin": [-8, 13.5, -40],
+							"size": [5, 0, 43],
+							"uv": {
+								"north": {"uv": [0, 0], "uv_size": [9, 9]},
+								"east": {"uv": [0, 0], "uv_size": [9, 9]},
+								"south": {"uv": [0, 0], "uv_size": [9, 9]},
+								"west": {"uv": [0, 0], "uv_size": [9, 9]},
+								"up": {"uv": [64, 64], "uv_size": [-64, -64]},
+								"down": {"uv": [9, 9], "uv_size": [-9, -9]}
+							}
+						},
+						{
+							"origin": [-9, 13.5, -40],
+							"size": [7, 0, 43],
+							"pivot": [-5, 13, -18],
+							"rotation": [0, 0, -20],
+							"uv": {
+								"north": {"uv": [0, 0], "uv_size": [9, 9]},
+								"east": {"uv": [0, 0], "uv_size": [9, 9]},
+								"south": {"uv": [0, 0], "uv_size": [9, 9]},
+								"west": {"uv": [0, 0], "uv_size": [9, 9]},
+								"up": {"uv": [64, 64], "uv_size": [-64, -64]},
+								"down": {"uv": [9, 9], "uv_size": [-9, -9]}
+							}
+						},
+						{
+							"origin": [-9, 13.5, -40],
+							"size": [7, 0, 43],
+							"pivot": [-5, 13, -18],
+							"rotation": [0, 0, 17.5],
+							"uv": {
+								"north": {"uv": [0, 0], "uv_size": [9, 9]},
+								"east": {"uv": [0, 0], "uv_size": [9, 9]},
+								"south": {"uv": [0, 0], "uv_size": [9, 9]},
+								"west": {"uv": [0, 0], "uv_size": [9, 9]},
+								"up": {"uv": [64, 64], "uv_size": [-64, -64]},
+								"down": {"uv": [9, 9], "uv_size": [-9, -9]}
+							}
+						}
+					]
+				}
+			]
+		}
+	]
+}
