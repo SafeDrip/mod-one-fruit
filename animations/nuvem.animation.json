@@ -1,0 +1,37 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+				"animation.nuvem_thunder": {
+			"animation_length": 1,
+			"bones": {
+				"bone": {
+					"scale": {
+						"0.0": [-0.2, 1, 0.1],
+						"0.5": [1, 1, 1]
+					}
+				},
+				"hexadecagon": {
+					"position": {
+						"0.0": [0, 205, 0],
+						"0.5": [0, 0, 0]
+					},
+					"scale": {
+						"0.0": [1, -0.1, 1],
+						"0.5": [1, 1, 1]
+					}
+				}
+			}
+		},
+		"animation.nuvem": {
+			"animation_length": 1,
+			"bones": {
+				"bone": {
+					"scale": {
+						"0.0": [-0.2, 1, 0.1],
+						"0.5": [1, 1, 1]
+					}
+				}
+			}
+		}
+	}
+}

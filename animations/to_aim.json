@@ -1,0 +1,36 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.to_aim": {
+			"loop": "hold_on_last_frame",
+			"animation_length": 0.2,
+			"override_previous_animation": true,
+			"bones": {
+				"RightArm": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"0.2": [-64.30598, -25.39943, -11.14308]
+					}
+				},
+				"RightArmD": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"0.2": [-31.00623, 4.03338, -3.15209]
+					}
+				},
+				"LeftArm": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"0.2": [-80.98457, 39.8173, 4.18273]
+					}
+				},
+				"LeftArmD": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"0.2": [-10, 0, 20]
+					}
+				}
+			}
+		}
+	}
+}

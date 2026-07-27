@@ -1,0 +1,197 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.swordcut": {
+			"loop": true,
+			"animation_length": 10,
+			"override_previous_animation": true,
+			"particle_effects": {
+				"0.0": [
+					{
+						"effect": "effect0",
+						"locator": "lp0"
+					},
+					{
+						"effect": "effect0",
+						"locator": "lp1"
+					},
+					{
+						"effect": "effect0",
+						"locator": "lp2"
+					}
+				],
+				"1.0": [
+					{
+						"effect": "effect0",
+						"locator": "lp0"
+					},
+					{
+						"effect": "effect0",
+						"locator": "lp1"
+					},
+					{
+						"effect": "effect0",
+						"locator": "lp2"
+					}
+				],
+				"2.0": [
+					{
+						"effect": "effect0",
+						"locator": "lp0"
+					},
+					{
+						"effect": "effect0",
+						"locator": "lp1"
+					},
+					{
+						"effect": "effect0",
+						"locator": "lp2"
+					}
+				],
+				"3.0": [
+					{
+						"effect": "effect0",
+						"locator": "lp0"
+					},
+					{
+						"effect": "effect0",
+						"locator": "lp1"
+					},
+					{
+						"effect": "effect0",
+						"locator": "lp2"
+					}
+				],
+				"4.0": [
+					{
+						"effect": "effect0",
+						"locator": "lp0"
+					},
+					{
+						"effect": "effect0",
+						"locator": "lp1"
+					},
+					{
+						"effect": "effect0",
+						"locator": "lp2"
+					}
+				],
+				"5.0": [
+					{
+						"effect": "effect0",
+						"locator": "lp0"
+					},
+					{
+						"effect": "effect0",
+						"locator": "lp1"
+					},
+					{
+						"effect": "effect0",
+						"locator": "lp2"
+					}
+				],
+				"6.0": [
+					{
+						"effect": "effect0",
+						"locator": "lp0"
+					},
+					{
+						"effect": "effect0",
+						"locator": "lp1"
+					},
+					{
+						"effect": "effect0",
+						"locator": "lp2"
+					}
+				],
+				"7.0": [
+					{
+						"effect": "effect0",
+						"locator": "lp0"
+					},
+					{
+						"effect": "effect0",
+						"locator": "lp1"
+					},
+					{
+						"effect": "effect0",
+						"locator": "lp2"
+					}
+				],
+				"8.0": [
+					{
+						"effect": "effect0",
+						"locator": "lp0"
+					},
+					{
+						"effect": "effect0",
+						"locator": "lp1"
+					},
+					{
+						"effect": "effect0",
+						"locator": "lp2"
+					}
+				],
+				"9.0": [
+					{
+						"effect": "effect0",
+						"locator": "lp0"
+					},
+					{
+						"effect": "effect0",
+						"locator": "lp1"
+					},
+					{
+						"effect": "effect0",
+						"locator": "lp2"
+					}
+				]
+			}
+		},
+		"animation.swordcut2": {
+			"loop": true,
+			"animation_length": 10,
+			"override_previous_animation": true,
+			"bones": {
+				"body": {
+					"rotation": ["-q.target_x_rotation", "-q.body_y_rotation", 0],
+					"scale": {
+						"0.0": {
+							"post": [0, 0, 0],
+							"lerp_mode": "catmullrom"
+						},
+						"0.2": {
+							"post": [1.25, 1.25, 1.25],
+							"lerp_mode": "catmullrom"
+						},
+						"0.5": [1, 1, 1]
+					}
+				}
+			},
+			"particle_effects": {
+				"0.0": [
+					{
+						"effect": "effect0",
+						"locator": "lp0"
+					},
+					{
+						"effect": "effect0",
+						"locator": "lp1"
+					},
+					{
+						"effect": "effect0",
+						"locator": "lp2"
+					},
+					{
+						"effect": "effect0",
+						"locator": "lp3"
+					},
+					{
+						"effect": "effect0",
+						"locator": "lp5"
+					}
+				]
+			}
+		}
+	}
+}

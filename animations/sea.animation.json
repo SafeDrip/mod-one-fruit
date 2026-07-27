@@ -1,0 +1,75 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.sea.general": {
+			"loop": true,
+			"bones": {
+				"bd012": {
+					"rotation": ["12.5+Math.sin(query.life_time * 180.0) * 5", 0, "-5+Math.sin(query.life_time * 90.0) * 1"]
+				},
+				"bd014": {
+					"rotation": ["-7.5+Math.sin(query.life_time * 180.0) * -5", 0, "5+Math.sin(query.life_time * 90.0) * -1"]
+				},
+				"bd016": {
+					"rotation": ["12.5+Math.sin(query.life_time * 180.0) * 5", 0, "-5+Math.sin(query.life_time * 90.0) * 1"]
+				},
+				"bd018": {
+					"rotation": ["-7.4446+Math.sin(query.life_time * 180.0) * -5", 1.07636, "5.5019+Math.sin(query.life_time * 90.0) * -1"]
+				},
+				"bd020": {
+					"rotation": ["4.9966+Math.sin(query.life_time * 180.0) * 5", -0.26405, "-4.9557+Math.sin(query.life_time * 90.0) * 1"]
+				},
+				"head": {
+					"rotation": [40, 0, 0]
+				},
+				"body": {
+					"rotation": ["-17.5+Math.sin(query.life_time * 180.0) * -1", 0, "Math.sin(query.life_time * 90.0) * -1"]
+				},
+				"sea": {
+					"rotation": ["0+Math.sin(query.life_time * 180.0) * -1", 0, "0+Math.sin(query.life_time * 90.0) * -1"],
+					"position": [0, 18, 0]
+				}
+			}
+		},
+		"animation.sea.moving": {
+			"loop": true,
+			"animation_length": 1,
+			"anim_time_update": "query.modified_distance_moved * 0.12",
+			"bones": {
+				"bd012": {
+					"rotation": ["12.5+Math.sin(query.life_time * 180.0) * 5", 0, "-15+Math.sin(query.life_time * 90.0) * 1"]
+				},
+				"bd014": {
+					"rotation": ["-7.5+Math.sin(query.life_time * 180.0) * -5", 0, "15+Math.sin(query.life_time * 90.0) * -1"]
+				},
+				"bd016": {
+					"rotation": ["12.5+Math.sin(query.life_time * 180.0) * 5", 0, "-15+Math.sin(query.life_time * 90.0) * 1"]
+				},
+				"bd018": {
+					"rotation": ["-7.4446+Math.sin(query.life_time * 180.0) * -5", 1.07636, "15.5019+Math.sin(query.life_time * 90.0) * -1"]
+				},
+				"bd020": {
+					"rotation": ["4.9966+Math.sin(query.life_time * 180.0) * 5", -0.26405, "-14.9557+Math.sin(query.life_time * 90.0) * 1"]
+				},
+				"head": {
+					"rotation": [40, 0, 0]
+				},
+				"body": {
+					"rotation": ["-17.5+Math.sin(query.life_time * 180.0) * -1", 0, "Math.sin(query.life_time * 90.0) * -1"]
+				},
+				"sea": {
+					"rotation": ["0+Math.sin(query.life_time * 180.0) * -1", 0, "0+Math.sin(query.life_time * 90.0) * -1"],
+					"position": [0, 18, 0]
+				}
+			}
+		},
+		"animation.sea.looking": {
+			"loop": true,
+			"bones": {
+				"head": {
+					"rotation": ["query.target_x_rotation - this", "query.target_y_rotation - this", 0]
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,135 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.mera0": {
+			"animation_length": 1,
+			"override_previous_animation": true,
+			"bones": {
+				"waist" : {
+					"rotation": {
+						"0.0": [ "query.target_x_rotation - this", "query.target_y_rotation - this", 0.0 ]
+					}
+				},
+				"RightArm": {
+					"rotation": {
+						"0.0": [-180, 0, 0],
+						"1.0": [0, 0, 0]
+					}
+				},
+				"LeftArm": {
+					"rotation": {
+						"0.0": [-180, 0, 0],
+						"1.0": [0, 0, 0]
+					}
+				}
+			}
+		},
+		"animation.mera1": {
+			"loop": "hold_on_last_frame",
+			"animation_length": 0.5,
+			"override_previous_animation": true,
+			"bones": {
+				"waist" : {
+					"rotation": {
+						"0.0": [ "query.target_x_rotation - this", "query.target_y_rotation - this", 0.0 ]
+					}
+				},
+				"RightArm": {
+					"rotation": [-180, 0, 0]
+				},
+				"LeftArm": {
+					"rotation": [-180, 0, 0]
+				}
+			}
+		},
+		"animation.hiken": {
+			"animation_length": 0.5,
+			"override_previous_animation": true,
+			"bones": {
+				"waist": {
+					"rotation": {
+						"0.0": [-17.45951, 26.77507, 1.33679],
+						"0.5": [-4.50532, -23.66695, 16.40029]
+					}
+				},
+				"RightArm": {
+					"rotation": {
+						"0.0": [-210.68206, -27.03402, -37.45372],
+						"0.5": [-20.62748, -15.00374, -23.79812]
+					}
+				},
+				"LeftArm": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"0.5": [17.86658, 18.78492, -9.7667]
+					}
+				}
+			}
+		},
+		"animation.jujika": {
+			"loop": "hold_on_last_frame",
+			"animation_length": 0.7,
+			"override_previous_animation": true,
+			"bones": {
+				"waist": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"0.25": [0, "-90+query.target_y_rotation - this", 0]
+					}
+				},
+				"head": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"0.3": [15, 0, 0]
+					}
+				},
+				"RightArm": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"0.5": [0, 0, 90]
+					}
+				},
+				"LeftArm": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"0.3": [0, 0, -5]
+					}
+				},
+				"LeftArmD": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"0.3": [-40, 0, 0]
+					}
+				}
+			}
+		},
+		"animation.dai_enkai1": {
+			"loop": "hold_on_last_frame",
+			"animation_length": 2,
+			"override_previous_animation": true,
+			"bones": {
+				"bone4": {
+					"scale": {
+						"0.0": [0, 0, 0],
+						"0.5": [0.3, 0.3, 0.3],
+						"1.0": [0.8, 0.8, 0.8],
+						"2.0": [1, 1, 1]
+					}
+				}
+			}
+		},
+		"animation.dai_enkai2": {
+			"loop": "hold_on_last_frame",
+			"animation_length": 1,
+			"override_previous_animation": true,
+			"bones": {
+				"bone4": {
+					"scale": {
+						"0.0": [0, 0, 0],
+						"0.5": [0.5, 0.5, 0.5]
+					}
+				}
+			}
+		}
+	}
+}

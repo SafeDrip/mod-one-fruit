@@ -1,0 +1,350 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.gryphoncut": {
+			"loop": "hold_on_last_frame",
+			"animation_length": 1,
+			"override_previous_animation": true,
+			"bones": {
+				"body": {
+					"rotation": ["-q.target_x_rotation", "-q.body_y_rotation", 0],
+					"scale": {
+						"0.0": {
+							"post": [1, 0, 0],
+							"lerp_mode": "catmullrom"
+						},
+						"0.05": {
+							"post": [1, 0.25, 1],
+							"lerp_mode": "catmullrom"
+						},
+						"0.25": {
+							"post": [1, 1, 1],
+							"lerp_mode": "catmullrom"
+						},
+						"0.5": {
+							"post": [1, 1.5, 1],
+							"lerp_mode": "catmullrom"
+						},
+						"0.6": [1, 1.5, 1]
+					}
+				}
+			}
+		},
+		"animation.garras_b": {
+			"loop": true,
+			"animation_length": 0.3,
+			"override_previous_animation": true,
+			"bones": {
+				"body": {
+					"rotation": {
+						"0.0": [10, -15, 0],
+						"0.15": [-16.80857, 26.48829, -7.6734],
+						"0.3": [10, -15, 0]
+					}
+				},
+				"head": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"0.15": [10, 0, 0],
+						"0.3": [0, 0, 0]
+					}
+				},
+				"RightArm": {
+					"rotation": {
+						"0.0": [5.17544, 14.94159, 1.3378],
+						"0.15": [-190.86815, -6.21271, -29.40842],
+						"0.2": [-192.28783, -28.26787, -24.70921],
+						"0.3": [5.17544, 14.94159, 1.3378]
+					}
+				},
+				"RightArmD": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"0.15": [-20, 0, 0],
+						"0.3": [0, 0, 0]
+					}
+				},
+				"LeftArm": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"0.15": [0, -12.5, -15],
+						"0.25": [0, -12.5, -15],
+						"0.3": [0, 0, 0]
+					}
+				}
+			}
+		},
+		"animation.rogersword01": {
+			"loop": true,
+			"animation_length": 0.3,
+			"override_previous_animation": true,
+			"bones": {
+				"root": {
+					"rotation": {
+						"0.0": [0, 0, 0]
+					}
+				},
+				"body": {
+					"rotation": {
+						"0.0": [-20, 0, 0]
+					}
+				},
+				"head": {
+					"rotation": {
+						"0.0": [15, 0, 0]
+					}
+				},
+				"LeftArm": {
+					"rotation": {
+						"0.2": [0, 0, 0]
+					}
+				},
+				"RightArm": {
+					"rotation": {
+						"0.0": [-201.26765, -7.52076, -18.58597]
+					}
+				},
+				"waist": {
+					"rotation": {
+						"0.0": [0, 15, 0]
+					}
+				},
+				"RightArmD": {
+					"rotation": {
+						"0.0": [-27.5, 0, 0]
+					}
+				},
+				"LeftArmD": {
+					"rotation": {
+						"0.3": [0, 0, 0]
+					}
+				}
+			}
+		},
+		"animation.rogersword1": {
+			"animation_length": 1,
+			"override_previous_animation": true,
+			"bones": {
+				"root": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"0.2": [0, -10, -10],
+						"0.5": [1.24812, 4.73933, -0.33485]
+					}
+				},
+				"body": {
+					"rotation": {
+						"0.0": [-20, 0, 0],
+						"0.2": [0, 0, 0],
+						"0.4": [20, 0, 0],
+						"0.5": [0, 0, 0],
+						"0.7": [20, 0, 0],
+						"0.8": [0, 0, 0]
+					}
+				},
+				"head": {
+					"rotation": {
+						"0.0": [15, 0, 0],
+						"0.2": [-20, 0, 0],
+						"0.5": [-5, 0, 0],
+						"0.8": [-10, 0, 0]
+					}
+				},
+				"LeftArm": {
+					"rotation": {
+						"0.2": [0, 0, 0],
+						"0.4": [-215.3335, 13.47157, 18.19144],
+						"0.6": [-12.8335, 13.47157, 18.19144]
+					}
+				},
+				"RightArm": {
+					"rotation": {
+						"0.0": [-201.26765, -7.52076, -18.58597],
+						"0.3": [-33.76765, -7.52076, -18.58597],
+						"0.5": [-33.77, -7.52, -18.59],
+						"0.6": [-219.95176, -20.94934, -33.925],
+						"0.8": [-22.45176, -20.94934, -33.925]
+					}
+				},
+				"waist": {
+					"rotation": {
+						"0.0": [0, 15, 0],
+						"0.3": [5, -10, 0],
+						"0.4": [-32.26061, -19.96033, -0.9226],
+						"0.6": [22.48824, 31.77626, 18.54932],
+						"0.7": [-28.52098, -1.09768, 5.87378],
+						"0.8": [25.90379, -21.54859, -3.75187]
+					}
+				},
+				"RightArmD": {
+					"rotation": {
+						"0.0": [-27.5, 0, 0],
+						"0.3": [0, 0, 0],
+						"0.5": [0, 0, 0],
+						"0.6": [-40, 0, 0],
+						"0.8": [0, 0, 0]
+					}
+				},
+				"LeftArmD": {
+					"rotation": {
+						"0.3": [0, 0, 0],
+						"0.4": [-47.5, 0, 0],
+						"0.6": [0, 0, 0]
+					}
+				}
+			}
+		},
+		"animation.foice_hold": {
+			"loop": true,
+			"animation_length": 0.25,
+			"override_previous_animation": true,
+			"bones": {
+				"lamy1": {
+					"rotation": {
+						"0.0": [0, 90, 0],
+						"0.25": [0, 90, -360]
+					}
+				},
+				"lamy2": {
+					"rotation": {
+						"0.0": [0, -90, 0],
+						"0.25": [0, -90, 360]
+					}
+				}
+			}
+		},
+		"animation.foice_skill": {
+			"loop": true,
+			"animation_length": 0.5,
+			"override_previous_animation": true,
+			"bones": {
+				"RightArm": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"0.25": [360, 0, 0],
+						"0.5": [720, 0, 0]
+					}
+				},
+				"LeftArm": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"0.25": [360, 0, 0],
+						"0.5": [720, 0, 0]
+					}
+				}
+			},
+			"particle_effects": {
+				"0.0": [
+					{
+						"effect": "skill",
+						"locator": "p1"
+					},
+					{
+						"effect": "skill",
+						"locator": "p2"
+					}
+				],
+				"0.05": [
+					{
+						"effect": "skill",
+						"locator": "p1"
+					},
+					{
+						"effect": "skill",
+						"locator": "p2"
+					}
+				],
+				"0.1": [
+					{
+						"effect": "skill",
+						"locator": "p1"
+					},
+					{
+						"effect": "skill",
+						"locator": "p2"
+					}
+				],
+				"0.15": [
+					{
+						"effect": "skill",
+						"locator": "p1"
+					},
+					{
+						"effect": "skill",
+						"locator": "p2"
+					}
+				],
+				"0.2": [
+					{
+						"effect": "skill",
+						"locator": "p1"
+					},
+					{
+						"effect": "skill",
+						"locator": "p2"
+					}
+				],
+				"0.25": [
+					{
+						"effect": "skill",
+						"locator": "p1"
+					},
+					{
+						"effect": "skill",
+						"locator": "p2"
+					}
+				],
+				"0.3": [
+					{
+						"effect": "skill",
+						"locator": "p1"
+					},
+					{
+						"effect": "skill",
+						"locator": "p2"
+					}
+				],
+				"0.35": [
+					{
+						"effect": "skill",
+						"locator": "p1"
+					},
+					{
+						"effect": "skill",
+						"locator": "p2"
+					}
+				],
+				"0.4": [
+					{
+						"effect": "skill",
+						"locator": "p1"
+					},
+					{
+						"effect": "skill",
+						"locator": "p2"
+					}
+				],
+				"0.45": [
+					{
+						"effect": "skill",
+						"locator": "p1"
+					},
+					{
+						"effect": "skill",
+						"locator": "p2"
+					}
+				],
+				"0.5": [
+					{
+						"effect": "skill",
+						"locator": "p1"
+					},
+					{
+						"effect": "skill",
+						"locator": "p2"
+					}
+				]
+			}
+		}
+	}
+}

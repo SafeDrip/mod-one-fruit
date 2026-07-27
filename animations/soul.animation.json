@@ -1,0 +1,63 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+				"animation.soul": {
+			"loop": true,
+			"bones": {
+				"hollow1": {
+					"position": ["0+Math.cos(query.life_time * 30) * 3", "0+Math.cos(query.life_time * 100) * -2", "0+Math.cos(query.life_time * 30) * -1"]
+				},
+				"hollow2": {
+					"position": [0, "1+Math.cos(query.life_time * 100) * -2", 0]
+				},
+				"hollow3": {
+					"position": ["0+Math.cos(query.life_time * 30) * -3", "0+Math.cos(query.life_time * 100) * -2", "0+Math.cos(query.life_time * 30) * 1"]
+				}
+			}
+		},
+				"animation.soul_ice": {
+			"animation_length": 1,
+			"bones": {
+				"bone11": {
+					"scale": {
+						"0.0": [0, 1, 0],
+						"1.0": [1, 1, 1]
+					}
+				}
+			}
+		},
+		"animation.soul_brook": {
+			"animation_length": 1.54167,
+			"bones": {
+				"Body": {
+					"rotation": [60, 0, 0],
+					"position": [0, -6, -10]
+				},
+				"Head": {
+					"rotation": [80, 0, 0],
+					"position": [0, -6, -9]
+				},
+				"RightArm": {
+					"rotation": {
+						"0.0": [-60, 27.5, 177.5],
+						"0.5": [-132.5, 27.5, 177.5]
+					},
+					"position": [0, -5, -10]
+				},
+				"LeftArm": {
+					"rotation": {
+						"0.0": [-120, 30, 0],
+						"0.5": [-52.5, 30, 0]
+					},
+					"position": [-1, -5, -9]
+				},
+				"RightLeg": {
+					"rotation": [0, 0, 25]
+				},
+				"LeftLeg": {
+					"rotation": [0, 0, -25]
+				}
+			}
+		}
+	}
+}

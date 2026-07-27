@@ -1,0 +1,14 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.spike_ball": {
+			"loop": true,
+			"bones": {
+				"Spiky": {
+					"rotation": [-10, -10, 30],
+					"position": [-2, 0, 1]
+				}
+			}
+		}
+	}
+}

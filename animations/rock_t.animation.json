@@ -1,0 +1,23 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.rock_t": {
+			"loop": "hold_on_last_frame",
+			"animation_length": 3,
+			"override_previous_animation": true,
+			"bones": {
+				"Rock": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"1.5": [175.13494, 13.50443, -161.70382],
+						"3.0": [161.75084, 21.37002, -440.67741]
+					},
+					"scale": {
+						"0.0": [0, 0, 0],
+						"0.5": [10, 10, 10]
+					}
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,72 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.prometheus_fogo": {
+			"loop": true,
+			"animation_length": 0.5,
+			"override_previous_animation": true,
+			"bones": {
+				"Prometheus": {
+					"scale": 0
+				},
+				"Prometheus2": {
+					"position": [20, -15, -41],
+					"scale": 4
+				}
+			},
+			"particle_effects": {
+				"0.0": {
+					"effect": "fire",
+					"locator": "f1"
+				},
+				"0.1": {
+					"effect": "fire",
+					"locator": "f1"
+				},
+				"0.2": {
+					"effect": "fire",
+					"locator": "f1"
+				},
+				"0.3": {
+					"effect": "fire",
+					"locator": "f1"
+				},
+				"0.4": {
+					"effect": "fire",
+					"locator": "f1"
+				}
+			}
+		},
+		"animation.zeus_attack": {
+			"animation_length": 1,
+			"bones": {
+				"bb_main": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"1.0": [0, -360, 0]
+					},
+					"position": {
+						"0.0": [0, 0, 0],
+						"0.0833": [12, 11, -13],
+						"0.1667": [26, 9, -12],
+						"0.25": [31, 3, -1],
+						"0.3333": [28, -12, 14],
+						"0.4167": [16, -20, 18],
+						"0.5": [5, -9, 16],
+						"0.5833": [-5, 2, 4],
+						"0.6667": [-3, -3, -2],
+						"0.75": [-4, -3, 4],
+						"0.8333": [0, 8, -5],
+						"0.9167": [1, 15, -11],
+						"1.0": [0, 4, 1]
+					},
+					"scale": {
+						"0.0": [1, 1, 1],
+						"0.5": [1.5, 1.5, 1.5],
+						"1.0": [1, 1, 1]
+					}
+				}
+			}
+		}
+	}
+}

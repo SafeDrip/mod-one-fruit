@@ -1,0 +1,32 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.navio1": {
+			"loop": "hold_on_last_frame",
+			"override_previous_animation": true,
+			"bones": {
+				"navio": {
+					"rotation": [3.02612, -50.21348, 147.55112]
+				}
+			}
+		},
+		"animation.navio2": {
+			"loop": "hold_on_last_frame",
+			"override_previous_animation": true,
+			"bones": {
+				"navio": {
+					"rotation": [74.68874, 32.90346, -23.93426]
+				}
+			}
+		},
+		"animation.navio3": {
+			"loop": "hold_on_last_frame",
+			"override_previous_animation": true,
+			"bones": {
+				"navio": {
+					"rotation": [-127.26882, -31.99078, 59.94228]
+				}
+			}
+		}
+	}
+}

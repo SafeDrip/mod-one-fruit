@@ -1,0 +1,76 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.pilar_chamas0": {
+			"animation_length": 1,
+			"override_previous_animation": true,
+			"bones": {
+				"pilar": {
+					"scale": {
+						"0.0": [1, 0, 1],
+						"1.0": [1, 1.2, 1]
+					}
+				},
+				"bone": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"1.0": [0, -360, 0]
+					},
+					"scale": {
+						"0.0": [1, 0, 1],
+						"1.0": [1, 0.9, 1]
+					}
+				}
+			}
+		},
+				"animation.pilar_fire": {
+			"animation_length": 3,
+			"bones": {
+				"bone": {
+					"scale": {
+						"0.0": [-0.2, 1, 0.1],
+						"0.5": [1, 1, 1]
+					}
+				},
+				"hexadecagon": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"3.0": [0, -690, 0]
+					},
+					"position": {
+						"0.0": [0, 205, 0],
+						"0.5": [0, 0, 0]
+					},
+					"scale": {
+						"0.0": [1, -0.1, 1],
+						"0.5": [1, 1, 1]
+					}
+				}
+			}
+		},
+		"animation.pilar_chamas": {
+			"loop": true,
+			"animation_length": 1,
+			"bones": {
+				"pilar": {
+					"scale": {
+						"0.0": [1, 1.2, 1],
+						"0.5": [1, 1, 1],
+						"1.0": [1, 1.2, 1]
+					}
+				},
+				"bone": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"1.0": [0, -360, 0]
+					},
+					"scale": {
+						"0.0": [1, 1, 1],
+						"0.5": [1, 2, 1],
+						"1.0": [1, 0.9, 1]
+					}
+				}
+			}
+		}
+	}
+}

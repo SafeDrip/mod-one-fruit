@@ -1,0 +1,95 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.ttk_moving": {
+			"loop": true,
+			"animation_length": 0.141,
+			"override_previous_animation": true,
+			"bones": {
+				"body": {
+					"rotation": [22.5, 0, 0]
+				},
+				"rightArm": {
+					"rotation": [120, -20, 0]
+				},
+				"leftArm": {
+					"rotation": [120, 20, 0]
+				}
+			}
+		},
+		"animation.oden_moving": {
+			"loop": true,
+			"animation_length": 0.141,
+			"override_previous_animation": true,
+			"bones": {
+				"body": {
+					"rotation": [22.5, 0, 0]
+				},
+				"rightArm": {
+					"rotation": [-20, 0, 15]
+				},
+				"leftArm": {
+					"rotation": [-20, 0, -15]
+				}
+			}
+		},
+		"animation.yoru_moving": {
+			"loop": true,
+			"animation_length": 0.141,
+			"override_previous_animation": true,
+			"bones": {
+				"body": {
+					"rotation": [22.5, 0, 0]
+				},
+				"rightArm": {
+					"rotation": [135, 15, -20]
+				}
+			}
+		},
+		"animation.saber_moving": {
+			"loop": true,
+			"animation_length": 0.141,
+			"override_previous_animation": true,
+			"bones": {
+				"body": {
+					"rotation": [22.5, 0, 0]
+				},
+				"rightArm": {
+					"rotation": [-10, 0, -17.5]
+				},
+				"leftArm": {
+					"rotation": [-10, 0, 42.5]
+				}
+			}
+		},
+		"animation.garra_moving": {
+			"loop": true,
+			"animation_length": 0.141,
+			"override_previous_animation": true,
+			"bones": {
+				"body": {
+					"rotation": [12.5, 0, 0]
+				},
+				"rightArm": {
+					"rotation": [-40, -30, 0]
+				},
+				"leftArm": {
+					"rotation": [-50, 52.5, 0]
+				}
+			}
+		},
+		"animation.swords_moving": {
+			"loop": true,
+			"animation_length": 0.141,
+			"override_previous_animation": true,
+			"bones": {
+				"body": {
+					"rotation": [5, 0, 0]
+				},
+				"rightArm": {
+					"rotation": [-9.96271, 0.86717, 19.92442]
+				}
+			}
+		}
+	}
+}

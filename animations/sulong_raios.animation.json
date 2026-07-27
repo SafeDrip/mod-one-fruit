@@ -1,0 +1,43 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.sulong_raios": {
+			"loop": true,
+			"override_previous_animation": true,
+			"bones": {
+				"Sulong_raio1": {
+					"rotation": ["2 + Math.cos(query.life_time * 110) * 15", "-12 + Math.cos(query.life_time * 70) * 10", "-10 + Math.cos(query.life_time * 90) * -5"],
+					"position": ["0 + Math.cos(query.life_time * 110) * 5", "0 + Math.cos(query.life_time * 100) * -2", "0 + Math.cos(query.life_time * 120) * 4"]
+				},
+				"Sulong_raio2": {
+					"rotation": ["0 + Math.cos(query.life_time * 120) * 25", "20 + Math.cos(query.life_time * 110) * -15", "0 + Math.cos(query.life_time * 80) * 10"],
+					"position": ["0 + Math.cos(query.life_time * 90) * 3", "0 + Math.cos(query.life_time * 110) * 2", "0 + Math.cos(query.life_time * 90) * 1"]
+				},
+				"Sulong_raio3": {
+					"rotation": ["0 + Math.cos(query.life_time * 80) * 2", "-12 + Math.cos(query.life_time * 120) * 10", "0 + Math.cos(query.life_time * 100) * -1"],
+					"position": ["0 + Math.cos(query.life_time * 70) * -2", "0 + Math.cos(query.life_time * 130) * 1", "0 + Math.cos(query.life_time * 80) * -2"]
+				},
+				"Sulong_raio4": {
+					"rotation": ["0 + Math.cos(query.life_time * 110) * 12", "25 + Math.cos(query.life_time * 60) * -2", "0 + Math.cos(query.life_time * 130) * -8"],
+					"position": ["0 + Math.cos(query.life_time * 120) * 2", "0 + Math.cos(query.life_time * 100) * -3", "0 + Math.cos(query.life_time * 90) * 1"]
+				},
+				"Sulong_raio5": {
+					"rotation": ["-2 + Math.cos(query.life_time * 110) * -15", "12 + Math.cos(query.life_time * 70) * -10", "10 + Math.cos(query.life_time * 90) * 5"],
+					"position": ["0 + Math.cos(query.life_time * 110) * -5", "0 + Math.cos(query.life_time * 100) * 2", "0 + Math.cos(query.life_time * 120) * -4"]
+				},
+				"Sulong_raio6": {
+					"rotation": ["0 + Math.cos(query.life_time * 120) * -25", "-20 + Math.cos(query.life_time * 110) * 15", "0 + Math.cos(query.life_time * 80) * -10"],
+					"position": ["0 + Math.cos(query.life_time * 90) * -3", "0 + Math.cos(query.life_time * 110) * -2", "0 + Math.cos(query.life_time * 90) * -1"]
+				},
+				"Sulong_raio7": {
+					"rotation": ["0 + Math.cos(query.life_time * 80) * -2", "12 + Math.cos(query.life_time * 120) * -10", "0 + Math.cos(query.life_time * 100) * 1"],
+					"position": ["0 + Math.cos(query.life_time * 70) * 2", "0 + Math.cos(query.life_time * 130) * -1", "0 + Math.cos(query.life_time * 80) * 2"]
+				},
+				"Sulong_raio8": {
+					"rotation": ["0 + Math.cos(query.life_time * 110) * -12", "-25 + Math.cos(query.life_time * 60) * 2", "0 + Math.cos(query.life_time * 130) * 8"],
+					"position": ["0 + Math.cos(query.life_time * 120) * -2", "0 + Math.cos(query.life_time * 100) * 3", "0 + Math.cos(query.life_time * 90) * -1"]
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,27 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.poneglyph": {
+			"animation_length": 5.0,
+			"override_previous_animation": true,
+			"bones": {
+				"bb_main": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"1.0": [0, -720, 0]
+					},
+					"position": {
+						"0.0": [0, 0, 0],
+						"0.5": [0, 5.5, 0],
+						"1.0": [0, 102, 0]
+					},
+					"scale": {
+						"0.0": [1, 1, 1],
+						"0.5": [0.9, 0.9, 0.9],
+						"0.95": [0, 0, 0]
+					}
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,41 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.yoru_first_person": {
+			"loop": true,
+			"animation_length": 0.125,
+			"bones": {
+				"rightArm": {
+					"rotation": [0, 20, 40]
+				}
+			}
+		},
+		"animation.ttk_first_person": {
+			"loop": true,
+			"animation_length": 0.125,
+			"bones": {
+				"rightArm": {
+					"rotation": [0, 20, 50]
+				},
+				"Head": {
+					"position": [0, 20, 0]
+				},
+				"leftArm": {
+					"rotation": [0, -15, -50]
+				}
+			}
+		},
+		"animation.swords_first_person": {
+			"loop": true,
+			"animation_length": 0.125,
+			"bones": {
+				"rightArm": {
+					"rotation": [0, 20, 40]
+				},
+				"rightArm2": {
+					"rotation": [-30, 0, 0]
+				}
+			}
+		}
+	}
+}

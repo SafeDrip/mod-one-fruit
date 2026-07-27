@@ -1,0 +1,41 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.shanks_skill": {
+			"loop": true,
+			"animation_length": 0.5,
+			"bones": {
+				"espada": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"0.5": [0, -355, 0]
+					}
+				},
+				"circu1": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"0.5": [0, -352.5, 0]
+					}
+				},
+				"circu2": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"0.5": [0, -342.5, 0]
+					}
+				},
+				"circu3": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"0.5": [0, 320, 0]
+					}
+				},
+				"circu4": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"0.5": [0, -342.5, 0]
+					}
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,89 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.swordslash1": {
+			"animation_length": 1,
+			"bones": {
+				"body": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"0.15": [-5, 15, 0],
+						"0.5": [5, -10, 0]
+					}
+				},
+				"RightArm": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"0.15": [-215, 0, -90],
+						"0.5": [-47.20512, 18.88952, -73.31459]
+					}
+				},
+				"lp1": {
+					"rotation": [0, "variable.is_first_person ? 180 : 0", 0],
+					"position": [0, 20, 0]
+				}
+			},
+			"particle_effects": {
+				"0.0": {
+					"effect": "swordslash",
+					"locator": "point1"
+				}
+			}
+		},
+		"animation.hakislash1": {
+			"loop": true,
+			"bones": {
+				"lp1": {
+					"rotation": [0, "variable.is_first_person ? 180 : 0", -60],
+					"position": [0, 20, 0]
+				}
+			},
+			"particle_effects": {
+				"0.0": {
+					"effect": "hakislash",
+					"locator": "point1"
+				}
+			}
+		},
+		"animation.hakislash2": {
+			"loop": true,
+			"bones": {
+				"lp1": {
+					"rotation": [0, "variable.is_first_person ? 180 : 0", 60],
+					"position": [0, 20, 0]
+				}
+			},
+			"particle_effects": {
+				"0.0": {
+					"effect": "hakislash",
+					"locator": "point1"
+				}
+			}
+		},
+		"animation.hakislash3": {
+			"loop": true,
+			"bones": {
+				"lp1": {
+					"rotation": [0, "variable.is_first_person ? 155 : -25", 0],
+					"position": [0, 22, 0]
+				},
+				"lp2": {
+					"rotation": [0, "variable.is_first_person ? 332.5 : 152.5", 0],
+					"position": [0, 18, 0]
+				}
+			},
+			"particle_effects": {
+				"0.0": [
+					{
+						"effect": "hakislash",
+						"locator": "point1"
+					},
+					{
+						"effect": "hakislash",
+						"locator": "point2"
+					}
+				]
+			}
+		}
+	}
+}
