@@ -1,0 +1,25 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": { "identifier": "of:ice_step",
+      "materials": {
+        "default": "glow"
+      },
+      "textures": {
+        "default": "textures/atks/ice"
+      },
+      "geometry": {
+        "default": "geometry.ice_step"
+      },
+      "animations": {
+        "move": "animation.ice_step"
+      },
+      "scripts": {
+        "animate": [
+          "move"
+        ]
+      },
+      "render_controllers": [ "controller.render.base" ]
+    }
+  }
+}

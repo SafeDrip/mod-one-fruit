@@ -1,0 +1,25 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": { "identifier": "of:g5ex",
+      "materials": {
+        "default": "armor"
+      },
+      "textures": {
+        "default": "textures/atks/g5ex"
+      },
+      "geometry": {
+        "default": "geometry.g5ex"
+      },
+      "animations": {
+        "move": "animation.g5ex"
+      },
+      "scripts": {
+        "animate": [
+          "move"
+        ]
+      },
+      "render_controllers": [ "controller.render.base" ]
+    }
+  }
+}

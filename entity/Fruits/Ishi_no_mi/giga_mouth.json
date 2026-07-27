@@ -1,0 +1,25 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": { "identifier": "of:giga_mouth",
+      "materials": {
+        "default": "armor"
+      },
+      "textures": {
+        "default": "textures/entity/giga_mouth"
+      },
+      "geometry": {
+        "default": "geometry.giga_mouth"
+      },
+      "animations": {
+        "move": "animation.giga_mouth"
+      },
+      "scripts": {
+        "animate": [
+          "move"
+        ]
+      },
+      "render_controllers": [ "controller.render.base" ]
+    }
+  }
+}

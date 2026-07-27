@@ -1,0 +1,27 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "of:bara_punch",
+      "materials": {
+        "default": "skeleton"
+      },
+      "textures": {
+        "default": "textures/atks/bara_punch"
+      },
+      "geometry": {
+        "default": "geometry.bara_punch"
+      },
+      "scripts": {
+        "scale": "1.5",
+        "animate": [
+          "look"
+        ]
+      },
+      "animations": {
+        "look": "animation.look.projectile"
+      },
+      "render_controllers": [ "controller.render.translucence" ]
+    }
+  }
+}

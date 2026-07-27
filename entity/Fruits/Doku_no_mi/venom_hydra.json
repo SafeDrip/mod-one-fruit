@@ -1,0 +1,26 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": { "identifier": "of:venom_hydra",
+      "materials": {
+        "default": "armor"
+      },
+      "textures": {
+        "default": "textures/entity/venom_hydra"
+      },
+      "geometry": {
+        "default": "geometry.venom_hydra"
+      },
+      "animations": {
+        "move": "animation.venom_hydra"
+      },
+      "scripts": {
+        "animate": [
+          "move"
+        ]
+      },
+      "render_controllers": [ "controller.render.base",
+      "controller.render.base"]
+    }
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": { "identifier": "of:giga_spike",
+      "materials": {
+        "default": "armor"
+      },
+      "textures": {
+        "default": "textures/entity/giga_spike"
+      },
+      "geometry": {
+        "default": "geometry.giga_spike"
+      },
+      "animations": {
+        "move": "animation.giga_spike"
+      },
+      "scripts": {
+        "animate": [
+          "move"
+        ]
+      },
+      "render_controllers": [ "controller.render.base" ]
+    }
+  }
+}

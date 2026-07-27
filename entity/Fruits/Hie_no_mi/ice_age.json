@@ -1,0 +1,25 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": { "identifier": "of:ice_age",
+      "materials": {
+        "default": "charged"
+      },
+      "textures": {
+        "default": "textures/atks/ice_age"
+      },
+      "geometry": {
+        "default": "geometry.ice_age"
+      },
+      "animations": {
+        "move": "animation.ice_age"
+      },
+      "scripts": {
+        "animate": [
+          "move"
+        ]
+      },
+      "render_controllers": [ "controller.render.base" ]
+    }
+  }
+}

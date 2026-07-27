@@ -1,0 +1,28 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": { "identifier": "of:magma_punchs",
+      "materials": {
+        "default": "armor"
+      },
+      "textures": {
+        "default": "textures/atks/magma_punchs"
+      },
+      "geometry": {
+        "default": "geometry.magma_punchs"
+      },
+      "particle_effects": {
+        "magma0": "of:magma0"
+      },
+      "animations": {
+        "move": "animation.magma_rain0"
+      },
+      "scripts": {
+        "animate": [
+          "move"
+        ]
+      },
+      "render_controllers": [ "controller.render.base" ]
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": { "identifier": "of:ice_bird",
+      "materials": {
+        "default": "glow"
+      },
+      "textures": {
+        "default": "textures/atks/ice"
+      },
+      "geometry": {
+        "default": "geometry.ice_bird"
+      },
+      "scripts": {
+        "scale": "1.5",
+        "animate": [
+          "look", "move"
+        ]
+      },
+      "animations": {
+        "look": "animation.look.projectile",
+        "move": "animation.ice_bird"
+      },
+      "render_controllers": [ "controller.render.base" ]
+    }
+  }
+}

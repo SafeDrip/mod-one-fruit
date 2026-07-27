@@ -1,0 +1,25 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": { "identifier": "of:magma_p",
+      "materials": {
+        "default": "armor"
+      },
+      "textures": {
+        "default": "textures/atks/magma_p"
+      },
+      "geometry": {
+        "default": "geometry.magma_p"
+      },
+      "animations": {
+        "move": "animation.magma_p"
+      },
+      "scripts": {
+        "animate": [
+          "move"
+        ]
+      },
+      "render_controllers": [ "controller.render.base" ]
+    }
+  }
+}

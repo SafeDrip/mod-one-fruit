@@ -1,0 +1,26 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": { "identifier": "of:el_thor",
+      "materials": {
+        "default": "armor"
+      },
+      "textures": {
+        "default": "textures/atks/el_thor"
+      },
+      "geometry": {
+        "default": "geometry.el_thor"
+      },
+      "animations": {
+        "move": "animation.el_thor"
+      },
+      "scripts": {
+        "animate": [
+          "move"
+        ]
+      },
+      "render_controllers": [ "controller.render.base",
+      "controller.render.base"]
+    }
+  }
+}

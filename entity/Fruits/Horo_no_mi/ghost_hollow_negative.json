@@ -1,0 +1,29 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "of:ghost_hollow_negative",
+      "materials": {
+        "default": "skeleton"
+      },
+      "textures": {
+        "default": "textures/entity/ghost_hollow"
+      },
+      "geometry": {
+        "default": "geometry.ghost_hollow"
+      },
+      "scripts": {
+        "scale": "1.5",
+        "animate": [
+          "look",
+          "animate"
+        ]
+      },
+      "animations": {
+        "look": "animation.look.projectile",
+        "animate": "animation.hollow"
+      },
+      "render_controllers": [ "controller.render.translucence" ]
+    }
+  }
+}

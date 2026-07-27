@@ -1,0 +1,25 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": { "identifier": "of:magma_punho",
+      "materials": {
+        "default": "armor"
+      },
+      "textures": {
+        "default": "textures/atks/magma"
+      },
+      "geometry": {
+        "default": "geometry.magma_punho"
+      },
+      "animations": {
+        "move": "animation.magma_punho"
+      },
+      "scripts": {
+        "animate": [
+          "move"
+        ]
+      },
+      "render_controllers": [ "controller.render.base" ]
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": { "identifier": "of:jet_culverin",
+      "materials": {
+        "default": "armor"
+      },
+      "textures": {
+        "default": "textures/entity/gear4_sneak"
+      },
+      "geometry": {
+        "default": "geometry.jet_culverin"
+      },
+      "animations": {
+        "move": "animation.jet_culverin"
+      },
+      "scripts": {
+        "animate": [
+          "move"
+        ]
+      },
+      "render_controllers": [ "controller.render.base",
+      "controller.render.base"]
+    }
+  }
+}

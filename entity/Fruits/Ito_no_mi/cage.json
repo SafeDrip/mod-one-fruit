@@ -1,0 +1,26 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": { "identifier": "of:cage",
+      "materials": {
+        "default": "armor"
+      },
+      "textures": {
+        "default": "textures/atks/linha"
+      },
+      "geometry": {
+        "default": "geometry.ito_gaiola"
+      },
+      "animations": {
+        "move": "animation.ito_gaiola"
+      },
+      "scripts": {
+        "animate": [
+          "move"
+        ]
+      },
+      "render_controllers": [ "controller.render.base",
+      "controller.render.base"]
+    }
+  }
+}

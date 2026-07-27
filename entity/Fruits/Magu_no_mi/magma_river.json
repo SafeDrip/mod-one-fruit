@@ -1,0 +1,27 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": { "identifier": "of:magma_river",
+      "materials": {
+        "default": "armor"
+      },
+      "textures": {
+        "default": "textures/atks/magma_river"
+      },
+      "geometry": {
+        "default": "geometry.magma_river"
+      },
+      "animations": {
+        "anim": "controller.animation.pilar",
+        "move": "animation.magma_river",
+        "move0": "animation.magma_river0"
+      },
+      "scripts": {
+        "animate": [
+          "anim"
+        ]
+      },
+      "render_controllers": [ "controller.render.base" ]
+    }
+  }
+}

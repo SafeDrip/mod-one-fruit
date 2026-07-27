@@ -1,0 +1,25 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": { "identifier": "of:magma_ex",
+      "materials": {
+        "default": "armor"
+      },
+      "textures": {
+        "default": "textures/atks/magma_ex"
+      },
+      "geometry": {
+        "default": "geometry.magma_ex"
+      },
+      "animations": {
+        "move": "animation.magma_ex"
+      },
+      "scripts": {
+        "animate": [
+          "move"
+        ]
+      },
+      "render_controllers": [ "controller.render.base" ]
+    }
+  }
+}

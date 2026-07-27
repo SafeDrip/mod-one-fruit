@@ -1,0 +1,25 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": { "identifier": "of:shadow_prison",
+      "materials": {
+        "default": "armor"
+      },
+      "textures": {
+        "default": "textures/entity/shadow_clone"
+      },
+      "geometry": {
+        "default": "geometry.shadow_prison"
+      },
+      "animations": {
+        "move": "animation.shadow_prison"
+      },
+      "scripts": {
+        "animate": [
+          "move"
+        ]
+      },
+      "render_controllers": [ "controller.render.base" ]
+    }
+  }
+}

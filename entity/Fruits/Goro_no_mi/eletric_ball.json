@@ -1,0 +1,26 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": { "identifier": "of:eletric_ball",
+      "materials": {
+        "default": "armor"
+      },
+      "textures": {
+        "default": "textures/atks/raigo"
+      },
+      "geometry": {
+        "default": "geometry.eletric_ball"
+      },
+      "animations": {
+        "move": "animation.eletric_ball"
+      },
+      "scripts": {
+        "animate": [
+          "move"
+        ]
+      },
+      "render_controllers": [ "controller.render.base",
+      "controller.render.base"]
+    }
+  }
+}

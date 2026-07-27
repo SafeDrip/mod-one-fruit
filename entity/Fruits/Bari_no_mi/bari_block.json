@@ -1,0 +1,28 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "of:bari_block",
+      "materials": {
+        "default": "charged"
+      },
+      "textures": {
+        "default": "textures/atks/barrier"
+      },
+      "geometry": {
+        "default": "geometry.barrier3"
+      },
+      "scripts": {
+        "scale": "1.5",
+        "animate": [
+          "anim"
+        ]
+      },
+      "animations": {
+        "anim": "controller.animation.barrier",
+        "barrier": "animation.barrier3"
+      },
+      "render_controllers": [ "controller.render.chest" ]
+    }
+  }
+}

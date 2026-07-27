@@ -1,0 +1,26 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": { "identifier": "of:ito_spike",
+      "materials": {
+        "default": "armor"
+      },
+      "textures": {
+        "default": "textures/atks/string"
+      },
+      "geometry": {
+        "default": "geometry.ito_spike"
+      },
+      "animations": {
+        "move": "animation.ito_spike"
+      },
+      "scripts": {
+        "animate": [
+          "move"
+        ]
+      },
+      "render_controllers": [ "controller.render.base",
+      "controller.render.base"]
+    }
+  }
+}

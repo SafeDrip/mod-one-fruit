@@ -1,0 +1,26 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": { "identifier": "of:swords_repel",
+      "materials": {
+        "default": "armor"
+      },
+      "textures": {
+        "default": "textures/espadas/cutlass"
+      },
+      "geometry": {
+        "default": "geometry.swords_repel"
+      },
+      "animations": {
+        "move": "animation.swords_repel"
+      },
+      "scripts": {
+        "animate": [
+          "move"
+        ]
+      },
+      "render_controllers": [ "controller.render.base",
+      "controller.render.base"]
+    }
+  }
+}

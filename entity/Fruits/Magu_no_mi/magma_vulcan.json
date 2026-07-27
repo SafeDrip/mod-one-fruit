@@ -1,0 +1,25 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": { "identifier": "of:magma_vulcan",
+      "materials": {
+        "default": "armor"
+      },
+      "textures": {
+        "default": "textures/atks/vulcan"
+      },
+      "geometry": {
+        "default": "geometry.magma_vulcan"
+      },
+      "animations": {
+        "move": "animation.magma_vulcan"
+      },
+      "scripts": {
+        "animate": [
+          "move"
+        ]
+      },
+      "render_controllers": [ "controller.render.base" ]
+    }
+  }
+}

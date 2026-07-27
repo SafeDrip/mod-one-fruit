@@ -1,0 +1,30 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "of:gear5_punch",
+      "materials": {
+        "default": "skeleton"
+      },
+      "textures": {
+        "default": "textures/entity/gear5_punch"
+      },
+      "geometry": {
+        "default": "geometry.gear5_punch"
+      },
+      "particle_effects": {
+        "g5": "of:g5punch"
+      },
+      "scripts": {
+        "scale": "1.5",
+        "animate": [
+          "look"
+        ]
+      },
+      "animations": {
+        "look": "animation.g5punch"
+      },
+      "render_controllers": [ "controller.render.translucence" ]
+    }
+  }
+}

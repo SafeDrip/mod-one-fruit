@@ -1,0 +1,27 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "of:gpunch_hold",
+      "materials": {
+        "default": "skeleton"
+      },
+      "textures": {
+        "default": "textures/entity/gear5_punch"
+      },
+      "geometry": {
+        "default": "geometry.gear5_punch"
+      },
+      "scripts": {
+        "scale": "1.5",
+        "animate": [
+          "look"
+        ]
+      },
+      "animations": {
+        "look": "animation.gpunch"
+      },
+      "render_controllers": [ "controller.render.translucence" ]
+    }
+  }
+}

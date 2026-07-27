@@ -1,0 +1,26 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": { "identifier": "of:gas_laser",
+      "materials": {
+        "default": "armor"
+      },
+      "textures": {
+        "default": "textures/atks/gas_laser"
+      },
+      "geometry": {
+        "default": "geometry.gas_laser"
+      },
+      "animations": {
+        "move": "animation.gas_laser"
+      },
+      "scripts": {
+        "animate": [
+          "move"
+        ]
+      },
+      "render_controllers": [ "controller.render.base",
+      "controller.render.base"]
+    }
+  }
+}

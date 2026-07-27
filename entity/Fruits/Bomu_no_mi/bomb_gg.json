@@ -1,0 +1,26 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": { "identifier": "of:bomb_gg",
+      "materials": {
+        "default": "armor"
+      },
+      "textures": {
+        "default": "textures/entity/bomb_gg"
+      },
+      "geometry": {
+        "default": "geometry.bomb_gg"
+      },
+      "animations": {
+        "move": "animation.bomb_gg"
+      },
+      "scripts": {
+        "animate": [
+          "move"
+        ]
+      },
+      "render_controllers": [ "controller.render.base",
+      "controller.render.base"]
+    }
+  }
+}

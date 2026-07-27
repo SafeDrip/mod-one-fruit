@@ -1,0 +1,26 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": { "identifier": "of:ice_bike",
+      "materials": {
+        "default": "glow"
+      },
+      "textures": {
+        "default": "textures/atks/ice"
+      },
+      "geometry": {
+        "default": "geometry.ice_bike"
+      },
+      "animations": {
+        "walk": "animation.ice_bike"
+      },
+      "scripts": {
+        "animate": [
+          "setup",
+          { "walk": "query.modified_move_speed" }
+        ]
+      },
+      "render_controllers": [ "controller.render.base" ]
+    }
+  }
+}

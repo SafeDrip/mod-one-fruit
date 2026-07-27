@@ -1,0 +1,26 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": { "identifier": "of:metal_ball",
+      "materials": {
+        "default": "armor"
+      },
+      "textures": {
+        "default": "textures/entity/metal_ball"
+      },
+      "geometry": {
+        "default": "geometry.metal_ball"
+      },
+      "animations": {
+        "move": "animation.metal_ball"
+      },
+      "scripts": {
+        "animate": [
+          "move"
+        ]
+      },
+      "render_controllers": [ "controller.render.base",
+      "controller.render.base"]
+    }
+  }
+}
