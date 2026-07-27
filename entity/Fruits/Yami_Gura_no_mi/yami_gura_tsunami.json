@@ -1,0 +1,25 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": { "identifier": "of:yami_gura_tsunami",
+      "materials": {
+        "default": "armor"
+      },
+      "textures": {
+        "default": "textures/atks/gura_tsunami"
+      },
+      "geometry": {
+        "default": "geometry.gura_tsunami"
+      },
+      "animations": {
+        "move": "animation.gura_tsunami"
+      },
+      "scripts": {
+        "animate": [
+          "move"
+        ]
+      },
+      "render_controllers": [ "controller.render.base" ]
+    }
+  }
+}

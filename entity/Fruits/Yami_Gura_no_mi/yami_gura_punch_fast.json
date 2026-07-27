@@ -1,0 +1,26 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": { "identifier": "of:yami_gura_punch_fast",
+      "materials": {
+        "default": "armor"
+      },
+      "textures": {
+        "default": "textures/atks/gura_break"
+      },
+      "geometry": {
+        "default": "geometry.gura_punch_fast"
+      },
+      "animations": {
+        "move": "animation.gura_break1"
+      },
+      "scripts": {
+        "animate": [
+          "move"
+        ]
+      },
+      "render_controllers": [ "controller.render.base",
+      "controller.render.base"]
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": { "identifier": "of:light",
+      "materials": {
+        "default": "armor"
+      },
+      "textures": {
+        "default": "textures/entity/light"
+      },
+      "geometry": {
+        "default": "geometry.light"
+      },
+      "animations": {
+        "move": "animation.light"
+      },
+      "scripts": {
+        "animate": [
+          "move"
+        ]
+      },
+      "render_controllers": [ "controller.render.base",
+      "controller.render.base"]
+    }
+  }
+}

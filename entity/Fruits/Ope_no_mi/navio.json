@@ -1,0 +1,28 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": { "identifier": "of:navio",
+      "materials": {
+        "default": "armor"
+      },
+      "textures": {
+        "default": "textures/entity/navio"
+      },
+      "geometry": {
+        "default": "geometry.navio"
+      },
+      "animations": {
+        "move": "controller.animation.navio",
+        "1": "animation.navio1",
+        "2": "animation.navio2",
+        "3": "animation.navio3"
+      },
+      "scripts": {
+        "animate": [
+          "move"
+        ]
+      },
+      "render_controllers": [ "controller.render.chest" ]
+    }
+  }
+}

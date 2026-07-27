@@ -1,0 +1,28 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": { "identifier": "of:mochi_turret",
+      "materials": {
+        "default": "armor"
+      },
+      "textures": {
+        "default": "textures/atks/mochi",
+        "haki": "textures/atks/mochi_haki"
+      },
+      "geometry": {
+        "default": "geometry.mochi_turret"
+      },
+      "animations": {
+        "move": "animation.mochi_turret"
+      },
+      "scripts": {
+        "animate": [
+          "move"
+        ]
+      },
+      "render_controllers": [ 
+      {"controller.render.skillhaki": "query.variant == 1"},
+      {"controller.render.default": "query.variant != 1"}]
+    }
+  }
+}

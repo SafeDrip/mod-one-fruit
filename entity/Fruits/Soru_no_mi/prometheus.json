@@ -1,0 +1,28 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": { "identifier": "of:prometheus",
+      "materials": {
+        "default": "armor"
+      },
+      "textures": {
+        "default": "textures/entity/prometheus"
+      },
+      "geometry": {
+        "default": "geometry.prometheus"
+      },
+      "particle_effects": {
+        "fire": "of:pfire"
+      },
+      "animations": {
+        "move": "animation.prometheus"
+      },
+      "scripts": {
+        "animate": [
+          "move"
+        ]
+      },
+      "render_controllers": [ "controller.render.base" ]
+    }
+  }
+}

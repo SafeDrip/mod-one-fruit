@@ -1,0 +1,25 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": { "identifier": "of:dai_enkai",
+      "materials": {
+        "default": "armor"
+      },
+      "textures": {
+        "default": "textures/entity/dai_enkai"
+      },
+      "geometry": {
+        "default": "geometry.dai_enkai"
+      },
+      "animations": {
+        "move": "animation.dai_enkai1"
+      },
+      "scripts": {
+        "animate": [
+          "move"
+        ]
+      },
+      "render_controllers": [ "controller.render.chest" ]
+    }
+  }
+}

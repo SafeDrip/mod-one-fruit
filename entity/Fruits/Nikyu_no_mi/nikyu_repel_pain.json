@@ -1,0 +1,26 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": { "identifier": "of:nikyu_repel_pain",
+      "materials": {
+        "default": "charged"
+      },
+      "textures": {
+        "default": "textures/atks/dor"
+      },
+      "geometry": {
+        "default": "geometry.nikyu_repel_pain"
+      },
+      "animations": {
+        "move": "animation.nikyu_repel_pain"
+      },
+      "scripts": {
+        "animate": [
+          "move"
+        ]
+      },
+      "render_controllers": [ "controller.render.base",
+      "controller.render.base"]
+    }
+  }
+}

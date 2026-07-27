@@ -1,0 +1,26 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": { "identifier": "of:black_devastation",
+      "materials": {
+        "default": "armor"
+      },
+      "textures": {
+        "default": "textures/entity/black_devastation"
+      },
+      "geometry": {
+        "default": "geometry.black_devastation"
+      },
+      "animations": {
+        "move": "animation.black_devastation"
+      },
+      "scripts": {
+        "animate": [
+          "move"
+        ]
+      },
+      "render_controllers": [ "controller.render.base",
+      "controller.render.base"]
+    }
+  }
+}

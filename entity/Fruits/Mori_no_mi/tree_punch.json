@@ -1,0 +1,25 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": { "identifier": "of:tree_punch",
+      "materials": {
+        "default": "armor"
+      },
+      "textures": {
+        "default": "textures/atks/tree"
+      },
+      "geometry": {
+        "default": "geometry.tree_punch"
+      },
+      "animations": {
+        "move": "animation.tree_punch"
+      },
+      "scripts": {
+        "animate": [
+          "move"
+        ]
+      },
+      "render_controllers": [ "controller.render.base" ]
+    }
+  }
+}

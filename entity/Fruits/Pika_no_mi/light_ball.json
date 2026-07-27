@@ -1,0 +1,26 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": { "identifier": "of:light_ball",
+      "materials": {
+        "default": "armor"
+      },
+      "textures": {
+        "default": "textures/entity/light_ball"
+      },
+      "geometry": {
+        "default": "geometry.light_ball"
+      },
+      "animations": {
+        "move": "animation.light_ball"
+      },
+      "scripts": {
+        "animate": [
+          "move"
+        ]
+      },
+      "render_controllers": [ "controller.render.base",
+      "controller.render.base"]
+    }
+  }
+}

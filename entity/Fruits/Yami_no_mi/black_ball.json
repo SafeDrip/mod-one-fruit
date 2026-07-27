@@ -1,0 +1,26 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": { "identifier": "of:black_ball",
+      "materials": {
+        "default": "armor"
+      },
+      "textures": {
+        "default": "textures/entity/black"
+      },
+      "geometry": {
+        "default": "geometry.black_ball"
+      },
+      "animations": {
+        "move": "animation.black_ball"
+      },
+      "scripts": {
+        "animate": [
+          "move"
+        ]
+      },
+      "render_controllers": [ "controller.render.base",
+      "controller.render.base"]
+    }
+  }
+}

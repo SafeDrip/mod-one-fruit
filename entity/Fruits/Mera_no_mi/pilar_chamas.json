@@ -1,0 +1,27 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": { "identifier": "of:pilar_chamas",
+      "materials": {
+        "default": "armor"
+      },
+      "textures": {
+        "default": "textures/entity/dai_enkai"
+      },
+      "geometry": {
+        "default": "geometry.pilar_chamas"
+      },
+      "animations": {
+        "anim": "controller.animation.pilar",
+        "move": "animation.pilar_chamas",
+        "move0": "animation.pilar_chamas0"
+      },
+      "scripts": {
+        "animate": [
+          "anim"
+        ]
+      },
+      "render_controllers": [ "controller.render.base" ]
+    }
+  }
+}

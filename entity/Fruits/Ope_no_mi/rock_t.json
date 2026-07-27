@@ -1,0 +1,25 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": { "identifier": "of:rock_t",
+      "materials": {
+        "default": "armor"
+      },
+      "textures": {
+        "default": "textures/entity/rock_t"
+      },
+      "geometry": {
+        "default": "geometry.rock_t"
+      },
+      "animations": {
+        "move": "animation.rock_t"
+      },
+      "scripts": {
+        "animate": [
+          "move"
+        ]
+      },
+      "render_controllers": [ "controller.render.chest" ]
+    }
+  }
+}

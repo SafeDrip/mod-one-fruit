@@ -1,0 +1,25 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": { "identifier": "of:zeus",
+      "materials": {
+        "default": "armor"
+      },
+      "textures": {
+        "default": "textures/entity/zeus"
+      },
+      "geometry": {
+        "default": "geometry.zeus"
+      },
+      "animations": {
+        "move": "animation.zeus"
+      },
+      "scripts": {
+        "animate": [
+          "move"
+        ]
+      },
+      "render_controllers": [ "controller.render.base" ]
+    }
+  }
+}

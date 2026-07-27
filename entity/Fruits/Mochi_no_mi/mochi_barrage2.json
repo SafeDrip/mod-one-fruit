@@ -1,0 +1,25 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": { "identifier": "of:mochi_barrage2",
+      "materials": {
+        "default": "armor"
+      },
+      "textures": {
+        "default": "textures/atks/mochi_donuts"
+      },
+      "geometry": {
+        "default": "geometry.mochi_barrage"
+      },
+      "animations": {
+        "move": "animation.mochi_barrage"
+      },
+      "scripts": {
+        "animate": [
+          "move"
+        ]
+      },
+      "render_controllers": [ "controller.render.base" ]
+    }
+  }
+}

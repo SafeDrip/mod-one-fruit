@@ -1,0 +1,26 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": { "identifier": "of:light_eye",
+      "materials": {
+        "default": "charged"
+      },
+      "textures": {
+        "default": "textures/entity/light"
+      },
+      "geometry": {
+        "default": "geometry.light_eye"
+      },
+      "animations": {
+        "move": "animation.light_eye"
+      },
+      "scripts": {
+        "animate": [
+          "move"
+        ]
+      },
+      "render_controllers": [ "controller.render.base",
+      "controller.render.base"]
+    }
+  }
+}

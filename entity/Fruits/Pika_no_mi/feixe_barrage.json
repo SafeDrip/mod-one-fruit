@@ -1,0 +1,26 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": { "identifier": "of:feixe_barrage",
+      "materials": {
+        "default": "armor"
+      },
+      "textures": {
+        "default": "textures/entity/light_sword"
+      },
+      "geometry": {
+        "default": "geometry.feixe_barrage"
+      },
+      "animations": {
+        "move": "animation.feixe_barrage"
+      },
+      "scripts": {
+        "animate": [
+          "move"
+        ]
+      },
+      "render_controllers": [ "controller.render.base",
+      "controller.render.base"]
+    }
+  }
+}

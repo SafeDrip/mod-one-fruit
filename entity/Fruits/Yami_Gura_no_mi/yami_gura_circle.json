@@ -1,0 +1,26 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": { "identifier": "of:yami_gura_circle",
+      "materials": {
+        "default": "armor"
+      },
+      "textures": {
+        "default": "textures/entity/black_devastation"
+      },
+      "geometry": {
+        "default": "geometry.black_circle"
+      },
+      "animations": {
+        "move": "animation.black_circle"
+      },
+      "scripts": {
+        "animate": [
+          "move"
+        ]
+      },
+      "render_controllers": [ "controller.render.base",
+      "controller.render.base"]
+    }
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": { "identifier": "of:mochi_barrage",
+      "materials": {
+        "default": "armor"
+      },
+      "textures": {
+        "default": "textures/atks/mochi_donuts",
+        "haki": "textures/atks/mochi_donuts_haki"
+      },
+      "geometry": {
+        "default": "geometry.mochi_barrage"
+      },
+      "animations": {
+        "move": "animation.mochi_barrage"
+      },
+      "scripts": {
+        "animate": [
+          "move"
+        ]
+      },
+      "render_controllers": [ 
+      {"controller.render.skillhaki": "query.variant == 1"},
+      {"controller.render.default": "query.variant != 1"}]
+    }
+  }
+}

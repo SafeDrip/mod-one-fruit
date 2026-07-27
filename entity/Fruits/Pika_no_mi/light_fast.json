@@ -1,0 +1,26 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": { "identifier": "of:light_fast",
+      "materials": {
+        "default": "armor"
+      },
+      "textures": {
+        "default": "textures/entity/light_sword"
+      },
+      "geometry": {
+        "default": "geometry.feixe"
+      },
+      "animations": {
+        "move": "animation.feixe"
+      },
+      "scripts": {
+        "animate": [
+          "move"
+        ]
+      },
+      "render_controllers": [ "controller.render.base",
+      "controller.render.base"]
+    }
+  }
+}

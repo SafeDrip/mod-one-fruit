@@ -1,0 +1,25 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": { "identifier": "of:pilar_fire",
+      "materials": {
+        "default": "armor"
+      },
+      "textures": {
+        "default": "textures/entity/pilar_fire"
+      },
+      "geometry": {
+        "default": "geometry.pilar_fire"
+      },
+      "animations": {
+        "move": "animation.pilar_fire"
+      },
+      "scripts": {
+        "animate": [
+          "move"
+        ]
+      },
+      "render_controllers": [ "controller.render.base" ]
+    }
+  }
+}

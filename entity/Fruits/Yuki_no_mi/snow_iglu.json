@@ -1,0 +1,26 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": { "identifier": "of:snow_iglu",
+      "materials": {
+        "default": "armor"
+      },
+      "textures": {
+        "default": "textures/atks/snow"
+      },
+      "geometry": {
+        "default": "geometry.snow_iglu"
+      },
+      "animations": {
+        "move": "animation.snow_iglu"
+      },
+      "scripts": {
+        "animate": [
+          "move"
+        ]
+      },
+      "render_controllers": [ "controller.render.base",
+      "controller.render.base"]
+    }
+  }
+}

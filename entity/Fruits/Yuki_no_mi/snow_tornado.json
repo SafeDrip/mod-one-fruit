@@ -1,0 +1,26 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": { "identifier": "of:snow_tornado",
+      "materials": {
+        "default": "armor"
+      },
+      "textures": {
+        "default": "textures/atks/snow_tornado"
+      },
+      "geometry": {
+        "default": "geometry.snow_tornado"
+      },
+      "animations": {
+        "move": "animation.snow_tornado"
+      },
+      "scripts": {
+        "animate": [
+          "move"
+        ]
+      },
+      "render_controllers": [ "controller.render.base",
+      "controller.render.base"]
+    }
+  }
+}

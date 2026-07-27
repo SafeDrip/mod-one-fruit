@@ -1,0 +1,26 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": { "identifier": "of:sand_hole",
+      "materials": {
+        "default": "armor"
+      },
+      "textures": {
+        "default": "textures/atks/sand"
+      },
+      "geometry": {
+        "default": "geometry.sand_hole"
+      },
+      "animations": {
+        "move": "animation.sand_hole"
+      },
+      "scripts": {
+        "animate": [
+          "move"
+        ]
+      },
+      "render_controllers": [ "controller.render.base",
+      "controller.render.base"]
+    }
+  }
+}

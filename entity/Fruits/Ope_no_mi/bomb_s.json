@@ -1,0 +1,25 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": { "identifier": "of:bomb_s",
+      "materials": {
+        "default": "armor"
+      },
+      "textures": {
+        "default": "textures/entity/bomb_s"
+      },
+      "geometry": {
+        "default": "geometry.bomb_s"
+      },
+      "animations": {
+        "move": "animation.bomb_s"
+      },
+      "scripts": {
+        "animate": [
+          "move"
+        ]
+      },
+      "render_controllers": [ "controller.render.chest" ]
+    }
+  }
+}

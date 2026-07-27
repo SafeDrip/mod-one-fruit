@@ -1,0 +1,26 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": { "identifier": "of:smoke_tornado",
+      "materials": {
+        "default": "armor"
+      },
+      "textures": {
+        "default": "textures/atks/smoke_tornado"
+      },
+      "geometry": {
+        "default": "geometry.smoke_tornado"
+      },
+      "animations": {
+        "move": "animation.smoke_tornado"
+      },
+      "scripts": {
+        "animate": [
+          "move"
+        ]
+      },
+      "render_controllers": [ "controller.render.base",
+      "controller.render.base"]
+    }
+  }
+}

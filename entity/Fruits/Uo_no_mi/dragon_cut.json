@@ -1,0 +1,27 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "of:dragon_cut",
+      "materials": {
+        "default": "skeleton"
+      },
+      "textures": {
+        "default": "textures/atks/zoro_dragon"
+      },
+      "geometry": {
+        "default": "geometry.dragon_cut"
+      },
+      "scripts": {
+        "scale": "1.5",
+        "animate": [
+          "look"
+        ]
+      },
+      "animations": {
+        "look": "animation.look.projectile"
+      },
+      "render_controllers": [ "controller.render.translucence" ]
+    }
+  }
+}

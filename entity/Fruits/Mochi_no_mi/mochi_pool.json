@@ -1,0 +1,25 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": { "identifier": "of:mochi_pool",
+      "materials": {
+        "default": "armor"
+      },
+      "textures": {
+        "default": "textures/atks/mochi"
+      },
+      "geometry": {
+        "default": "geometry.mochi_pool"
+      },
+      "animations": {
+        "move": "animation.mochi_pool"
+      },
+      "scripts": {
+        "animate": [
+          "move"
+        ]
+      },
+      "render_controllers": [ "controller.render.base" ]
+    }
+  }
+}

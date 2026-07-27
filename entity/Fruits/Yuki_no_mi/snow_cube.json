@@ -1,0 +1,26 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": { "identifier": "of:snow_cube",
+      "materials": {
+        "default": "charged"
+      },
+      "textures": {
+        "default": "textures/atks/snow"
+      },
+      "geometry": {
+        "default": "geometry.snow_cube"
+      },
+      "animations": {
+        "move": "animation.snow_cube"
+      },
+      "scripts": {
+        "animate": [
+          "move"
+        ]
+      },
+      "render_controllers": [ "controller.render.base",
+      "controller.render.base"]
+    }
+  }
+}

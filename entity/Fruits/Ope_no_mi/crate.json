@@ -1,0 +1,17 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": { "identifier": "of:crate",
+      "materials": {
+        "default": "armor"
+      },
+      "textures": {
+        "default": "textures/entity/vendedor"
+      },
+      "geometry": {
+        "default": "geometry.crate"
+      },
+      "render_controllers": [ "controller.render.chest" ]
+    }
+  }
+}

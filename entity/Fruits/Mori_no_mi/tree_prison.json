@@ -1,0 +1,25 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": { "identifier": "of:tree_prison",
+      "materials": {
+        "default": "armor"
+      },
+      "textures": {
+        "default": "textures/atks/tree"
+      },
+      "geometry": {
+        "default": "geometry.tree_prison"
+      },
+      "animations": {
+        "move": "animation.tree_prison"
+      },
+      "scripts": {
+        "animate": [
+          "move"
+        ]
+      },
+      "render_controllers": [ "controller.render.base" ]
+    }
+  }
+}

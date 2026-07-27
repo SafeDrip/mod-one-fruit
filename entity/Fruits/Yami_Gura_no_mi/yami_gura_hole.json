@@ -1,0 +1,26 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": { "identifier": "of:yami_gura_hole",
+      "materials": {
+        "default": "armor"
+      },
+      "textures": {
+        "default": "textures/entity/black"
+      },
+      "geometry": {
+        "default": "geometry.black_hole"
+      },
+      "animations": {
+        "move": "animation.black_hole"
+      },
+      "scripts": {
+        "animate": [
+          "move"
+        ]
+      },
+      "render_controllers": [ "controller.render.base",
+      "controller.render.base"]
+    }
+  }
+}

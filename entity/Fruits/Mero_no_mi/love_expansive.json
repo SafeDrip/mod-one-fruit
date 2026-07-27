@@ -1,0 +1,26 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": { "identifier": "of:love_expansive",
+      "materials": {
+        "default": "armor"
+      },
+      "textures": {
+        "default": "textures/atks/love_expansive"
+      },
+      "geometry": {
+        "default": "geometry.love_expansive"
+      },
+      "animations": {
+        "move": "animation.love_expansive"
+      },
+      "scripts": {
+        "animate": [
+          "move"
+        ]
+      },
+      "render_controllers": [ "controller.render.base",
+      "controller.render.base"]
+    }
+  }
+}

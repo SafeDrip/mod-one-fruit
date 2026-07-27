@@ -1,0 +1,26 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": { "identifier": "of:candy_arrow",
+      "materials": {
+        "default": "armor"
+      },
+      "textures": {
+        "default": "textures/entity/candy_armor"
+      },
+      "geometry": {
+        "default": "geometry.candy_arrow"
+      },
+      "scripts": {
+        "scale": "1.5",
+        "animate": [
+          "look"
+        ]
+      },
+      "animations": {
+        "look": "animation.look.projectile"
+      },
+      "render_controllers": [ "controller.render.default" ]
+    }
+  }
+}

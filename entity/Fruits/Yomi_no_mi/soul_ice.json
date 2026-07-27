@@ -1,0 +1,25 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": { "identifier": "of:soul_ice",
+      "materials": {
+        "default": "charged"
+      },
+      "textures": {
+        "default": "textures/atks/ice_age"
+      },
+      "geometry": {
+        "default": "geometry.soul_ice"
+      },
+      "animations": {
+        "move": "animation.soul_ice"
+      },
+      "scripts": {
+        "animate": [
+          "move"
+        ]
+      },
+      "render_controllers": [ "controller.render.base" ]
+    }
+  }
+}

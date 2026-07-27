@@ -1,0 +1,26 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": { "identifier": "of:vagalumes",
+      "materials": {
+        "default": "armor"
+      },
+      "textures": {
+        "default": "textures/atks/vagalumes"
+      },
+      "geometry": {
+        "default": "geometry.vagalumes"
+      },
+      "animations": {
+        "move": "animation.vagalumes"
+      },
+      "scripts": {
+        "animate": [
+          "move"
+        ]
+      },
+      "render_controllers": [ "controller.render.base",
+      "controller.render.base"]
+    }
+  }
+}

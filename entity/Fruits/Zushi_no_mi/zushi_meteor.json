@@ -1,0 +1,26 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": { "identifier": "of:zushi_meteor",
+      "materials": {
+        "default": "armor"
+      },
+      "textures": {
+        "default": "textures/entity/zushi_meteor"
+      },
+      "geometry": {
+        "default": "geometry.zushi_meteor"
+      },
+      "animations": {
+        "move": "animation.zushi_meteor"
+      },
+      "scripts": {
+        "animate": [
+          "move"
+        ]
+      },
+      "render_controllers": [ "controller.render.base",
+      "controller.render.base"]
+    }
+  }
+}

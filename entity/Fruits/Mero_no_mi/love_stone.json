@@ -1,0 +1,26 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": { "identifier": "of:love_stone",
+      "materials": {
+        "default": "armor"
+      },
+      "textures": {
+        "default": "textures/atks/stone"
+      },
+      "geometry": {
+        "default": "geometry.love_stone"
+      },
+      "animations": {
+        "move": "animation.love_stone"
+      },
+      "scripts": {
+        "animate": [
+          "move"
+        ]
+      },
+      "render_controllers": [ "controller.render.base",
+      "controller.render.base"]
+    }
+  }
+}

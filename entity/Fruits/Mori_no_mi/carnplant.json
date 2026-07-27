@@ -1,0 +1,30 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "of:carnplant",
+      "materials": {
+        "default": "glow"
+      },
+      "textures": {
+        "default": "textures/entity/carnplant"
+      },
+      "geometry": {
+        "default": "geometry.carnplant"
+      },
+      "scripts": {
+        "animate":[
+          "look_at_target",
+          "idle",
+          "attack_controller"
+        ]
+      },
+      "animations": {
+        "attack.rotations": "animation.carnplant_attack",
+        "attack_controller": "controller.animation.sanji.attack",
+        "idle": "animation.carnplant_idle"
+      },
+      "render_controllers": [ "controller.render.chest"]
+    }
+  }
+}

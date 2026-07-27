@@ -1,0 +1,31 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": { "identifier": "of:bomb_s0",
+      "materials": {
+        "default": "armor"
+      },
+      "textures": {
+        "default": "textures/entity/bomb_s"
+      },
+      "geometry": {
+        "default": "geometry.bomb_s0"
+      },
+      "sound_effects": {
+        "rool": "mob.witch.throw",
+        "effect": "break.dripstone_block",
+        "done": "firework.blast",
+        "end": "random.levelup"
+      },
+      "animations": {
+        "move": "animation.bomb_s0"
+      },
+      "scripts": {
+        "animate": [
+          "move"
+        ]
+      },
+      "render_controllers": [ "controller.render.chest" ]
+    }
+  }
+}

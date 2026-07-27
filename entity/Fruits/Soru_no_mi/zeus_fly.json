@@ -1,0 +1,25 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": { "identifier": "of:zeus_fly",
+      "materials": {
+        "default": "armor"
+      },
+      "textures": {
+        "default": "textures/entity/zeus"
+      },
+      "geometry": {
+        "default": "geometry.zeus_fly"
+      },
+      "animations": {
+        "move": "animation.zeus_fly"
+      },
+      "scripts": {
+        "animate": [
+          "move"
+        ]
+      },
+      "render_controllers": [ "controller.render.base" ]
+    }
+  }
+}

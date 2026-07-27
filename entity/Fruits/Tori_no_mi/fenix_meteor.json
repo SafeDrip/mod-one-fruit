@@ -1,0 +1,26 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": { "identifier": "of:fenix_meteor",
+      "materials": {
+        "default": "armor"
+      },
+      "textures": {
+        "default": "textures/atks/fenix_meteor"
+      },
+      "geometry": {
+        "default": "geometry.fenix_meteor"
+      },
+      "animations": {
+        "move": "animation.fenixmeteor"
+      },
+      "scripts": {
+        "animate": [
+          "move"
+        ]
+      },
+      "render_controllers": [ "controller.render.base",
+      "controller.render.base"]
+    }
+  }
+}

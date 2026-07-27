@@ -1,0 +1,26 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": { "identifier": "of:sand_ball",
+      "materials": {
+        "default": "armor"
+      },
+      "textures": {
+        "default": "textures/atks/sand"
+      },
+      "geometry": {
+        "default": "geometry.sand_ball"
+      },
+      "animations": {
+        "move": "animation.sand_ball"
+      },
+      "scripts": {
+        "animate": [
+          "move"
+        ]
+      },
+      "render_controllers": [ "controller.render.base",
+      "controller.render.base"]
+    }
+  }
+}

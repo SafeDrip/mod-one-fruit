@@ -1,0 +1,26 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": { "identifier": "of:black_hole_punch",
+      "materials": {
+        "default": "armor"
+      },
+      "textures": {
+        "default": "textures/atks/black_hole_punch"
+      },
+      "geometry": {
+        "default": "geometry.black_hole_punch"
+      },
+      "animations": {
+        "move": "animation.black_hole_punch1"
+      },
+      "scripts": {
+        "animate": [
+          "move"
+        ]
+      },
+      "render_controllers": [ "controller.render.base",
+      "controller.render.base"]
+    }
+  }
+}

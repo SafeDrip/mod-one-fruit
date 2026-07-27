@@ -1,0 +1,25 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": { "identifier": "of:nuvem_thunder",
+      "materials": {
+        "default": "armor"
+      },
+      "textures": {
+        "default": "textures/entity/nuvem_thunder"
+      },
+      "geometry": {
+        "default": "geometry.nuvem_thunder"
+      },
+      "animations": {
+        "move": "animation.nuvem_thunder"
+      },
+      "scripts": {
+        "animate": [
+          "move"
+        ]
+      },
+      "render_controllers": [ "controller.render.base" ]
+    }
+  }
+}

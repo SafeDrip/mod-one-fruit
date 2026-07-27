@@ -1,0 +1,25 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": { "identifier": "of:blocks_t",
+      "materials": {
+        "default": "armor"
+      },
+      "textures": {
+        "default": "textures/entity/grass"
+      },
+      "geometry": {
+        "default": "geometry.blocks_t"
+      },
+      "animations": {
+        "move": "animation.blocks_t"
+      },
+      "scripts": {
+        "animate": [
+          "move"
+        ]
+      },
+      "render_controllers": [ "controller.render.chest" ]
+    }
+  }
+}

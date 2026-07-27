@@ -1,0 +1,31 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": { "identifier": "of:shambles_s0",
+      "materials": {
+        "default": "armor"
+      },
+      "textures": {
+        "default": "textures/espadas/cutlass"
+      },
+      "geometry": {
+        "default": "geometry.shambles_s"
+      },
+      "sound_effects": {
+        "rool": "mob.witch.throw",
+        "effect": "block.grindstone.use",
+        "done": "firework.blast",
+        "end": "random.levelup"
+      },
+      "animations": {
+        "move": "animation.shambles_s0"
+      },
+      "scripts": {
+        "animate": [
+          "move"
+        ]
+      },
+      "render_controllers": [ "controller.render.chest" ]
+    }
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": { "identifier": "of:zushi_skill",
+      "materials": {
+        "default": "armor"
+      },
+      "textures": {
+        "default": "textures/atks/zushi_skill"
+      },
+      "geometry": {
+        "default": "geometry.zushi_skill"
+      },
+      "animations": {
+        "move": "animation.zushi_skill"
+      },
+      "scripts": {
+        "animate": [
+          "move"
+        ]
+      },
+      "render_controllers": [ "controller.render.base" ]
+    }
+  }
+}
